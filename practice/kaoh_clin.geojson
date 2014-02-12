@@ -1,0 +1,6557 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.621785",
+        "clinicRef": "3502010427",
+        "clinicName": "施家庭醫學科診所",
+        "clinicAddr": "高雄市鹽埕區中山里新興街5鄰118號1F",
+        "city": "高雄市",
+        "groupRef": "5020110231",
+        "groupName": "新北高雄社區醫療群",
+        "hos1Ref": "1502070118",
+        "hos1Name": "健新醫院",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.278914,22.621785]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.618919",
+        "clinicRef": "3502081793",
+        "clinicName": "健維診所",
+        "clinicAddr": "高雄市苓雅區福建街25號",
+        "city": "高雄市",
+        "groupRef": "5020110231",
+        "groupName": "新北高雄社區醫療群",
+        "hos1Ref": "1502070118",
+        "hos1Name": "健新醫院",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.316572,22.618919]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.614656",
+        "clinicRef": "3502081980",
+        "clinicName": "楊朝欽內科診所",
+        "clinicAddr": "高雄市苓雅區三多三路238號",
+        "city": "高雄市",
+        "groupRef": "5020110231",
+        "groupName": "新北高雄社區醫療群",
+        "hos1Ref": "1502070118",
+        "hos1Name": "健新醫院",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.306037,22.614656]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.621032",
+        "clinicRef": "3502070834",
+        "clinicName": "大明診所",
+        "clinicAddr": "高雄市前金區文東里新田路220號1F",
+        "city": "高雄市",
+        "groupRef": "5020110231",
+        "groupName": "新北高雄社區醫療群",
+        "hos1Ref": "1502070118",
+        "hos1Name": "健新醫院",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.299598,22.621032]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.627964",
+        "clinicRef": "3502072267",
+        "clinicName": "嘉醫診所",
+        "clinicAddr": "高雄市前金區中華三路86號一樓",
+        "city": "高雄市",
+        "groupRef": "5020110231",
+        "groupName": "新北高雄社區醫療群",
+        "hos1Ref": "1502070118",
+        "hos1Name": "健新醫院",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.296686,22.627964]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.6483155",
+        "clinicRef": "3502055426",
+        "clinicName": "陳泰安診所",
+        "clinicAddr": "高雄市三民區建工路609號1樓",
+        "city": "高雄市",
+        "groupRef": "5020210268",
+        "groupName": "高榮溫馨社區醫療群",
+        "hos1Ref": "602030026",
+        "hos1Name": "高雄榮民總醫院",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.318991,22.6483155]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.6483155",
+        "clinicRef": "3502055426",
+        "clinicName": "陳泰安診所",
+        "clinicAddr": "高雄市三民區建工路609號1樓",
+        "city": "高雄市",
+        "groupRef": "5020210268",
+        "groupName": "高榮溫馨社區醫療群",
+        "hos1Ref": "602030026",
+        "hos1Name": "高雄榮民總醫院",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.318991,22.6483155]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.8173941",
+        "clinicRef": "2342180010",
+        "clinicName": "高雄市永安區衛生所",
+        "clinicAddr": "高雄市永安區永安路26號",
+        "city": "高雄市",
+        "groupRef": "5020210268",
+        "groupName": "高榮溫馨社區醫療群",
+        "hos1Ref": "602030026",
+        "hos1Name": "高雄榮民總醫院",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.2225881,22.8173941]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.6856371",
+        "clinicRef": "3502033297",
+        "clinicName": "福山診所",
+        "clinicAddr": "高雄市左營區重愛路218號1樓",
+        "city": "高雄市",
+        "groupRef": "5020210268",
+        "groupName": "高榮溫馨社區醫療群",
+        "hos1Ref": "602030026",
+        "hos1Name": "高雄榮民總醫院",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.315641,22.6856371]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.855279",
+        "clinicRef": "2342150012",
+        "clinicName": "高雄市路竹區衛生所",
+        "clinicAddr": "高雄市路竹區竹南里國昌路86巷22號",
+        "city": "高雄市",
+        "groupRef": "5020210268",
+        "groupName": "高榮溫馨社區醫療群",
+        "hos1Ref": "602030026",
+        "hos1Name": "高雄榮民總醫院",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.258486,22.855279]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.6530232",
+        "clinicRef": "3502022043",
+        "clinicName": "蔡俊吉診所",
+        "clinicAddr": "高雄市鼓山區美術南三路272號",
+        "city": "高雄市",
+        "groupRef": "5020210268",
+        "groupName": "高榮溫馨社區醫療群",
+        "hos1Ref": "602030026",
+        "hos1Name": "高雄榮民總醫院",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.28754,22.6530232]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.681231",
+        "clinicRef": "3502030821",
+        "clinicName": "德安診所",
+        "clinicAddr": "高雄市左營區福山里民族一路901巷1號",
+        "city": "高雄市",
+        "groupRef": "5020210268",
+        "groupName": "高榮溫馨社區醫療群",
+        "hos1Ref": "602030026",
+        "hos1Name": "高雄榮民總醫院",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.3182,22.681231]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.662836",
+        "clinicRef": "3502032834",
+        "clinicName": "郭正強診所",
+        "clinicAddr": "高雄市左營區明華一路229號1樓",
+        "city": "高雄市",
+        "groupRef": "5020210268",
+        "groupName": "高榮溫馨社區醫療群",
+        "hos1Ref": "602030026",
+        "hos1Name": "高雄榮民總醫院",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.3054921,22.662836]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.681947",
+        "clinicRef": "3502032781",
+        "clinicName": "晨田耳鼻喉科診所",
+        "clinicAddr": "高雄市左營區榮佑路41號1樓",
+        "city": "高雄市",
+        "groupRef": "5020210268",
+        "groupName": "高榮溫馨社區醫療群",
+        "hos1Ref": "602030026",
+        "hos1Name": "高雄榮民總醫院",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.3202864,22.681947]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.644838",
+        "clinicRef": "3502055364",
+        "clinicName": "晶品診所",
+        "clinicAddr": "高雄市三民區十全一路223號1樓",
+        "city": "高雄市",
+        "groupRef": "5020310270",
+        "groupName": "幸福社區醫療群",
+        "hos1Ref": "102070020",
+        "hos1Name": "高雄市立大同醫院（委託財團法人私立高雄醫學大學附設中和紀念",
+        "hos2Ref": "1302050014",
+        "hos2Name": "財團法人私立高雄醫學大學附設中和紀念醫院",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.307256,22.644838]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.633089",
+        "clinicRef": "3502072472",
+        "clinicName": "禾安復健科診所",
+        "clinicAddr": "高雄市前金區七賢二路183號5樓",
+        "city": "高雄市",
+        "groupRef": "5020310270",
+        "groupName": "幸福社區醫療群",
+        "hos1Ref": "102070020",
+        "hos1Name": "高雄市立大同醫院（委託財團法人私立高雄醫學大學附設中和紀念",
+        "hos2Ref": "1302050014",
+        "hos2Name": "財團法人私立高雄醫學大學附設中和紀念醫院",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.29601,22.633089]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.633089",
+        "clinicRef": "3502072472",
+        "clinicName": "禾安復健科診所",
+        "clinicAddr": "高雄市前金區七賢二路183號5樓",
+        "city": "高雄市",
+        "groupRef": "5020310270",
+        "groupName": "幸福社區醫療群",
+        "hos1Ref": "102070020",
+        "hos1Name": "高雄市立大同醫院（委託財團法人私立高雄醫學大學附設中和紀念",
+        "hos2Ref": "1302050014",
+        "hos2Name": "財團法人私立高雄醫學大學附設中和紀念醫院",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.29601,22.633089]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.632639",
+        "clinicRef": "3502063302",
+        "clinicName": "吳國欽內科診所",
+        "clinicAddr": "高雄市新興區民主路71號一樓",
+        "city": "高雄市",
+        "groupRef": "5020310270",
+        "groupName": "幸福社區醫療群",
+        "hos1Ref": "102070020",
+        "hos1Name": "高雄市立大同醫院（委託財團法人私立高雄醫學大學附設中和紀念",
+        "hos2Ref": "1302050014",
+        "hos2Name": "財團法人私立高雄醫學大學附設中和紀念醫院",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.298704,22.632639]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.629669",
+        "clinicRef": "3502063339",
+        "clinicName": "高安診所",
+        "clinicAddr": "高雄市新興區中山一路59號1樓",
+        "city": "高雄市",
+        "groupRef": "5020310270",
+        "groupName": "幸福社區醫療群",
+        "hos1Ref": "102070020",
+        "hos1Name": "高雄市立大同醫院（委託財團法人私立高雄醫學大學附設中和紀念",
+        "hos2Ref": "1302050014",
+        "hos2Name": "財團法人私立高雄醫學大學附設中和紀念醫院",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.301491,22.629669]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.670636",
+        "clinicRef": "3502030385",
+        "clinicName": "馬遠成診所",
+        "clinicAddr": "高雄市左營區果峰街2巷3號",
+        "city": "高雄市",
+        "groupRef": "5020310270",
+        "groupName": "幸福社區醫療群",
+        "hos1Ref": "102070020",
+        "hos1Name": "高雄市立大同醫院（委託財團法人私立高雄醫學大學附設中和紀念",
+        "hos2Ref": "1302050014",
+        "hos2Name": "財團法人私立高雄醫學大學附設中和紀念醫院",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.289225,22.670636]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.62582",
+        "clinicRef": "3502011586",
+        "clinicName": "文聖骨外科診所",
+        "clinicAddr": "高雄市鹽埕區七賢三路5號",
+        "city": "高雄市",
+        "groupRef": "5020310270",
+        "groupName": "幸福社區醫療群",
+        "hos1Ref": "102070020",
+        "hos1Name": "高雄市立大同醫院（委託財團法人私立高雄醫學大學附設中和紀念",
+        "hos2Ref": "1302050014",
+        "hos2Name": "財團法人私立高雄醫學大學附設中和紀念醫院",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.282272,22.62582]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.633785",
+        "clinicRef": "3502070825",
+        "clinicName": "余國榮耳鼻咽喉科診所",
+        "clinicAddr": "高雄市前金區中華三路227號1樓",
+        "city": "高雄市",
+        "groupRef": "5020310270",
+        "groupName": "幸福社區醫療群",
+        "hos1Ref": "102070020",
+        "hos1Name": "高雄市立大同醫院（委託財團法人私立高雄醫學大學附設中和紀念",
+        "hos2Ref": "1302050014",
+        "hos2Name": "財團法人私立高雄醫學大學附設中和紀念醫院",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.293984,22.633785]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.7298469",
+        "clinicRef": "3542200272",
+        "clinicName": "蔡政達診所",
+        "clinicAddr": "高雄市梓官區廣澤路20號",
+        "city": "高雄市",
+        "groupRef": "5020410218",
+        "groupName": "蔚藍海岸社區醫療群",
+        "hos1Ref": "502030015",
+        "hos1Name": "國軍高雄總醫院左營分院附設民眾診療服務處",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.2553341,22.7298469]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.707156",
+        "clinicRef": "3502040649",
+        "clinicName": "楊雲志診所",
+        "clinicAddr": "高雄市楠梓區軍校路676號1F",
+        "city": "高雄市",
+        "groupRef": "5020410218",
+        "groupName": "蔚藍海岸社區醫療群",
+        "hos1Ref": "502030015",
+        "hos1Name": "國軍高雄總醫院左營分院附設民眾診療服務處",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.293078,22.707156]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.706931",
+        "clinicRef": "3502040354",
+        "clinicName": "賴聰宏小兒科診所",
+        "clinicAddr": "高雄市楠梓區軍校路664,666號",
+        "city": "高雄市",
+        "groupRef": "5020410218",
+        "groupName": "蔚藍海岸社區醫療群",
+        "hos1Ref": "502030015",
+        "hos1Name": "國軍高雄總醫院左營分院附設民眾診療服務處",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.293035,22.706931]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.715309",
+        "clinicRef": "3502040505",
+        "clinicName": "王新台婦產科診所",
+        "clinicAddr": "高雄市楠梓區宏昌里後昌路972號",
+        "city": "高雄市",
+        "groupRef": "5020410218",
+        "groupName": "蔚藍海岸社區醫療群",
+        "hos1Ref": "502030015",
+        "hos1Name": "國軍高雄總醫院左營分院附設民眾診療服務處",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.293425,22.715309]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.707156",
+        "clinicRef": "3502040649",
+        "clinicName": "楊雲志診所",
+        "clinicAddr": "高雄市楠梓區軍校路676號1F",
+        "city": "高雄市",
+        "groupRef": "5020410218",
+        "groupName": "蔚藍海岸社區醫療群",
+        "hos1Ref": "502030015",
+        "hos1Name": "國軍高雄總醫院左營分院附設民眾診療服務處",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.293078,22.707156]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.726315",
+        "clinicRef": "3502041860",
+        "clinicName": "孫欲珍小兒科家庭醫學科診所",
+        "clinicAddr": "高雄市楠梓區德賢路241號一樓",
+        "city": "高雄市",
+        "groupRef": "5020410218",
+        "groupName": "蔚藍海岸社區醫療群",
+        "hos1Ref": "502030015",
+        "hos1Name": "國軍高雄總醫院左營分院附設民眾診療服務處",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.305245,22.726315]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.725758",
+        "clinicRef": "3502042054",
+        "clinicName": "杏生婦產科診所",
+        "clinicAddr": "高雄市楠梓區德民路290.292號1.2.3樓",
+        "city": "高雄市",
+        "groupRef": "5020410228",
+        "groupName": "國光社區醫療群",
+        "hos1Ref": "1502040021",
+        "hos1Name": "健仁醫院",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.3065085,22.725758]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.713394",
+        "clinicRef": "3502040078",
+        "clinicName": "歐慈德內科診所",
+        "clinicAddr": "高雄市楠梓區後昌路915號",
+        "city": "高雄市",
+        "groupRef": "5020410228",
+        "groupName": "國光社區醫療群",
+        "hos1Ref": "1502040021",
+        "hos1Name": "健仁醫院",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.293724,22.713394]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.728562",
+        "clinicRef": "3502041913",
+        "clinicName": "周祖佑小兒科診所",
+        "clinicAddr": "高雄市楠梓區楠梓新路255號一樓",
+        "city": "高雄市",
+        "groupRef": "5020410228",
+        "groupName": "國光社區醫療群",
+        "hos1Ref": "1502040021",
+        "hos1Name": "健仁醫院",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.325905,22.728562]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.724931",
+        "clinicRef": "3502042296",
+        "clinicName": "長義診所",
+        "clinicAddr": "高雄市楠梓區惠民路46號",
+        "city": "高雄市",
+        "groupRef": "5020410228",
+        "groupName": "國光社區醫療群",
+        "hos1Ref": "1502040021",
+        "hos1Name": "健仁醫院",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.298726,22.724931]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.70835",
+        "clinicRef": "2702040071",
+        "clinicName": "台灣中油股份有限公司煉製事業部國光聯合診所",
+        "clinicAddr": "高雄市楠梓區後昌路546巷2號1-2樓",
+        "city": "高雄市",
+        "groupRef": "5020410228",
+        "groupName": "國光社區醫療群",
+        "hos1Ref": "1502040021",
+        "hos1Name": "健仁醫院",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.301058,22.70835]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.6844406",
+        "clinicRef": "3542080047",
+        "clinicName": "劉內兒科診所",
+        "clinicAddr": "高雄市仁武區灣內里仁心路6號.15號",
+        "city": "高雄市",
+        "groupRef": "5020410267",
+        "groupName": "楠心社區醫療群",
+        "hos1Ref": "1502040021",
+        "hos1Name": "健仁醫院",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.3614342,22.6844406]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.720584",
+        "clinicRef": "3502040550",
+        "clinicName": "宏育診所",
+        "clinicAddr": "高雄市楠梓區樂群路241號",
+        "city": "高雄市",
+        "groupRef": "5020410267",
+        "groupName": "楠心社區醫療群",
+        "hos1Ref": "1502040021",
+        "hos1Name": "健仁醫院",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.296101,22.720584]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.7206841",
+        "clinicRef": "3502042223",
+        "clinicName": "王建安小兒科診所",
+        "clinicAddr": "高雄市楠梓區德民路949號1樓",
+        "city": "高雄市",
+        "groupRef": "5020410267",
+        "groupName": "楠心社區醫療群",
+        "hos1Ref": "1502040021",
+        "hos1Name": "健仁醫院",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.2889551,22.7206841]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.6844406",
+        "clinicRef": "3542080047",
+        "clinicName": "劉內兒科診所",
+        "clinicAddr": "高雄市仁武區灣內里仁心路6號.15號",
+        "city": "高雄市",
+        "groupRef": "5020410267",
+        "groupName": "楠心社區醫療群",
+        "hos1Ref": "1502040021",
+        "hos1Name": "健仁醫院",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.3614342,22.6844406]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.720584",
+        "clinicRef": "3502040550",
+        "clinicName": "宏育診所",
+        "clinicAddr": "高雄市楠梓區樂群路241號",
+        "city": "高雄市",
+        "groupRef": "5020410267",
+        "groupName": "楠心社區醫療群",
+        "hos1Ref": "1502040021",
+        "hos1Name": "健仁醫院",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.296101,22.720584]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.726808",
+        "clinicRef": "3502040596",
+        "clinicName": "高耿耀診所",
+        "clinicAddr": "高雄市楠梓區建楠路179號一樓",
+        "city": "高雄市",
+        "groupRef": "5020410267",
+        "groupName": "楠心社區醫療群",
+        "hos1Ref": "1502040021",
+        "hos1Name": "健仁醫院",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.325811,22.726808]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.640533",
+        "clinicRef": "3542013840",
+        "clinicName": "祐幼小兒科診所",
+        "clinicAddr": "高雄市鳳山區文衡路377號一樓",
+        "city": "高雄市",
+        "groupRef": "5020510203",
+        "groupName": "三民東區社區醫療群",
+        "hos1Ref": "1302050014",
+        "hos1Name": "財團法人私立高雄醫學大學附設中和紀念醫院",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.351404,22.640533]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.645451",
+        "clinicRef": "3502052130",
+        "clinicName": "振祐診所",
+        "clinicAddr": "高雄市三民區寶興里大豐二路154號1樓",
+        "city": "高雄市",
+        "groupRef": "5020510203",
+        "groupName": "三民東區社區醫療群",
+        "hos1Ref": "1302050014",
+        "hos1Name": "財團法人私立高雄醫學大學附設中和紀念醫院",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.330757,22.645451]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.653089",
+        "clinicRef": "3502052309",
+        "clinicName": "快安診所",
+        "clinicAddr": "高雄市三民區立忠路29號1樓",
+        "city": "高雄市",
+        "groupRef": "5020510203",
+        "groupName": "三民東區社區醫療群",
+        "hos1Ref": "1302050014",
+        "hos1Name": "財團法人私立高雄醫學大學附設中和紀念醫院",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.325701,22.653089]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.642385",
+        "clinicRef": "3502052498",
+        "clinicName": "范雅修小兒科診所",
+        "clinicAddr": "高雄市三民區延慶街39號1樓",
+        "city": "高雄市",
+        "groupRef": "5020510203",
+        "groupName": "三民東區社區醫療群",
+        "hos1Ref": "1302050014",
+        "hos1Name": "財團法人私立高雄醫學大學附設中和紀念醫院",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.319526,22.642385]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.646502",
+        "clinicRef": "3502051133",
+        "clinicName": "黃義霖診所",
+        "clinicAddr": "高雄市三民區黃興路115號1樓",
+        "city": "高雄市",
+        "groupRef": "5020510203",
+        "groupName": "三民東區社區醫療群",
+        "hos1Ref": "1302050014",
+        "hos1Name": "財團法人私立高雄醫學大學附設中和紀念醫院",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.341603,22.646502]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.663776",
+        "clinicRef": "3502052274",
+        "clinicName": "醫鼎診所",
+        "clinicAddr": "高雄市三民區裕誠路101號1,2樓",
+        "city": "高雄市",
+        "groupRef": "5020510217",
+        "groupName": "三民社區醫療群",
+        "hos1Ref": "1302050014",
+        "hos1Name": "財團法人私立高雄醫學大學附設中和紀念醫院",
+        "hos2Ref": "502080015",
+        "hos2Name": "國軍高雄總醫院附設民眾診療服務處",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.313519,22.663776]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.639287",
+        "clinicRef": "3502054250",
+        "clinicName": "黃學武家庭醫學科診所",
+        "clinicAddr": "高雄市三民區大昌二路23號一樓",
+        "city": "高雄市",
+        "groupRef": "5020510217",
+        "groupName": "三民社區醫療群",
+        "hos1Ref": "1302050014",
+        "hos1Name": "財團法人私立高雄醫學大學附設中和紀念醫院",
+        "hos2Ref": "502080015",
+        "hos2Name": "國軍高雄總醫院附設民眾診療服務處",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.332161,22.639287]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.64111",
+        "clinicRef": "3502052087",
+        "clinicName": "天民泌尿科診所",
+        "clinicAddr": "高雄市三民區大順二路80號1F",
+        "city": "高雄市",
+        "groupRef": "5020510217",
+        "groupName": "三民社區醫療群",
+        "hos1Ref": "1302050014",
+        "hos1Name": "財團法人私立高雄醫學大學附設中和紀念醫院",
+        "hos2Ref": "502080015",
+        "hos2Name": "國軍高雄總醫院附設民眾診療服務處",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.327648,22.64111]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.663776",
+        "clinicRef": "3502052274",
+        "clinicName": "醫鼎診所",
+        "clinicAddr": "高雄市三民區裕誠路101號1,2樓",
+        "city": "高雄市",
+        "groupRef": "5020510217",
+        "groupName": "三民社區醫療群",
+        "hos1Ref": "1302050014",
+        "hos1Name": "財團法人私立高雄醫學大學附設中和紀念醫院",
+        "hos2Ref": "502080015",
+        "hos2Name": "國軍高雄總醫院附設民眾診療服務處",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.313519,22.663776]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.639287",
+        "clinicRef": "3502054250",
+        "clinicName": "黃學武家庭醫學科診所",
+        "clinicAddr": "高雄市三民區大昌二路23號一樓",
+        "city": "高雄市",
+        "groupRef": "5020510217",
+        "groupName": "三民社區醫療群",
+        "hos1Ref": "1302050014",
+        "hos1Name": "財團法人私立高雄醫學大學附設中和紀念醫院",
+        "hos2Ref": "502080015",
+        "hos2Name": "國軍高雄總醫院附設民眾診療服務處",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.332161,22.639287]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.648828",
+        "clinicRef": "3502054125",
+        "clinicName": "張殷彰診所",
+        "clinicAddr": "高雄市三民區建工路531.533號一樓",
+        "city": "高雄市",
+        "groupRef": "5020510225",
+        "groupName": "全家福社區醫療群",
+        "hos1Ref": "1202080010",
+        "hos1Name": "財團法人天主教聖功醫院",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.321731,22.648828]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.648828",
+        "clinicRef": "3502051375",
+        "clinicName": "蕭瑞榮小兒科診所",
+        "clinicAddr": "高雄市三民區建工路531.533號1樓",
+        "city": "高雄市",
+        "groupRef": "5020510225",
+        "groupName": "全家福社區醫療群",
+        "hos1Ref": "1202080010",
+        "hos1Name": "財團法人天主教聖功醫院",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.321731,22.648828]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.639551",
+        "clinicRef": "3502051080",
+        "clinicName": "李坤泰診所",
+        "clinicAddr": "高雄市三民區寶國里覺民路186號",
+        "city": "高雄市",
+        "groupRef": "5020510225",
+        "groupName": "全家福社區醫療群",
+        "hos1Ref": "1202080010",
+        "hos1Name": "財團法人天主教聖功醫院",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.340241,22.639551]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.653239",
+        "clinicRef": "3502051544",
+        "clinicName": "莊永昌診所",
+        "clinicAddr": "高雄市三民區建工路332號",
+        "city": "高雄市",
+        "groupRef": "5020510225",
+        "groupName": "全家福社區醫療群",
+        "hos1Ref": "1202080010",
+        "hos1Name": "財團法人天主教聖功醫院",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.330721,22.653239]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.633124",
+        "clinicRef": "3502083395",
+        "clinicName": "邱靖媛小兒專科診所",
+        "clinicAddr": "高雄市苓雅區大順三路一七二號",
+        "city": "高雄市",
+        "groupRef": "5020510225",
+        "groupName": "全家福社區醫療群",
+        "hos1Ref": "1202080010",
+        "hos1Name": "財團法人天主教聖功醫院",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.326067,22.633124]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.648032",
+        "clinicRef": "3502051455",
+        "clinicName": "國峰眼科診所",
+        "clinicAddr": "高雄市三民區正順里建興路406號",
+        "city": "高雄市",
+        "groupRef": "5020510229",
+        "groupName": "高雄中區社區醫療群",
+        "hos1Ref": "102020011",
+        "hos1Name": "高雄市立聯合醫院",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.321392,22.648032]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.684366",
+        "clinicRef": "3502032316",
+        "clinicName": "王欽程診所",
+        "clinicAddr": "高雄市左營區華夏路1141號",
+        "city": "高雄市",
+        "groupRef": "5020510229",
+        "groupName": "高雄中區社區醫療群",
+        "hos1Ref": "102020011",
+        "hos1Name": "高雄市立聯合醫院",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.309045,22.684366]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.642732",
+        "clinicRef": "3502050707",
+        "clinicName": "何思賢家庭醫學科診所",
+        "clinicAddr": "高雄市三民區吉林街98號",
+        "city": "高雄市",
+        "groupRef": "5020510229",
+        "groupName": "高雄中區社區醫療群",
+        "hos1Ref": "102020011",
+        "hos1Name": "高雄市立聯合醫院",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.306404,22.642732]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.648032",
+        "clinicRef": "3502051455",
+        "clinicName": "國峰眼科診所",
+        "clinicAddr": "高雄市三民區正順里建興路406號",
+        "city": "高雄市",
+        "groupRef": "5020510229",
+        "groupName": "高雄中區社區醫療群",
+        "hos1Ref": "102020011",
+        "hos1Name": "高雄市立聯合醫院",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.321392,22.648032]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.643045",
+        "clinicRef": "3502051044",
+        "clinicName": "高仁婦產科診所",
+        "clinicAddr": "高雄市三民區達德里吉林街110號",
+        "city": "高雄市",
+        "groupRef": "5020510229",
+        "groupName": "高雄中區社區醫療群",
+        "hos1Ref": "102020011",
+        "hos1Name": "高雄市立聯合醫院",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.306374,22.643045]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.635163",
+        "clinicRef": "3502050798",
+        "clinicName": "婦全婦產科診所",
+        "clinicAddr": "高雄市三民區立德里建國三路517號",
+        "city": "高雄市",
+        "groupRef": "5020510229",
+        "groupName": "高雄中區社區醫療群",
+        "hos1Ref": "102020011",
+        "hos1Name": "高雄市立聯合醫院",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.288365,22.635163]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.684366",
+        "clinicRef": "3502032316",
+        "clinicName": "王欽程診所",
+        "clinicAddr": "高雄市左營區華夏路1141號",
+        "city": "高雄市",
+        "groupRef": "5020510229",
+        "groupName": "高雄中區社區醫療群",
+        "hos1Ref": "102020011",
+        "hos1Name": "高雄市立聯合醫院",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.309045,22.684366]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.668158",
+        "clinicRef": "3502020281",
+        "clinicName": "陳大洲耳鼻喉科診所",
+        "clinicAddr": "高雄市鼓山區中華一路10號1樓",
+        "city": "高雄市",
+        "groupRef": "5020510242",
+        "groupName": "成功社區醫療群",
+        "hos1Ref": "902080013",
+        "hos1Name": "阮綜合醫療社團法人阮綜合醫院",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.287212,22.668158]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.646777",
+        "clinicRef": "3502051599",
+        "clinicName": "徐樹本小兒科診所",
+        "clinicAddr": "高雄市三民區建興路373號",
+        "city": "高雄市",
+        "groupRef": "5020510242",
+        "groupName": "成功社區醫療群",
+        "hos1Ref": "902080013",
+        "hos1Name": "阮綜合醫療社團法人阮綜合醫院",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.322127,22.646777]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.626645",
+        "clinicRef": "3502080634",
+        "clinicName": "王骨科診所",
+        "clinicAddr": "高雄市苓雅區五福一路161號",
+        "city": "高雄市",
+        "groupRef": "5020510242",
+        "groupName": "成功社區醫療群",
+        "hos1Ref": "902080013",
+        "hos1Name": "阮綜合醫療社團法人阮綜合醫院",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.312126,22.626645]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.609553",
+        "clinicRef": "3502090050",
+        "clinicName": "黃英山婦產科診所",
+        "clinicAddr": "高雄市前鎮區凱旋三路205,207號",
+        "city": "高雄市",
+        "groupRef": "5020510242",
+        "groupName": "成功社區醫療群",
+        "hos1Ref": "902080013",
+        "hos1Name": "阮綜合醫療社團法人阮綜合醫院",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.325431,22.609553]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.590404",
+        "clinicRef": "3502090096",
+        "clinicName": "邱仲禮診所",
+        "clinicAddr": "高雄市前鎮區鎮榮街45號",
+        "city": "高雄市",
+        "groupRef": "5020510242",
+        "groupName": "成功社區醫療群",
+        "hos1Ref": "902080013",
+        "hos1Name": "阮綜合醫療社團法人阮綜合醫院",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.311639,22.590404]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.609553",
+        "clinicRef": "3502090050",
+        "clinicName": "黃英山婦產科診所",
+        "clinicAddr": "高雄市前鎮區凱旋三路205,207號",
+        "city": "高雄市",
+        "groupRef": "5020510242",
+        "groupName": "成功社區醫療群",
+        "hos1Ref": "902080013",
+        "hos1Name": "阮綜合醫療社團法人阮綜合醫院",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.325431,22.609553]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.668158",
+        "clinicRef": "3502020281",
+        "clinicName": "陳大洲耳鼻喉科診所",
+        "clinicAddr": "高雄市鼓山區中華一路10號1樓",
+        "city": "高雄市",
+        "groupRef": "5020510242",
+        "groupName": "成功社區醫療群",
+        "hos1Ref": "902080013",
+        "hos1Name": "阮綜合醫療社團法人阮綜合醫院",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.287212,22.668158]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.6396862",
+        "clinicRef": "3507320026",
+        "clinicName": "林振東耳鼻喉科診所",
+        "clinicAddr": "高雄市三民區陽明路99號1樓",
+        "city": "高雄市",
+        "groupRef": "5020510276",
+        "groupName": "永康社區醫療群",
+        "hos1Ref": "102070020",
+        "hos1Name": "高雄市立大同醫院（委託財團法人私立高雄醫學大學附設中和紀念",
+        "hos2Ref": "902080013",
+        "hos2Name": "阮綜合醫療社團法人阮綜合醫院",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.3414479,22.6396862]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.592266",
+        "clinicRef": "3542015111",
+        "clinicName": "曾建森診所",
+        "clinicAddr": "高雄市鳳山區五甲三路57號1-2樓",
+        "city": "高雄市",
+        "groupRef": "5020510276",
+        "groupName": "永康社區醫療群",
+        "hos1Ref": "102070020",
+        "hos1Name": "高雄市立大同醫院（委託財團法人私立高雄醫學大學附設中和紀念",
+        "hos2Ref": "902080013",
+        "hos2Name": "阮綜合醫療社團法人阮綜合醫院",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.327122,22.592266]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.6537042",
+        "clinicRef": "3502054778",
+        "clinicName": "家康診所",
+        "clinicAddr": "高雄市三民區大順二路863號1樓",
+        "city": "高雄市",
+        "groupRef": "5020510276",
+        "groupName": "永康社區醫療群",
+        "hos1Ref": "102070020",
+        "hos1Name": "高雄市立大同醫院（委託財團法人私立高雄醫學大學附設中和紀念",
+        "hos2Ref": "902080013",
+        "hos2Name": "阮綜合醫療社團法人阮綜合醫院",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.3184554,22.6537042]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.645987",
+        "clinicRef": "3502055453",
+        "clinicName": "林志哲耳鼻喉科診所",
+        "clinicAddr": "高雄市三民區大豐二路90號92號1樓",
+        "city": "高雄市",
+        "groupRef": "5020510276",
+        "groupName": "永康社區醫療群",
+        "hos1Ref": "102070020",
+        "hos1Name": "高雄市立大同醫院（委託財團法人私立高雄醫學大學附設中和紀念",
+        "hos2Ref": "902080013",
+        "hos2Name": "阮綜合醫療社團法人阮綜合醫院",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.328444,22.645987]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.60748",
+        "clinicRef": "3502098261",
+        "clinicName": "維康診所",
+        "clinicAddr": "高雄市前鎮區鄭和路45號",
+        "city": "高雄市",
+        "groupRef": "5020510276",
+        "groupName": "永康社區醫療群",
+        "hos1Ref": "102070020",
+        "hos1Name": "高雄市立大同醫院（委託財團法人私立高雄醫學大學附設中和紀念",
+        "hos2Ref": "902080013",
+        "hos2Name": "阮綜合醫療社團法人阮綜合醫院",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.313533,22.60748]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.665515",
+        "clinicRef": "3502030732",
+        "clinicName": "蘇婦產科診所",
+        "clinicAddr": "高雄市左營區裕誠路445號1樓",
+        "city": "高雄市",
+        "groupRef": "5020610255",
+        "groupName": "好厝邊社區醫療群",
+        "hos1Ref": "102020011",
+        "hos1Name": "高雄市立聯合醫院",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.305554,22.665515]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.663994",
+        "clinicRef": "3502053824",
+        "clinicName": "葉旭顏泌尿科診所",
+        "clinicAddr": "高雄市三民區裕誠路88號一樓",
+        "city": "高雄市",
+        "groupRef": "5020610255",
+        "groupName": "好厝邊社區醫療群",
+        "hos1Ref": "102020011",
+        "hos1Name": "高雄市立聯合醫院",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.31349,22.663994]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.657675",
+        "clinicRef": "3502032503",
+        "clinicName": "蔡東隆診所",
+        "clinicAddr": "高雄市左營區富國路39號1樓",
+        "city": "高雄市",
+        "groupRef": "5020610255",
+        "groupName": "好厝邊社區醫療群",
+        "hos1Ref": "102020011",
+        "hos1Name": "高雄市立聯合醫院",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.306517,22.657675]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.663994",
+        "clinicRef": "3502053824",
+        "clinicName": "葉旭顏泌尿科診所",
+        "clinicAddr": "高雄市三民區裕誠路88號一樓",
+        "city": "高雄市",
+        "groupRef": "5020610255",
+        "groupName": "好厝邊社區醫療群",
+        "hos1Ref": "102020011",
+        "hos1Name": "高雄市立聯合醫院",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.31349,22.663994]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.6612181",
+        "clinicRef": "3502030518",
+        "clinicName": "沈診所",
+        "clinicAddr": "高雄市左營區明誠二路210號",
+        "city": "高雄市",
+        "groupRef": "5020610255",
+        "groupName": "好厝邊社區醫療群",
+        "hos1Ref": "102020011",
+        "hos1Name": "高雄市立聯合醫院",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.309446,22.6612181]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.666456",
+        "clinicRef": "3502021715",
+        "clinicName": "慶豐診所",
+        "clinicAddr": "高雄市鼓山區華寧路1號",
+        "city": "高雄市",
+        "groupRef": "5020610255",
+        "groupName": "好厝邊社區醫療群",
+        "hos1Ref": "102020011",
+        "hos1Name": "高雄市立聯合醫院",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.293067,22.666456]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.66362",
+        "clinicRef": "3502032861",
+        "clinicName": "陳俊男診所",
+        "clinicAddr": "高雄市左營區自由二路216號1樓",
+        "city": "高雄市",
+        "groupRef": "5020610269",
+        "groupName": "高醫社區醫療群",
+        "hos1Ref": "1302050014",
+        "hos1Name": "財團法人私立高雄醫學大學附設中和紀念醫院",
+        "hos2Ref": "102070020",
+        "hos2Name": "高雄市立大同醫院（委託財團法人私立高雄醫學大學附設中和紀念",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.308451,22.66362]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.634682",
+        "clinicRef": "3502080198",
+        "clinicName": "靜安神經精神內科診所",
+        "clinicAddr": "高雄市苓雅區大順三路197號",
+        "city": "高雄市",
+        "groupRef": "5020610269",
+        "groupName": "高醫社區醫療群",
+        "hos1Ref": "1302050014",
+        "hos1Name": "財團法人私立高雄醫學大學附設中和紀念醫院",
+        "hos2Ref": "102070020",
+        "hos2Name": "高雄市立大同醫院（委託財團法人私立高雄醫學大學附設中和紀念",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.326197,22.634682]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.630773",
+        "clinicRef": "3502062976",
+        "clinicName": "家佳診所",
+        "clinicAddr": "高雄市新興區和平一路193號一,二樓",
+        "city": "高雄市",
+        "groupRef": "5020610269",
+        "groupName": "高醫社區醫療群",
+        "hos1Ref": "1302050014",
+        "hos1Name": "財團法人私立高雄醫學大學附設中和紀念醫院",
+        "hos2Ref": "102070020",
+        "hos2Name": "高雄市立大同醫院（委託財團法人私立高雄醫學大學附設中和紀念",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.317605,22.630773]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.678247",
+        "clinicRef": "3502032432",
+        "clinicName": "薛智峰耳鼻喉科診所",
+        "clinicAddr": "高雄市左營區華夏路703號1樓",
+        "city": "高雄市",
+        "groupRef": "5020610269",
+        "groupName": "高醫社區醫療群",
+        "hos1Ref": "1302050014",
+        "hos1Name": "財團法人私立高雄醫學大學附設中和紀念醫院",
+        "hos2Ref": "102070020",
+        "hos2Name": "高雄市立大同醫院（委託財團法人私立高雄醫學大學附設中和紀念",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.302006,22.678247]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.669949",
+        "clinicRef": "3502032192",
+        "clinicName": "金仁福診所",
+        "clinicAddr": "高雄市左營區華夏路228號一樓",
+        "city": "高雄市",
+        "groupRef": "5020610269",
+        "groupName": "高醫社區醫療群",
+        "hos1Ref": "1302050014",
+        "hos1Name": "財團法人私立高雄醫學大學附設中和紀念醫院",
+        "hos2Ref": "102070020",
+        "hos2Name": "高雄市立大同醫院（委託財團法人私立高雄醫學大學附設中和紀念",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.296812,22.669949]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.636651",
+        "clinicRef": "3502054296",
+        "clinicName": "長清診所",
+        "clinicAddr": "高雄市三民區九如一路135號1-3樓",
+        "city": "高雄市",
+        "groupRef": "5020610269",
+        "groupName": "高醫社區醫療群",
+        "hos1Ref": "1302050014",
+        "hos1Name": "財團法人私立高雄醫學大學附設中和紀念醫院",
+        "hos2Ref": "102070020",
+        "hos2Name": "高雄市立大同醫院（委託財團法人私立高雄醫學大學附設中和紀念",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.340507,22.636651]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.630067",
+        "clinicRef": "3502084230",
+        "clinicName": "信君耳鼻喉科診所",
+        "clinicAddr": "高雄市苓雅區武廟路30號(1樓)",
+        "city": "高雄市",
+        "groupRef": "5020610269",
+        "groupName": "高醫社區醫療群",
+        "hos1Ref": "1302050014",
+        "hos1Name": "財團法人私立高雄醫學大學附設中和紀念醫院",
+        "hos2Ref": "102070020",
+        "hos2Name": "高雄市立大同醫院（委託財團法人私立高雄醫學大學附設中和紀念",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.332194,22.630067]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.644009",
+        "clinicRef": "3502055275",
+        "clinicName": "明榮診所",
+        "clinicAddr": "高雄市三民區熱河一街370號1-2樓",
+        "city": "高雄市",
+        "groupRef": "5020610269",
+        "groupName": "高醫社區醫療群",
+        "hos1Ref": "1302050014",
+        "hos1Name": "財團法人私立高雄醫學大學附設中和紀念醫院",
+        "hos2Ref": "102070020",
+        "hos2Name": "高雄市立大同醫院（委託財團法人私立高雄醫學大學附設中和紀念",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.305858,22.644009]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.6153",
+        "clinicRef": "3502091324",
+        "clinicName": "林慶端診所",
+        "clinicAddr": "高雄市前鎮區竹中里和平二路293號",
+        "city": "高雄市",
+        "groupRef": "5020710236",
+        "groupName": "河岸網醫療群",
+        "hos1Ref": "102070020",
+        "hos1Name": "高雄市立大同醫院（委託財團法人私立高雄醫學大學附設中和紀念",
+        "hos2Ref": "902080013",
+        "hos2Name": "阮綜合醫療社團法人阮綜合醫院",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.322416,22.6153]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.629656",
+        "clinicRef": "3502072258",
+        "clinicName": "宏祐診所",
+        "clinicAddr": "高雄市前金區中華三路121號1F",
+        "city": "高雄市",
+        "groupRef": "5020710236",
+        "groupName": "河岸網醫療群",
+        "hos1Ref": "102070020",
+        "hos1Name": "高雄市立大同醫院（委託財團法人私立高雄醫學大學附設中和紀念",
+        "hos2Ref": "902080013",
+        "hos2Name": "阮綜合醫療社團法人阮綜合醫院",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.295418,22.629656]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.618813",
+        "clinicRef": "3502080670",
+        "clinicName": "吳國松心臟科診所",
+        "clinicAddr": "高雄市苓雅區三多二路283號",
+        "city": "高雄市",
+        "groupRef": "5020710236",
+        "groupName": "河岸網醫療群",
+        "hos1Ref": "102070020",
+        "hos1Name": "高雄市立大同醫院（委託財團法人私立高雄醫學大學附設中和紀念",
+        "hos2Ref": "902080013",
+        "hos2Name": "阮綜合醫療社團法人阮綜合醫院",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.319967,22.618813]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.622423",
+        "clinicRef": "3502083715",
+        "clinicName": "麗水診所",
+        "clinicAddr": "高雄市苓雅區四維二路96之4號",
+        "city": "高雄市",
+        "groupRef": "5020710236",
+        "groupName": "河岸網醫療群",
+        "hos1Ref": "102070020",
+        "hos1Name": "高雄市立大同醫院（委託財團法人私立高雄醫學大學附設中和紀念",
+        "hos2Ref": "902080013",
+        "hos2Name": "阮綜合醫療社團法人阮綜合醫院",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.318873,22.622423]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.650157",
+        "clinicRef": "3502055024",
+        "clinicName": "蔡智禮診所",
+        "clinicAddr": "高雄市三民區北平一街132號",
+        "city": "高雄市",
+        "groupRef": "5020710236",
+        "groupName": "河岸網醫療群",
+        "hos1Ref": "102070020",
+        "hos1Name": "高雄市立大同醫院（委託財團法人私立高雄醫學大學附設中和紀念",
+        "hos2Ref": "902080013",
+        "hos2Name": "阮綜合醫療社團法人阮綜合醫院",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.305108,22.650157]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.628339",
+        "clinicRef": "3507330031",
+        "clinicName": "光晴診所",
+        "clinicAddr": "高雄市新興區開封路31號1樓",
+        "city": "高雄市",
+        "groupRef": "5020710236",
+        "groupName": "河岸網醫療群",
+        "hos1Ref": "102070020",
+        "hos1Name": "高雄市立大同醫院（委託財團法人私立高雄醫學大學附設中和紀念",
+        "hos2Ref": "902080013",
+        "hos2Name": "阮綜合醫療社團法人阮綜合醫院",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.311368,22.628339]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.615858",
+        "clinicRef": "3502080107",
+        "clinicName": "張清雲內科小兒科診所",
+        "clinicAddr": "高雄市苓雅區成功一路155號",
+        "city": "高雄市",
+        "groupRef": "5020810204",
+        "groupName": "高雄基層社區醫療群",
+        "hos1Ref": "902080013",
+        "hos1Name": "阮綜合醫療社團法人阮綜合醫院",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.296863,22.615858]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.615985",
+        "clinicRef": "3502080661",
+        "clinicName": "侯內兒科診所",
+        "clinicAddr": "高雄市苓雅區興中一路314號",
+        "city": "高雄市",
+        "groupRef": "5020810204",
+        "groupName": "高雄基層社區醫療群",
+        "hos1Ref": "902080013",
+        "hos1Name": "阮綜合醫療社團法人阮綜合醫院",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.305031,22.615985]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.631123",
+        "clinicRef": "3502081971",
+        "clinicName": "惠霖診所",
+        "clinicAddr": "高雄市苓雅區建國一路111號",
+        "city": "高雄市",
+        "groupRef": "5020810204",
+        "groupName": "高雄基層社區醫療群",
+        "hos1Ref": "902080013",
+        "hos1Name": "阮綜合醫療社團法人阮綜合醫院",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.33399,22.631123]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.627904",
+        "clinicRef": "3502010329",
+        "clinicName": "劉應炎診所",
+        "clinicAddr": "高雄市鹽埕區大公路98.100號",
+        "city": "高雄市",
+        "groupRef": "5020810204",
+        "groupName": "高雄基層社區醫療群",
+        "hos1Ref": "902080013",
+        "hos1Name": "阮綜合醫療社團法人阮綜合醫院",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.282543,22.627904]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.615858",
+        "clinicRef": "3502080107",
+        "clinicName": "張清雲內科小兒科診所",
+        "clinicAddr": "高雄市苓雅區成功一路155號",
+        "city": "高雄市",
+        "groupRef": "5020810204",
+        "groupName": "高雄基層社區醫療群",
+        "hos1Ref": "902080013",
+        "hos1Name": "阮綜合醫療社團法人阮綜合醫院",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.296863,22.615858]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.615985",
+        "clinicRef": "3502080661",
+        "clinicName": "侯內兒科診所",
+        "clinicAddr": "高雄市苓雅區興中一路314號",
+        "city": "高雄市",
+        "groupRef": "5020810204",
+        "groupName": "高雄基層社區醫療群",
+        "hos1Ref": "902080013",
+        "hos1Name": "阮綜合醫療社團法人阮綜合醫院",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.305031,22.615985]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.565513",
+        "clinicRef": "3502110646",
+        "clinicName": "洪清中兒科診所",
+        "clinicAddr": "高雄市小港區二苓路192號1樓",
+        "city": "高雄市",
+        "groupRef": "5020810235",
+        "groupName": "康源社區醫療群",
+        "hos1Ref": "502080015",
+        "hos1Name": "國軍高雄總醫院附設民眾診療服務處",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.349062,22.565513]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.628639",
+        "clinicRef": "3542011775",
+        "clinicName": "邱正義婦產科診所",
+        "clinicAddr": "高雄市鳳山區光明里光復路1號",
+        "city": "高雄市",
+        "groupRef": "5020810235",
+        "groupName": "康源社區醫療群",
+        "hos1Ref": "502080015",
+        "hos1Name": "國軍高雄總醫院附設民眾診療服務處",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.362265,22.628639]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.621475",
+        "clinicRef": "3502080929",
+        "clinicName": "徐獨立診所",
+        "clinicAddr": "高雄市苓雅區福人里武慶三路144號",
+        "city": "高雄市",
+        "groupRef": "5020810235",
+        "groupName": "康源社區醫療群",
+        "hos1Ref": "502080015",
+        "hos1Name": "國軍高雄總醫院附設民眾診療服務處",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.331814,22.621475]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.628867",
+        "clinicRef": "3502082209",
+        "clinicName": "劉永豐診所",
+        "clinicAddr": "高雄市苓雅區建國一路15-1號一.二樓",
+        "city": "高雄市",
+        "groupRef": "5020810235",
+        "groupName": "康源社區醫療群",
+        "hos1Ref": "502080015",
+        "hos1Name": "國軍高雄總醫院附設民眾診療服務處",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.340533,22.628867]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.621564",
+        "clinicRef": "3502081908",
+        "clinicName": "王勇智耳鼻喉科診所",
+        "clinicAddr": "高雄市苓雅區四維二路247號",
+        "city": "高雄市",
+        "groupRef": "5020810235",
+        "groupName": "康源社區醫療群",
+        "hos1Ref": "502080015",
+        "hos1Name": "國軍高雄總醫院附設民眾診療服務處",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.31717,22.621564]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.633056",
+        "clinicRef": "3502084025",
+        "clinicName": "安安診所",
+        "clinicAddr": "高雄市苓雅區建國一路284號",
+        "city": "高雄市",
+        "groupRef": "5020810261",
+        "groupName": "安康社區醫療群",
+        "hos1Ref": "502080015",
+        "hos1Name": "國軍高雄總醫院附設民眾診療服務處",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.326317,22.633056]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.670603",
+        "clinicRef": "3502032638",
+        "clinicName": "王津勝小兒科診所",
+        "clinicAddr": "高雄市左營區華夏路260號1樓",
+        "city": "高雄市",
+        "groupRef": "5020810261",
+        "groupName": "安康社區醫療群",
+        "hos1Ref": "502080015",
+        "hos1Name": "國軍高雄總醫院附設民眾診療服務處",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.297169,22.670603]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.655141",
+        "clinicRef": "3507290158",
+        "clinicName": "佳宏小兒科診所",
+        "clinicAddr": "高雄市鼓山區大順一路841號1樓",
+        "city": "高雄市",
+        "groupRef": "5020810261",
+        "groupName": "安康社區醫療群",
+        "hos1Ref": "502080015",
+        "hos1Name": "國軍高雄總醫院附設民眾診療服務處",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.299698,22.655141]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.7265945",
+        "clinicRef": "3507310066",
+        "clinicName": "杏美診所",
+        "clinicAddr": "高雄市楠梓區德祥路149號1樓",
+        "city": "高雄市",
+        "groupRef": "5020810261",
+        "groupName": "安康社區醫療群",
+        "hos1Ref": "502080015",
+        "hos1Name": "國軍高雄總醫院附設民眾診療服務處",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.3093096,22.7265945]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.643702",
+        "clinicRef": "3502054241",
+        "clinicName": "王國安診所",
+        "clinicAddr": "高雄市三民區建興路193號一樓",
+        "city": "高雄市",
+        "groupRef": "5020810261",
+        "groupName": "安康社區醫療群",
+        "hos1Ref": "502080015",
+        "hos1Name": "國軍高雄總醫院附設民眾診療服務處",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.325829,22.643702]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.631437",
+        "clinicRef": "3502080732",
+        "clinicName": "許桂庭外科診所",
+        "clinicAddr": "高雄市苓雅區福德二路47號",
+        "city": "高雄市",
+        "groupRef": "5020810261",
+        "groupName": "安康社區醫療群",
+        "hos1Ref": "502080015",
+        "hos1Name": "國軍高雄總醫院附設民眾診療服務處",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.327889,22.631437]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.670603",
+        "clinicRef": "3502032638",
+        "clinicName": "王津勝小兒科診所",
+        "clinicAddr": "高雄市左營區華夏路260號1樓",
+        "city": "高雄市",
+        "groupRef": "5020810261",
+        "groupName": "安康社區醫療群",
+        "hos1Ref": "502080015",
+        "hos1Name": "國軍高雄總醫院附設民眾診療服務處",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.297169,22.670603]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.659911",
+        "clinicRef": "3502052676",
+        "clinicName": "亮忠診所",
+        "clinicAddr": "高雄市三民區明誠二路28號一樓",
+        "city": "高雄市",
+        "groupRef": "5020810272",
+        "groupName": "高榮平安社區醫療群",
+        "hos1Ref": "602030026",
+        "hos1Name": "高雄榮民總醫院",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.314912,22.659911]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.677888",
+        "clinicRef": "3502032325",
+        "clinicName": "華夏診所",
+        "clinicAddr": "高雄市左營區華夏路708號1樓",
+        "city": "高雄市",
+        "groupRef": "5020810272",
+        "groupName": "高榮平安社區醫療群",
+        "hos1Ref": "602030026",
+        "hos1Name": "高雄榮民總醫院",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.302205,22.677888]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.6043655",
+        "clinicRef": "3542060349",
+        "clinicName": "劉明海診所",
+        "clinicAddr": "高雄市大寮區永芳里鳳林三路458號",
+        "city": "高雄市",
+        "groupRef": "5020810272",
+        "groupName": "高榮平安社區醫療群",
+        "hos1Ref": "602030026",
+        "hos1Name": "高雄榮民總醫院",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.3958275,22.6043655]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.659349",
+        "clinicRef": "3542100124",
+        "clinicName": "藍偉宏診所",
+        "clinicAddr": "高雄市鳥松區仁美里學堂路105之1號",
+        "city": "高雄市",
+        "groupRef": "5020810272",
+        "groupName": "高榮平安社區醫療群",
+        "hos1Ref": "602030026",
+        "hos1Name": "高雄榮民總醫院",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.391172,22.659349]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.666025",
+        "clinicRef": "3502052694",
+        "clinicName": "育明診所",
+        "clinicAddr": "高雄市三民區民族一路537號一樓.二樓",
+        "city": "高雄市",
+        "groupRef": "5020810272",
+        "groupName": "高榮平安社區醫療群",
+        "hos1Ref": "602030026",
+        "hos1Name": "高雄榮民總醫院",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.316359,22.666025]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.7091",
+        "clinicRef": "3502042248",
+        "clinicName": "廣佑安診所",
+        "clinicAddr": "高雄市楠梓區後昌路678號1樓",
+        "city": "高雄市",
+        "groupRef": "5020810272",
+        "groupName": "高榮平安社區醫療群",
+        "hos1Ref": "602030026",
+        "hos1Name": "高雄榮民總醫院",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.297728,22.7091]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.63152",
+        "clinicRef": "3502080894",
+        "clinicName": "林國坤診所",
+        "clinicAddr": "高雄市苓雅區建國一路115之4號",
+        "city": "高雄市",
+        "groupRef": "5020810272",
+        "groupName": "高榮平安社區醫療群",
+        "hos1Ref": "602030026",
+        "hos1Name": "高雄榮民總醫院",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.332712,22.63152]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.6043655",
+        "clinicRef": "3542060349",
+        "clinicName": "劉明海診所",
+        "clinicAddr": "高雄市大寮區永芳里鳳林三路458號",
+        "city": "高雄市",
+        "groupRef": "5020810272",
+        "groupName": "高榮平安社區醫療群",
+        "hos1Ref": "602030026",
+        "hos1Name": "高雄榮民總醫院",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.3958275,22.6043655]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.659349",
+        "clinicRef": "3542100124",
+        "clinicName": "藍偉宏診所",
+        "clinicAddr": "高雄市鳥松區仁美里學堂路105之1號",
+        "city": "高雄市",
+        "groupRef": "5020810272",
+        "groupName": "高榮平安社區醫療群",
+        "hos1Ref": "602030026",
+        "hos1Name": "高雄榮民總醫院",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.391172,22.659349]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.607888",
+        "clinicRef": "3502090884",
+        "clinicName": "瑞安診所",
+        "clinicAddr": "高雄市前鎮區公正路268號",
+        "city": "高雄市",
+        "groupRef": "5020910227",
+        "groupName": "南高雄家醫社區醫療群",
+        "hos1Ref": "102070020",
+        "hos1Name": "高雄市立大同醫院（委託財團法人私立高雄醫學大學附設中和紀念",
+        "hos2Ref": "902080013",
+        "hos2Name": "阮綜合醫療社團法人阮綜合醫院",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.330765,22.607888]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.632658",
+        "clinicRef": "3502062734",
+        "clinicName": "信恩診所",
+        "clinicAddr": "高雄市新興區六合一路90–1號一樓",
+        "city": "高雄市",
+        "groupRef": "5020910227",
+        "groupName": "南高雄家醫社區醫療群",
+        "hos1Ref": "102070020",
+        "hos1Name": "高雄市立大同醫院（委託財團法人私立高雄醫學大學附設中和紀念",
+        "hos2Ref": "902080013",
+        "hos2Name": "阮綜合醫療社團法人阮綜合醫院",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.308576,22.632658]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.626181",
+        "clinicRef": "3502081659",
+        "clinicName": "泰順聯合診所",
+        "clinicAddr": "高雄市苓雅區光華一路148-95號",
+        "city": "高雄市",
+        "groupRef": "5020910227",
+        "groupName": "南高雄家醫社區醫療群",
+        "hos1Ref": "102070020",
+        "hos1Name": "高雄市立大同醫院（委託財團法人私立高雄醫學大學附設中和紀念",
+        "hos2Ref": "902080013",
+        "hos2Name": "阮綜合醫療社團法人阮綜合醫院",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.314976,22.626181]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.6054683",
+        "clinicRef": "3502090621",
+        "clinicName": "陳文宏診所",
+        "clinicAddr": "高雄市前鎮區瑞隆路319號",
+        "city": "高雄市",
+        "groupRef": "5020910227",
+        "groupName": "南高雄家醫社區醫療群",
+        "hos1Ref": "102070020",
+        "hos1Name": "高雄市立大同醫院（委託財團法人私立高雄醫學大學附設中和紀念",
+        "hos2Ref": "902080013",
+        "hos2Name": "阮綜合醫療社團法人阮綜合醫院",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.332339,22.6054683]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.6093932",
+        "clinicRef": "3502090569",
+        "clinicName": "親親診所",
+        "clinicAddr": "高雄市前鎮區一心一路402號",
+        "city": "高雄市",
+        "groupRef": "5020910227",
+        "groupName": "南高雄家醫社區醫療群",
+        "hos1Ref": "102070020",
+        "hos1Name": "高雄市立大同醫院（委託財團法人私立高雄醫學大學附設中和紀念",
+        "hos2Ref": "902080013",
+        "hos2Name": "阮綜合醫療社團法人阮綜合醫院",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.315217,22.6093932]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.592612",
+        "clinicRef": "3542012129",
+        "clinicName": "萬安診所",
+        "clinicAddr": "高雄市鳳山區五甲三路62號",
+        "city": "高雄市",
+        "groupRef": "5020910227",
+        "groupName": "南高雄家醫社區醫療群",
+        "hos1Ref": "102070020",
+        "hos1Name": "高雄市立大同醫院（委託財團法人私立高雄醫學大學附設中和紀念",
+        "hos2Ref": "902080013",
+        "hos2Name": "阮綜合醫療社團法人阮綜合醫院",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.326964,22.592612]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.629727",
+        "clinicRef": "3502060534",
+        "clinicName": "紀耳鼻喉科診所",
+        "clinicAddr": "高雄市新興區蕉園里林森一路154號之1",
+        "city": "高雄市",
+        "groupRef": "5020910240",
+        "groupName": "大高雄社區醫療群",
+        "hos1Ref": "902080013",
+        "hos1Name": "阮綜合醫療社團法人阮綜合醫院",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.3047,22.629727]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.604946",
+        "clinicRef": "3502090836",
+        "clinicName": "張朝金家庭醫學科外科診所",
+        "clinicAddr": "高雄市前鎮區瑞隆路631號",
+        "city": "高雄市",
+        "groupRef": "5020910240",
+        "groupName": "大高雄社區醫療群",
+        "hos1Ref": "902080013",
+        "hos1Name": "阮綜合醫療社團法人阮綜合醫院",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.325303,22.604946]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.6268814",
+        "clinicRef": "3502080787",
+        "clinicName": "羅吉雄內外科診所",
+        "clinicAddr": "高雄市苓雅區15鄰興中一路259號",
+        "city": "高雄市",
+        "groupRef": "5020910240",
+        "groupName": "大高雄社區醫療群",
+        "hos1Ref": "902080013",
+        "hos1Name": "阮綜合醫療社團法人阮綜合醫院",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.3262535,22.6268814]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.605383",
+        "clinicRef": "3502090167",
+        "clinicName": "施外科診所",
+        "clinicAddr": "高雄市前鎮區瑞隆路363號",
+        "city": "高雄市",
+        "groupRef": "5020910240",
+        "groupName": "大高雄社區醫療群",
+        "hos1Ref": "902080013",
+        "hos1Name": "阮綜合醫療社團法人阮綜合醫院",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.3312509,22.605383]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.612133",
+        "clinicRef": "3502091271",
+        "clinicName": "楊榮超診所",
+        "clinicAddr": "高雄市前鎮區一心二路133號",
+        "city": "高雄市",
+        "groupRef": "5020910240",
+        "groupName": "大高雄社區醫療群",
+        "hos1Ref": "902080013",
+        "hos1Name": "阮綜合醫療社團法人阮綜合醫院",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.3082721,22.612133]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.584251",
+        "clinicRef": "3502090309",
+        "clinicName": "聖青診所",
+        "clinicAddr": "高雄市前鎮區草衙一路112號",
+        "city": "高雄市",
+        "groupRef": "5020910240",
+        "groupName": "大高雄社區醫療群",
+        "hos1Ref": "902080013",
+        "hos1Name": "阮綜合醫療社團法人阮綜合醫院",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.322361,22.584251]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.627617",
+        "clinicRef": "3502083911",
+        "clinicName": "小太陽診所",
+        "clinicAddr": "高雄市苓雅區和平一路150號",
+        "city": "高雄市",
+        "groupRef": "5020910262",
+        "groupName": "健康100社區醫療群",
+        "hos1Ref": "1102110011",
+        "hos1Name": "高雄市立小港醫院（委託財團法人私立高雄醫學大學經營）",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.3191419,22.627617]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.567608",
+        "clinicRef": "3502110637",
+        "clinicName": "施晉南診所",
+        "clinicAddr": "高雄市小港區平治街1號、1之1號",
+        "city": "高雄市",
+        "groupRef": "5020910262",
+        "groupName": "健康100社區醫療群",
+        "hos1Ref": "1102110011",
+        "hos1Name": "高雄市立小港醫院（委託財團法人私立高雄醫學大學經營）",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.358194,22.567608]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.570104",
+        "clinicRef": "3502112122",
+        "clinicName": "芋佃小兒科診所",
+        "clinicAddr": "高雄市小港區濟南里宏平路378號1樓",
+        "city": "高雄市",
+        "groupRef": "5020910262",
+        "groupName": "健康100社區醫療群",
+        "hos1Ref": "1102110011",
+        "hos1Name": "高雄市立小港醫院（委託財團法人私立高雄醫學大學經營）",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.358763,22.570104]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.606535",
+        "clinicRef": "3502097362",
+        "clinicName": "永豐診所",
+        "clinicAddr": "高雄市前鎮區永豐路110號1.2樓",
+        "city": "高雄市",
+        "groupRef": "5020910262",
+        "groupName": "健康100社區醫療群",
+        "hos1Ref": "1102110011",
+        "hos1Name": "高雄市立小港醫院（委託財團法人私立高雄醫學大學經營）",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.333592,22.606535]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.608714",
+        "clinicRef": "3502097835",
+        "clinicName": "昭哲診所",
+        "clinicAddr": "高雄市前鎮區永豐路214號1樓",
+        "city": "高雄市",
+        "groupRef": "5020910262",
+        "groupName": "健康100社區醫療群",
+        "hos1Ref": "1102110011",
+        "hos1Name": "高雄市立小港醫院（委託財團法人私立高雄醫學大學經營）",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.333324,22.608714]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.570104",
+        "clinicRef": "3502112122",
+        "clinicName": "芋佃小兒科診所",
+        "clinicAddr": "高雄市小港區濟南里宏平路378號1樓",
+        "city": "高雄市",
+        "groupRef": "5020910262",
+        "groupName": "健康100社區醫療群",
+        "hos1Ref": "1102110011",
+        "hos1Name": "高雄市立小港醫院（委託財團法人私立高雄醫學大學經營）",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.358763,22.570104]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.615551",
+        "clinicRef": "3542012307",
+        "clinicName": "澄明診所",
+        "clinicAddr": "高雄市鳳山區國富路28號",
+        "city": "高雄市",
+        "groupRef": "5021110212",
+        "groupName": "小港聯合社區醫療群",
+        "hos1Ref": "1102110011",
+        "hos1Name": "高雄市立小港醫院（委託財團法人私立高雄醫學大學經營）",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.349794,22.615551]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.5661256",
+        "clinicRef": "3502110566",
+        "clinicName": "李宣炘診所",
+        "clinicAddr": "高雄市小港區漢民路249號",
+        "city": "高雄市",
+        "groupRef": "5021110212",
+        "groupName": "小港聯合社區醫療群",
+        "hos1Ref": "1102110011",
+        "hos1Name": "高雄市立小港醫院（委託財團法人私立高雄醫學大學經營）",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.3520297,22.5661256]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.565592",
+        "clinicRef": "3502110146",
+        "clinicName": "羅錦泉診所",
+        "clinicAddr": "高雄市小港區平和路105號",
+        "city": "高雄市",
+        "groupRef": "5021110212",
+        "groupName": "小港聯合社區醫療群",
+        "hos1Ref": "1102110011",
+        "hos1Name": "高雄市立小港醫院（委託財團法人私立高雄醫學大學經營）",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.333172,22.565592]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.6162266",
+        "clinicRef": "3542060698",
+        "clinicName": "大寮進安診所",
+        "clinicAddr": "高雄市大寮區鳳林四路134-1號",
+        "city": "高雄市",
+        "groupRef": "5021110212",
+        "groupName": "小港聯合社區醫療群",
+        "hos1Ref": "1102110011",
+        "hos1Name": "高雄市立小港醫院（委託財團法人私立高雄醫學大學經營）",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.3861779,22.6162266]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.567011",
+        "clinicRef": "3502110673",
+        "clinicName": "葉武忠診所",
+        "clinicAddr": "高雄市小港區漢民路517號1樓",
+        "city": "高雄市",
+        "groupRef": "5021110212",
+        "groupName": "小港聯合社區醫療群",
+        "hos1Ref": "1102110011",
+        "hos1Name": "高雄市立小港醫院（委託財團法人私立高雄醫學大學經營）",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.359125,22.567011]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.567707",
+        "clinicRef": "3502110502",
+        "clinicName": "勞小兒科診所",
+        "clinicAddr": "高雄市小港區漢民路693-2號",
+        "city": "高雄市",
+        "groupRef": "5021110212",
+        "groupName": "小港聯合社區醫療群",
+        "hos1Ref": "1102110011",
+        "hos1Name": "高雄市立小港醫院（委託財團法人私立高雄醫學大學經營）",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.361659,22.567707]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.9054885",
+        "clinicRef": "2342160018",
+        "clinicName": "高雄市湖內區衛生所",
+        "clinicAddr": "高雄市湖內區湖中路203號",
+        "city": "高雄市",
+        "groupRef": "5073010277",
+        "groupName": "高榮樂活社區醫療群",
+        "hos1Ref": "602030026",
+        "hos1Name": "高雄榮民總醫院",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.2228262,22.9054885]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.683873",
+        "clinicRef": "3507300275",
+        "clinicName": "林俊谷診所",
+        "clinicAddr": "高雄市左營區福山里民族一路1028-19號1樓",
+        "city": "高雄市",
+        "groupRef": "5073010277",
+        "groupName": "高榮樂活社區醫療群",
+        "hos1Ref": "602030026",
+        "hos1Name": "高雄榮民總醫院",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.320329,22.683873]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.683873",
+        "clinicRef": "3507300275",
+        "clinicName": "林俊谷診所",
+        "clinicAddr": "高雄市左營區福山里民族一路1028-19號1樓",
+        "city": "高雄市",
+        "groupRef": "5073010277",
+        "groupName": "高榮樂活社區醫療群",
+        "hos1Ref": "602030026",
+        "hos1Name": "高雄榮民總醫院",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.320329,22.683873]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.793717",
+        "clinicRef": "3507020021",
+        "clinicName": "岡山家福耳鼻喉科診所",
+        "clinicAddr": "高雄市岡山區岡山路312-1號1樓",
+        "city": "高雄市",
+        "groupRef": "5073010277",
+        "groupName": "高榮樂活社區醫療群",
+        "hos1Ref": "602030026",
+        "hos1Name": "高雄榮民總醫院",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.29598,22.793717]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.677734",
+        "clinicRef": "3507300186",
+        "clinicName": "賴孟德診所",
+        "clinicAddr": "高雄市左營區孟子路608號",
+        "city": "高雄市",
+        "groupRef": "5073010277",
+        "groupName": "高榮樂活社區醫療群",
+        "hos1Ref": "602030026",
+        "hos1Name": "高雄榮民總醫院",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.3040784,22.677734]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.7192391",
+        "clinicRef": "3502042312",
+        "clinicName": "家福耳鼻喉科診所",
+        "clinicAddr": "高雄市楠梓區後昌新路15號",
+        "city": "高雄市",
+        "groupRef": "5073010277",
+        "groupName": "高榮樂活社區醫療群",
+        "hos1Ref": "602030026",
+        "hos1Name": "高雄榮民總醫院",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.2916947,22.7192391]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.6360701",
+        "clinicRef": "3542062307",
+        "clinicName": "大承耳鼻喉科診所",
+        "clinicAddr": "高雄市大寮區鳳屏一路464號1樓",
+        "city": "高雄市",
+        "groupRef": "5073010277",
+        "groupName": "高榮樂活社區醫療群",
+        "hos1Ref": "602030026",
+        "hos1Name": "高雄榮民總醫院",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.3921306,22.6360701]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.625298",
+        "clinicRef": "3542010723",
+        "clinicName": "國民小兒科診所",
+        "clinicAddr": "高雄市鳳山區縣口里中正路37號",
+        "city": "高雄市",
+        "groupRef": "5420110216",
+        "groupName": "鳳山社區醫療群",
+        "hos1Ref": "502080015",
+        "hos1Name": "國軍高雄總醫院附設民眾診療服務處",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.359232,22.625298]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.623965",
+        "clinicRef": "3542010527",
+        "clinicName": "天健婦產科診所",
+        "clinicAddr": "高雄市鳳山區三民里光明路99號",
+        "city": "高雄市",
+        "groupRef": "5420110216",
+        "groupName": "鳳山社區醫療群",
+        "hos1Ref": "502080015",
+        "hos1Name": "國軍高雄總醫院附設民眾診療服務處",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.360766,22.623965]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.619898",
+        "clinicRef": "3542012049",
+        "clinicName": "德恩診所",
+        "clinicAddr": "高雄市鳳山區生明里王生明路133號",
+        "city": "高雄市",
+        "groupRef": "5420110216",
+        "groupName": "鳳山社區醫療群",
+        "hos1Ref": "502080015",
+        "hos1Name": "國軍高雄總醫院附設民眾診療服務處",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.362667,22.619898]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.601696",
+        "clinicRef": "3542014794",
+        "clinicName": "鄭紹茂診所",
+        "clinicAddr": "高雄市鳳山區五甲二路186號",
+        "city": "高雄市",
+        "groupRef": "5420110216",
+        "groupName": "鳳山社區醫療群",
+        "hos1Ref": "502080015",
+        "hos1Name": "國軍高雄總醫院附設民眾診療服務處",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.340752,22.601696]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.627774",
+        "clinicRef": "3542010769",
+        "clinicName": "安心婦產科診所",
+        "clinicAddr": "高雄市鳳山區經武路81號",
+        "city": "高雄市",
+        "groupRef": "5420110216",
+        "groupName": "鳳山社區醫療群",
+        "hos1Ref": "502080015",
+        "hos1Name": "國軍高雄總醫院附設民眾診療服務處",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.362238,22.627774]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.624072",
+        "clinicRef": "3542010054",
+        "clinicName": "王楩楠內兒科診所",
+        "clinicAddr": "高雄市鳳山區瑞竹里光遠路82號",
+        "city": "高雄市",
+        "groupRef": "5420110216",
+        "groupName": "鳳山社區醫療群",
+        "hos1Ref": "502080015",
+        "hos1Name": "國軍高雄總醫院附設民眾診療服務處",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.36621,22.624072]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.625298",
+        "clinicRef": "3542010723",
+        "clinicName": "國民小兒科診所",
+        "clinicAddr": "高雄市鳳山區縣口里中正路37號",
+        "city": "高雄市",
+        "groupRef": "5420110216",
+        "groupName": "鳳山社區醫療群",
+        "hos1Ref": "502080015",
+        "hos1Name": "國軍高雄總醫院附設民眾診療服務處",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.359232,22.625298]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.623965",
+        "clinicRef": "3542010527",
+        "clinicName": "天健婦產科診所",
+        "clinicAddr": "高雄市鳳山區三民里光明路99號",
+        "city": "高雄市",
+        "groupRef": "5420110216",
+        "groupName": "鳳山社區醫療群",
+        "hos1Ref": "502080015",
+        "hos1Name": "國軍高雄總醫院附設民眾診療服務處",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.360766,22.623965]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.627774",
+        "clinicRef": "3542010769",
+        "clinicName": "安心婦產科診所",
+        "clinicAddr": "高雄市鳳山區經武路81號",
+        "city": "高雄市",
+        "groupRef": "5420110216",
+        "groupName": "鳳山社區醫療群",
+        "hos1Ref": "502080015",
+        "hos1Name": "國軍高雄總醫院附設民眾診療服務處",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.362238,22.627774]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.6105223",
+        "clinicRef": "3542010956",
+        "clinicName": "張簡精神科診所",
+        "clinicAddr": "高雄市鳳山區老爺里五甲一路600號",
+        "city": "高雄市",
+        "groupRef": "5420110216",
+        "groupName": "鳳山社區醫療群",
+        "hos1Ref": "502080015",
+        "hos1Name": "國軍高雄總醫院附設民眾診療服務處",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.3490435,22.6105223]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.596947",
+        "clinicRef": "3542011364",
+        "clinicName": "錦明小兒科診所",
+        "clinicAddr": "高雄市鳳山區自強二路171號",
+        "city": "高雄市",
+        "groupRef": "5420110216",
+        "groupName": "鳳山社區醫療群",
+        "hos1Ref": "502080015",
+        "hos1Name": "國軍高雄總醫院附設民眾診療服務處",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.327023,22.596947]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.630823",
+        "clinicRef": "3542011800",
+        "clinicName": "鳳山全民診所",
+        "clinicAddr": "高雄市鳳山區博愛路328號",
+        "city": "高雄市",
+        "groupRef": "5420110241",
+        "groupName": "鳳龍社區醫療群",
+        "hos1Ref": "1142010518",
+        "hos1Name": "高雄市立鳳山醫院（委託長庚醫療財團法人經營）",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.368649,22.630823]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.6107834",
+        "clinicRef": "3542015068",
+        "clinicName": "誠愛診所",
+        "clinicAddr": "高雄市鳳山區誠愛路1號1樓",
+        "city": "高雄市",
+        "groupRef": "5420110241",
+        "groupName": "鳳龍社區醫療群",
+        "hos1Ref": "1142010518",
+        "hos1Name": "高雄市立鳳山醫院（委託長庚醫療財團法人經營）",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.3589051,22.6107834]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.6582708",
+        "clinicRef": "3542100062",
+        "clinicName": "劉金龍診所",
+        "clinicAddr": "高雄市鳥松區華美里學堂路78之5號",
+        "city": "高雄市",
+        "groupRef": "5420110241",
+        "groupName": "鳳龍社區醫療群",
+        "hos1Ref": "1142010518",
+        "hos1Name": "高雄市立鳳山醫院（委託長庚醫療財團法人經營）",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.3900302,22.6582708]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.620399",
+        "clinicRef": "3542011686",
+        "clinicName": "林基碧診所",
+        "clinicAddr": "高雄市鳳山區和興里五甲一路101號",
+        "city": "高雄市",
+        "groupRef": "5420110241",
+        "groupName": "鳳龍社區醫療群",
+        "hos1Ref": "1142010518",
+        "hos1Name": "高雄市立鳳山醫院（委託長庚醫療財團法人經營）",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.356758,22.620399]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.6107834",
+        "clinicRef": "3542015068",
+        "clinicName": "誠愛診所",
+        "clinicAddr": "高雄市鳳山區誠愛路1號1樓",
+        "city": "高雄市",
+        "groupRef": "5420110241",
+        "groupName": "鳳龍社區醫療群",
+        "hos1Ref": "1142010518",
+        "hos1Name": "高雄市立鳳山醫院（委託長庚醫療財團法人經營）",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.3589051,22.6107834]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.6582708",
+        "clinicRef": "3542100062",
+        "clinicName": "劉金龍診所",
+        "clinicAddr": "高雄市鳥松區華美里學堂路78之5號",
+        "city": "高雄市",
+        "groupRef": "5420110241",
+        "groupName": "鳳龍社區醫療群",
+        "hos1Ref": "1142010518",
+        "hos1Name": "高雄市立鳳山醫院（委託長庚醫療財團法人經營）",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.3900302,22.6582708]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.6083958",
+        "clinicRef": "3542061953",
+        "clinicName": "張桐榮診所",
+        "clinicAddr": "高雄市大寮區鳳林三路573.575號",
+        "city": "高雄市",
+        "groupRef": "5420110241",
+        "groupName": "鳳龍社區醫療群",
+        "hos1Ref": "1142010518",
+        "hos1Name": "高雄市立鳳山醫院（委託長庚醫療財團法人經營）",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.3949179,22.6083958]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.5968447",
+        "clinicRef": "3542011864",
+        "clinicName": "何鴻鈞診所",
+        "clinicAddr": "高雄市鳳山區林森路324號",
+        "city": "高雄市",
+        "groupRef": "5420110246",
+        "groupName": "富康社區醫療群",
+        "hos1Ref": "1142010518",
+        "hos1Name": "高雄市立鳳山醫院（委託長庚醫療財團法人經營）",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.3379099,22.5968447]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.612798",
+        "clinicRef": "3542011935",
+        "clinicName": "唯均耳鼻喉科診所",
+        "clinicAddr": "高雄市鳳山區海洋二路139號",
+        "city": "高雄市",
+        "groupRef": "5420110246",
+        "groupName": "富康社區醫療群",
+        "hos1Ref": "1142010518",
+        "hos1Name": "高雄市立鳳山醫院（委託長庚醫療財團法人經營）",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.348364,22.612798]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.628803",
+        "clinicRef": "3542013635",
+        "clinicName": "太眾診所",
+        "clinicAddr": "高雄市鳳山區中正路180–1號",
+        "city": "高雄市",
+        "groupRef": "5420110246",
+        "groupName": "富康社區醫療群",
+        "hos1Ref": "1142010518",
+        "hos1Name": "高雄市立鳳山醫院（委託長庚醫療財團法人經營）",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.360721,22.628803]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.63784",
+        "clinicRef": "3542014203",
+        "clinicName": "蔡重榮診所",
+        "clinicAddr": "高雄市鳳山區經武路244號",
+        "city": "高雄市",
+        "groupRef": "5420110246",
+        "groupName": "富康社區醫療群",
+        "hos1Ref": "1142010518",
+        "hos1Name": "高雄市立鳳山醫院（委託長庚醫療財團法人經營）",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.364544,22.63784]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.625005",
+        "clinicRef": "3542011211",
+        "clinicName": "台安診所",
+        "clinicAddr": "高雄市鳳山區雙慈街26號",
+        "city": "高雄市",
+        "groupRef": "5420110246",
+        "groupName": "富康社區醫療群",
+        "hos1Ref": "1142010518",
+        "hos1Name": "高雄市立鳳山醫院（委託長庚醫療財團法人經營）",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.357094,22.625005]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.6371035",
+        "clinicRef": "3542060714",
+        "clinicName": "親親家庭診所",
+        "clinicAddr": "高雄市大寮區鳳屏一路538號",
+        "city": "高雄市",
+        "groupRef": "5420110246",
+        "groupName": "富康社區醫療群",
+        "hos1Ref": "1142010518",
+        "hos1Name": "高雄市立鳳山醫院（委託長庚醫療財團法人經營）",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.3939897,22.6371035]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.5937692",
+        "clinicRef": "3542010563",
+        "clinicName": "陳弘列內兒科診所",
+        "clinicAddr": "高雄市鳳山區天興里五甲二路697號",
+        "city": "高雄市",
+        "groupRef": "5420110264",
+        "groupName": "鳳山第一社區醫療群",
+        "hos1Ref": "1142010518",
+        "hos1Name": "高雄市立鳳山醫院（委託長庚醫療財團法人經營）",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.3289888,22.5937692]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.5937692",
+        "clinicRef": "3542010563",
+        "clinicName": "陳弘列內兒科診所",
+        "clinicAddr": "高雄市鳳山區天興里五甲二路697號",
+        "city": "高雄市",
+        "groupRef": "5420110264",
+        "groupName": "鳳山第一社區醫療群",
+        "hos1Ref": "1142010518",
+        "hos1Name": "高雄市立鳳山醫院（委託長庚醫療財團法人經營）",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.3289888,22.5937692]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.6081869",
+        "clinicRef": "3542013671",
+        "clinicName": "欣欣婦產科診所",
+        "clinicAddr": "高雄市鳳山區大明路63號",
+        "city": "高雄市",
+        "groupRef": "5420110264",
+        "groupName": "鳳山第一社區醫療群",
+        "hos1Ref": "1142010518",
+        "hos1Name": "高雄市立鳳山醫院（委託長庚醫療財團法人經營）",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.3418015,22.6081869]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.628987",
+        "clinicRef": "3542010090",
+        "clinicName": "江泰興耳鼻喉科診所",
+        "clinicAddr": "高雄市鳳山區忠義里澄清路97號",
+        "city": "高雄市",
+        "groupRef": "5420110264",
+        "groupName": "鳳山第一社區醫療群",
+        "hos1Ref": "1142010518",
+        "hos1Name": "高雄市立鳳山醫院（委託長庚醫療財團法人經營）",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.34432,22.628987]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.60908",
+        "clinicRef": "3542011328",
+        "clinicName": "鳳德診所",
+        "clinicAddr": "高雄市鳳山區南京路153-21號",
+        "city": "高雄市",
+        "groupRef": "5420110264",
+        "groupName": "鳳山第一社區醫療群",
+        "hos1Ref": "1142010518",
+        "hos1Name": "高雄市立鳳山醫院（委託長庚醫療財團法人經營）",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.345232,22.60908]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.594025",
+        "clinicRef": "3542014105",
+        "clinicName": "明泰骨科外科診所",
+        "clinicAddr": "高雄市鳳山區天興街19號",
+        "city": "高雄市",
+        "groupRef": "5420110264",
+        "groupName": "鳳山第一社區醫療群",
+        "hos1Ref": "1142010518",
+        "hos1Name": "高雄市立鳳山醫院（委託長庚醫療財團法人經營）",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.329985,22.594025]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.6413078",
+        "clinicRef": "3542014221",
+        "clinicName": "張晉源耳鼻喉科診所",
+        "clinicAddr": "高雄市鳳山區文衡路451號1樓",
+        "city": "高雄市",
+        "groupRef": "5420110275",
+        "groupName": "新希望社區醫療群",
+        "hos1Ref": "1142100017",
+        "hos1Name": "長庚醫療財團法人高雄長庚紀念醫院",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.3479698,22.6413078]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.6407525",
+        "clinicRef": "3542013886",
+        "clinicName": "黃榮隆診所",
+        "clinicAddr": "高雄市鳳山區文衡路460號",
+        "city": "高雄市",
+        "groupRef": "5420110275",
+        "groupName": "新希望社區醫療群",
+        "hos1Ref": "1142100017",
+        "hos1Name": "長庚醫療財團法人高雄長庚紀念醫院",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.3512009,22.6407525]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.611524",
+        "clinicRef": "3507360066",
+        "clinicName": "祥全診所",
+        "clinicAddr": "高雄市前鎮區一心二路86號",
+        "city": "高雄市",
+        "groupRef": "5420110275",
+        "groupName": "新希望社區醫療群",
+        "hos1Ref": "1142100017",
+        "hos1Name": "長庚醫療財團法人高雄長庚紀念醫院",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.310437,22.611524]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.640165",
+        "clinicRef": "3507010150",
+        "clinicName": "文德診所",
+        "clinicAddr": "高雄市鳳山區文衡路295號1樓",
+        "city": "高雄市",
+        "groupRef": "5420110275",
+        "groupName": "新希望社區醫療群",
+        "hos1Ref": "1142100017",
+        "hos1Name": "長庚醫療財團法人高雄長庚紀念醫院",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.353835,22.640165]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.6356142",
+        "clinicRef": "3507060025",
+        "clinicName": "喉康診所",
+        "clinicAddr": "高雄市大寮區中庄里仁愛路82號1樓",
+        "city": "高雄市",
+        "groupRef": "5420110275",
+        "groupName": "新希望社區醫療群",
+        "hos1Ref": "1142100017",
+        "hos1Name": "長庚醫療財團法人高雄長庚紀念醫院",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.3952743,22.6356142]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.641652",
+        "clinicRef": "3502054063",
+        "clinicName": "博泰皮膚科診所",
+        "clinicAddr": "高雄市三民區陽明路213號一樓",
+        "city": "高雄市",
+        "groupRef": "5420110275",
+        "groupName": "新希望社區醫療群",
+        "hos1Ref": "1142100017",
+        "hos1Name": "長庚醫療財團法人高雄長庚紀念醫院",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.341664,22.641652]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.633432",
+        "clinicRef": "3542014507",
+        "clinicName": "黃骨外科診所",
+        "clinicAddr": "高雄市鳳山區文化路45之5號1、2樓及45之6號1樓",
+        "city": "高雄市",
+        "groupRef": "5420110275",
+        "groupName": "新希望社區醫療群",
+        "hos1Ref": "1142100017",
+        "hos1Name": "長庚醫療財團法人高雄長庚紀念醫院",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.357017,22.633432]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.7926235",
+        "clinicRef": "3542020201",
+        "clinicName": "盧榮福內兒科診所",
+        "clinicAddr": "高雄市岡山區仁壽里仁壽路39號",
+        "city": "高雄市",
+        "groupRef": "5420210208",
+        "groupName": "岡山仁壽社區醫療群",
+        "hos1Ref": "542020011",
+        "hos1Name": "國軍高雄總醫院岡山分院附設民眾診療服務處",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.289671,22.7926235]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.800126",
+        "clinicRef": "3542020916",
+        "clinicName": "林志仁診所",
+        "clinicAddr": "高雄市岡山區壽華路129號",
+        "city": "高雄市",
+        "groupRef": "5420210208",
+        "groupName": "岡山仁壽社區醫療群",
+        "hos1Ref": "542020011",
+        "hos1Name": "國軍高雄總醫院岡山分院附設民眾診療服務處",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.292112,22.800126]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.793755",
+        "clinicRef": "3542020013",
+        "clinicName": "維心診所",
+        "clinicAddr": "高雄市岡山區岡山路314號",
+        "city": "高雄市",
+        "groupRef": "5420210208",
+        "groupName": "岡山仁壽社區醫療群",
+        "hos1Ref": "542020011",
+        "hos1Name": "國軍高雄總醫院岡山分院附設民眾診療服務處",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.295975,22.793755]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.8173625",
+        "clinicRef": "3542181049",
+        "clinicName": "曾惠育診所",
+        "clinicAddr": "高雄市永安區永安路37號",
+        "city": "高雄市",
+        "groupRef": "5420210208",
+        "groupName": "岡山仁壽社區醫療群",
+        "hos1Ref": "542020011",
+        "hos1Name": "國軍高雄總醫院岡山分院附設民眾診療服務處",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.2226019,22.8173625]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.796444",
+        "clinicRef": "3542020345",
+        "clinicName": "陳振忠內兒科診所",
+        "clinicAddr": "高雄市岡山區壽天里壽天路37-2號",
+        "city": "高雄市",
+        "groupRef": "5420210208",
+        "groupName": "岡山仁壽社區醫療群",
+        "hos1Ref": "542020011",
+        "hos1Name": "國軍高雄總醫院岡山分院附設民眾診療服務處",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.293375,22.796444]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.793239",
+        "clinicRef": "3542020425",
+        "clinicName": "謝燕輝眼科診所",
+        "clinicAddr": "高雄市岡山區平安里維新路49號",
+        "city": "高雄市",
+        "groupRef": "5420210208",
+        "groupName": "岡山仁壽社區醫療群",
+        "hos1Ref": "542020011",
+        "hos1Name": "國軍高雄總醫院岡山分院附設民眾診療服務處",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.294494,22.793239]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.790736",
+        "clinicRef": "3542020792",
+        "clinicName": "蔡百豐內科家醫科診所",
+        "clinicAddr": "高雄市岡山區柳橋西路62–1號",
+        "city": "高雄市",
+        "groupRef": "5420210208",
+        "groupName": "岡山仁壽社區醫療群",
+        "hos1Ref": "542020011",
+        "hos1Name": "國軍高雄總醫院岡山分院附設民眾診療服務處",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.287627,22.790736]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.792867",
+        "clinicRef": "3542020416",
+        "clinicName": "高明眼科診所",
+        "clinicAddr": "高雄市岡山區岡燕路17號",
+        "city": "高雄市",
+        "groupRef": "5420210209",
+        "groupName": "岡山基層社區醫療群",
+        "hos1Ref": "942020019",
+        "hos1Name": "高雄市立岡山醫院（委託秀傳醫療社團法人經營）",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.296687,22.792867]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.797566",
+        "clinicRef": "3542020729",
+        "clinicName": "振華診所",
+        "clinicAddr": "高雄市岡山區公園西路二段111號",
+        "city": "高雄市",
+        "groupRef": "5420210209",
+        "groupName": "岡山基層社區醫療群",
+        "hos1Ref": "942020019",
+        "hos1Name": "高雄市立岡山醫院（委託秀傳醫療社團法人經營）",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.28687,22.797566]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.7932",
+        "clinicRef": "3542020069",
+        "clinicName": "翁仁茂診所",
+        "clinicAddr": "高雄市岡山區公園西路三段123號",
+        "city": "高雄市",
+        "groupRef": "5420210209",
+        "groupName": "岡山基層社區醫療群",
+        "hos1Ref": "942020019",
+        "hos1Name": "高雄市立岡山醫院（委託秀傳醫療社團法人經營）",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.285262,22.7932]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.7947059",
+        "clinicRef": "3542020676",
+        "clinicName": "黃子育診所",
+        "clinicAddr": "高雄市岡山區前峰路39號",
+        "city": "高雄市",
+        "groupRef": "5420210209",
+        "groupName": "岡山基層社區醫療群",
+        "hos1Ref": "942020019",
+        "hos1Name": "高雄市立岡山醫院（委託秀傳醫療社團法人經營）",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.2885645,22.7947059]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.792867",
+        "clinicRef": "3542020416",
+        "clinicName": "高明眼科診所",
+        "clinicAddr": "高雄市岡山區岡燕路17號",
+        "city": "高雄市",
+        "groupRef": "5420210209",
+        "groupName": "岡山基層社區醫療群",
+        "hos1Ref": "942020019",
+        "hos1Name": "高雄市立岡山醫院（委託秀傳醫療社團法人經營）",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.296687,22.792867]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.790873",
+        "clinicRef": "3542022303",
+        "clinicName": "黃仲達診所",
+        "clinicAddr": "高雄市岡山區柳橋東路9-2號1樓",
+        "city": "高雄市",
+        "groupRef": "5420210209",
+        "groupName": "岡山基層社區醫療群",
+        "hos1Ref": "942020019",
+        "hos1Name": "高雄市立岡山醫院（委託秀傳醫療社團法人經營）",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.295374,22.790873]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.805075",
+        "clinicRef": "3542022321",
+        "clinicName": "家佑診所",
+        "clinicAddr": "高雄市岡山區大仁路109號1樓",
+        "city": "高雄市",
+        "groupRef": "5420210209",
+        "groupName": "岡山基層社區醫療群",
+        "hos1Ref": "942020019",
+        "hos1Name": "高雄市立岡山醫院（委託秀傳醫療社團法人經營）",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.301641,22.805075]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.792522",
+        "clinicRef": "3542020434",
+        "clinicName": "王宏育診所",
+        "clinicAddr": "高雄市岡山區岡山路260號",
+        "city": "高雄市",
+        "groupRef": "5420210209",
+        "groupName": "岡山基層社區醫療群",
+        "hos1Ref": "942020019",
+        "hos1Name": "高雄市立岡山醫院（委託秀傳醫療社團法人經營）",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.296187,22.792522]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.7956969",
+        "clinicRef": "3542022250",
+        "clinicName": "陳國俊小兒科診所",
+        "clinicAddr": "高雄市岡山區岡山路73號",
+        "city": "高雄市",
+        "groupRef": "5420210210",
+        "groupName": "岡山壽天社區醫療群",
+        "hos1Ref": "942020019",
+        "hos1Name": "高雄市立岡山醫院（委託秀傳醫療社團法人經營）",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.295161,22.7956969]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.7944591",
+        "clinicRef": "3542020096",
+        "clinicName": "吳博明診所",
+        "clinicAddr": "高雄市岡山區平安里平和路79-1號",
+        "city": "高雄市",
+        "groupRef": "5420210210",
+        "groupName": "岡山壽天社區醫療群",
+        "hos1Ref": "942020019",
+        "hos1Name": "高雄市立岡山醫院（委託秀傳醫療社團法人經營）",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.294445,22.7944591]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.798054",
+        "clinicRef": "3542020550",
+        "clinicName": "簡耳鼻喉科診所",
+        "clinicAddr": "高雄市岡山區壽華路48號",
+        "city": "高雄市",
+        "groupRef": "5420210210",
+        "groupName": "岡山壽天社區醫療群",
+        "hos1Ref": "942020019",
+        "hos1Name": "高雄市立岡山醫院（委託秀傳醫療社團法人經營）",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.293178,22.798054]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.7956969",
+        "clinicRef": "3542022250",
+        "clinicName": "陳國俊小兒科診所",
+        "clinicAddr": "高雄市岡山區岡山路73號",
+        "city": "高雄市",
+        "groupRef": "5420210210",
+        "groupName": "岡山壽天社區醫療群",
+        "hos1Ref": "942020019",
+        "hos1Name": "高雄市立岡山醫院（委託秀傳醫療社團法人經營）",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.295161,22.7956969]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.7944591",
+        "clinicRef": "3542020096",
+        "clinicName": "吳博明診所",
+        "clinicAddr": "高雄市岡山區平安里平和路79-1號",
+        "city": "高雄市",
+        "groupRef": "5420210210",
+        "groupName": "岡山壽天社區醫療群",
+        "hos1Ref": "942020019",
+        "hos1Name": "高雄市立岡山醫院（委託秀傳醫療社團法人經營）",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.294445,22.7944591]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.798054",
+        "clinicRef": "3542020550",
+        "clinicName": "簡耳鼻喉科診所",
+        "clinicAddr": "高雄市岡山區壽華路48號",
+        "city": "高雄市",
+        "groupRef": "5420210210",
+        "groupName": "岡山壽天社區醫療群",
+        "hos1Ref": "942020019",
+        "hos1Name": "高雄市立岡山醫院（委託秀傳醫療社團法人經營）",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.293178,22.798054]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.797862",
+        "clinicRef": "3542020498",
+        "clinicName": "鄧明壽診所",
+        "clinicAddr": "高雄市岡山區壽華路36號",
+        "city": "高雄市",
+        "groupRef": "5420210210",
+        "groupName": "岡山壽天社區醫療群",
+        "hos1Ref": "942020019",
+        "hos1Name": "高雄市立岡山醫院（委託秀傳醫療社團法人經營）",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.293208,22.797862]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.7809711",
+        "clinicRef": "3542190066",
+        "clinicName": "濟民診所",
+        "clinicAddr": "高雄市彌陀區彌仁里中正路102號",
+        "city": "高雄市",
+        "groupRef": "5420210210",
+        "groupName": "岡山壽天社區醫療群",
+        "hos1Ref": "942020019",
+        "hos1Name": "高雄市立岡山醫院（委託秀傳醫療社團法人經營）",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.2492527,22.7809711]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.793235",
+        "clinicRef": "3542020309",
+        "clinicName": "劉志廷家庭醫學科診所",
+        "clinicAddr": "高雄市岡山區維新路51號",
+        "city": "高雄市",
+        "groupRef": "5420210211",
+        "groupName": "岡山維仁社區醫療群",
+        "hos1Ref": "542020011",
+        "hos1Name": "國軍高雄總醫院岡山分院附設民眾診療服務處",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.294431,22.793235]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.7976332",
+        "clinicRef": "3542020130",
+        "clinicName": "黃耳鼻喉科診所",
+        "clinicAddr": "高雄市岡山區岡山路347之1號",
+        "city": "高雄市",
+        "groupRef": "5420210211",
+        "groupName": "岡山維仁社區醫療群",
+        "hos1Ref": "542020011",
+        "hos1Name": "國軍高雄總醫院岡山分院附設民眾診療服務處",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.2952122,22.7976332]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.7965701",
+        "clinicRef": "3542021986",
+        "clinicName": "新博愛診所",
+        "clinicAddr": "高雄市岡山區大德一路15號1.2樓",
+        "city": "高雄市",
+        "groupRef": "5420210211",
+        "groupName": "岡山維仁社區醫療群",
+        "hos1Ref": "542020011",
+        "hos1Name": "國軍高雄總醫院岡山分院附設民眾診療服務處",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.296601,22.7965701]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.7911095",
+        "clinicRef": "3542022214",
+        "clinicName": "楊禮瑜診所",
+        "clinicAddr": "高雄市岡山區柳橋東路30號",
+        "city": "高雄市",
+        "groupRef": "5420210211",
+        "groupName": "岡山維仁社區醫療群",
+        "hos1Ref": "542020011",
+        "hos1Name": "國軍高雄總醫院岡山分院附設民眾診療服務處",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.294392,22.7911095]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.7299592",
+        "clinicRef": "3542201466",
+        "clinicName": "梓安診所",
+        "clinicAddr": "高雄市梓官區中正路319號",
+        "city": "高雄市",
+        "groupRef": "5420210211",
+        "groupName": "岡山維仁社區醫療群",
+        "hos1Ref": "542020011",
+        "hos1Name": "國軍高雄總醫院岡山分院附設民眾診療服務處",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.2554644,22.7299592]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.793235",
+        "clinicRef": "3542020309",
+        "clinicName": "劉志廷家庭醫學科診所",
+        "clinicAddr": "高雄市岡山區維新路51號",
+        "city": "高雄市",
+        "groupRef": "5420210211",
+        "groupName": "岡山維仁社區醫療群",
+        "hos1Ref": "542020011",
+        "hos1Name": "國軍高雄總醫院岡山分院附設民眾診療服務處",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.294431,22.793235]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.7976332",
+        "clinicRef": "3542020130",
+        "clinicName": "黃耳鼻喉科診所",
+        "clinicAddr": "高雄市岡山區岡山路347之1號",
+        "city": "高雄市",
+        "groupRef": "5420210211",
+        "groupName": "岡山維仁社區醫療群",
+        "hos1Ref": "542020011",
+        "hos1Name": "國軍高雄總醫院岡山分院附設民眾診療服務處",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.2952122,22.7976332]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.7976332",
+        "clinicRef": "3542020809",
+        "clinicName": "許弘志眼科診所",
+        "clinicAddr": "高雄市岡山區岡山路347–1號",
+        "city": "高雄市",
+        "groupRef": "5420210211",
+        "groupName": "岡山維仁社區醫療群",
+        "hos1Ref": "542020011",
+        "hos1Name": "國軍高雄總醫院岡山分院附設民眾診療服務處",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.2952122,22.7976332]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.8583797",
+        "clinicRef": "3542151587",
+        "clinicName": "蘇玉良診所",
+        "clinicAddr": "高雄市路竹區大同路326號",
+        "city": "高雄市",
+        "groupRef": "5420210243",
+        "groupName": "岡山燕巢社區醫療群",
+        "hos1Ref": "1142120001",
+        "hos1Name": "義大醫療財團法人義大醫院",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.266717,22.8583797]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.7958155",
+        "clinicRef": "3542020363",
+        "clinicName": "翁明清婦產科診所",
+        "clinicAddr": "高雄市岡山區前峰里前峰路73號",
+        "city": "高雄市",
+        "groupRef": "5420210243",
+        "groupName": "岡山燕巢社區醫療群",
+        "hos1Ref": "1142120001",
+        "hos1Name": "義大醫療財團法人義大醫院",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.286909,22.7958155]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.800815",
+        "clinicRef": "3542120019",
+        "clinicName": "仁濟診所",
+        "clinicAddr": "高雄市燕巢區西燕里中西街70巷78號",
+        "city": "高雄市",
+        "groupRef": "5420210243",
+        "groupName": "岡山燕巢社區醫療群",
+        "hos1Ref": "1142120001",
+        "hos1Name": "義大醫療財團法人義大醫院",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.30036,22.800815]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.7907453",
+        "clinicRef": "2342120014",
+        "clinicName": "高雄市燕巢區衛生所",
+        "clinicAddr": "高雄市燕巢區南燕里中興路2號",
+        "city": "高雄市",
+        "groupRef": "5420210243",
+        "groupName": "岡山燕巢社區醫療群",
+        "hos1Ref": "1142120001",
+        "hos1Name": "義大醫療財團法人義大醫院",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.3628028,22.7907453]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.793846",
+        "clinicRef": "3542020738",
+        "clinicName": "吳宗慶診所",
+        "clinicAddr": "高雄市岡山區中山北路47號",
+        "city": "高雄市",
+        "groupRef": "5420210243",
+        "groupName": "岡山燕巢社區醫療群",
+        "hos1Ref": "1142120001",
+        "hos1Name": "義大醫療財團法人義大醫院",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.298717,22.793846]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.7933344",
+        "clinicRef": "3542120126",
+        "clinicName": "簡萬杰診所",
+        "clinicAddr": "高雄市燕巢區西燕里中民路558號",
+        "city": "高雄市",
+        "groupRef": "5420210243",
+        "groupName": "岡山燕巢社區醫療群",
+        "hos1Ref": "1142120001",
+        "hos1Name": "義大醫療財團法人義大醫院",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.3630798,22.7933344]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.793023",
+        "clinicRef": "3542020103",
+        "clinicName": "安生診所",
+        "clinicAddr": "高雄市岡山區仁壽里民族路59號",
+        "city": "高雄市",
+        "groupRef": "5420210243",
+        "groupName": "岡山燕巢社區醫療群",
+        "hos1Ref": "1142120001",
+        "hos1Name": "義大醫療財團法人義大醫院",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.28798,22.793023]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.7539617",
+        "clinicRef": "3542111378",
+        "clinicName": "孫琮淵診所",
+        "clinicAddr": "高雄市橋頭區仕隆里成功南路79號",
+        "city": "高雄市",
+        "groupRef": "5420210245",
+        "groupName": "岡山橋頭社區醫療群",
+        "hos1Ref": "1142120001",
+        "hos1Name": "義大醫療財團法人義大醫院",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.3120221,22.7539617]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.7539021",
+        "clinicRef": "3542110326",
+        "clinicName": "陳性良診所",
+        "clinicAddr": "高雄市橋頭區隆豐路220號",
+        "city": "高雄市",
+        "groupRef": "5420210245",
+        "groupName": "岡山橋頭社區醫療群",
+        "hos1Ref": "1142120001",
+        "hos1Name": "義大醫療財團法人義大醫院",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.307198,22.7539021]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.795477",
+        "clinicRef": "3542022054",
+        "clinicName": "蘇俊明小兒科診所",
+        "clinicAddr": "高雄市岡山區平和路200號",
+        "city": "高雄市",
+        "groupRef": "5420210245",
+        "groupName": "岡山橋頭社區醫療群",
+        "hos1Ref": "1142120001",
+        "hos1Name": "義大醫療財團法人義大醫院",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.291886,22.795477]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.7462829",
+        "clinicRef": "3542200281",
+        "clinicName": "黃重器診所",
+        "clinicAddr": "高雄市梓官區大舍南路30號",
+        "city": "高雄市",
+        "groupRef": "5420210245",
+        "groupName": "岡山橋頭社區醫療群",
+        "hos1Ref": "1142120001",
+        "hos1Name": "義大醫療財團法人義大醫院",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.2618231,22.7462829]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.7610841",
+        "clinicRef": "3542111369",
+        "clinicName": "廖俊安診所",
+        "clinicAddr": "高雄市橋頭區樹德路63號一樓",
+        "city": "高雄市",
+        "groupRef": "5420210245",
+        "groupName": "岡山橋頭社區醫療群",
+        "hos1Ref": "1142120001",
+        "hos1Name": "義大醫療財團法人義大醫院",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.3069494,22.7610841]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.788961",
+        "clinicRef": "3507020012",
+        "clinicName": "吳中仁診所",
+        "clinicAddr": "高雄市岡山區大德三路63號1樓",
+        "city": "高雄市",
+        "groupRef": "5420210245",
+        "groupName": "岡山橋頭社區醫療群",
+        "hos1Ref": "1142120001",
+        "hos1Name": "義大醫療財團法人義大醫院",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.297917,22.788961]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.833511",
+        "clinicRef": "3542141465",
+        "clinicName": "明成親子診所",
+        "clinicAddr": "高雄市阿蓮區民權路95、97號",
+        "city": "高雄市",
+        "groupRef": "5420210245",
+        "groupName": "岡山橋頭社區醫療群",
+        "hos1Ref": "1142120001",
+        "hos1Name": "義大醫療財團法人義大醫院",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.2806017,22.833511]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.88471",
+        "clinicRef": "3507030018",
+        "clinicName": "大元診所",
+        "clinicAddr": "高雄市旗山區延平一路643號1樓",
+        "city": "高雄市",
+        "groupRef": "5420310207",
+        "groupName": "蕉城社區醫療群",
+        "hos1Ref": "142030019",
+        "hos1Name": "衛生福利部旗山醫院",
+        "hos2Ref": "1142120001",
+        "hos2Name": "義大醫療財團法人義大醫院",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.483186,22.88471]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.9734833",
+        "clinicRef": "3542231044",
+        "clinicName": "台源診所",
+        "clinicAddr": "高雄市杉林區上平里山仙路37–2號",
+        "city": "高雄市",
+        "groupRef": "5420310207",
+        "groupName": "蕉城社區醫療群",
+        "hos1Ref": "142030019",
+        "hos1Name": "衛生福利部旗山醫院",
+        "hos2Ref": "1142120001",
+        "hos2Name": "義大醫療財團法人義大醫院",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.5409338,22.9734833]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.897611",
+        "clinicRef": "3542030556",
+        "clinicName": "仁厚診所",
+        "clinicAddr": "高雄市旗山區延平一路137號",
+        "city": "高雄市",
+        "groupRef": "5420310207",
+        "groupName": "蕉城社區醫療群",
+        "hos1Ref": "142030019",
+        "hos1Name": "衛生福利部旗山醫院",
+        "hos2Ref": "1142120001",
+        "hos2Name": "義大醫療財團法人義大醫院",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.483657,22.897611]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.884862",
+        "clinicRef": "3542030547",
+        "clinicName": "民愛診所",
+        "clinicAddr": "高雄市旗山區復新街15號",
+        "city": "高雄市",
+        "groupRef": "5420310207",
+        "groupName": "蕉城社區醫療群",
+        "hos1Ref": "142030019",
+        "hos1Name": "衛生福利部旗山醫院",
+        "hos2Ref": "1142120001",
+        "hos2Name": "義大醫療財團法人義大醫院",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.48257,22.884862]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.9734833",
+        "clinicRef": "3542231044",
+        "clinicName": "台源診所",
+        "clinicAddr": "高雄市杉林區上平里山仙路37–2號",
+        "city": "高雄市",
+        "groupRef": "5420310207",
+        "groupName": "蕉城社區醫療群",
+        "hos1Ref": "142030019",
+        "hos1Name": "衛生福利部旗山醫院",
+        "hos2Ref": "1142120001",
+        "hos2Name": "義大醫療財團法人義大醫院",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.5409338,22.9734833]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.897611",
+        "clinicRef": "3542030556",
+        "clinicName": "仁厚診所",
+        "clinicAddr": "高雄市旗山區延平一路137號",
+        "city": "高雄市",
+        "groupRef": "5420310207",
+        "groupName": "蕉城社區醫療群",
+        "hos1Ref": "142030019",
+        "hos1Name": "衛生福利部旗山醫院",
+        "hos2Ref": "1142120001",
+        "hos2Name": "義大醫療財團法人義大醫院",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.483657,22.897611]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.883529",
+        "clinicRef": "3542030207",
+        "clinicName": "陳眼科診所",
+        "clinicAddr": "高雄市旗山區大德里大同街7號",
+        "city": "高雄市",
+        "groupRef": "5420310207",
+        "groupName": "蕉城社區醫療群",
+        "hos1Ref": "142030019",
+        "hos1Name": "衛生福利部旗山醫院",
+        "hos2Ref": "1142120001",
+        "hos2Name": "義大醫療財團法人義大醫院",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.48383,22.883529]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.5076566",
+        "clinicRef": "3542050638",
+        "clinicName": "梅振英耳鼻喉科診所",
+        "clinicAddr": "高雄市林園區林園北路226號",
+        "city": "高雄市",
+        "groupRef": "5420510266",
+        "groupName": "沿海社區醫療群",
+        "hos1Ref": "1102110011",
+        "hos1Name": "高雄市立小港醫院（委託財團法人私立高雄醫學大學經營）",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.3949418,22.5076566]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.4999952",
+        "clinicRef": "3542052025",
+        "clinicName": "聯合王婦產科診所",
+        "clinicAddr": "高雄市林園區文賢里沿海路三段148.150號",
+        "city": "高雄市",
+        "groupRef": "5420510266",
+        "groupName": "沿海社區醫療群",
+        "hos1Ref": "1102110011",
+        "hos1Name": "高雄市立小港醫院（委託財團法人私立高雄醫學大學經營）",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.3886878,22.4999952]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.52677",
+        "clinicRef": "3502110324",
+        "clinicName": "大林蒲診所",
+        "clinicAddr": "高雄市小港區鳳林里鳳林路113-1號",
+        "city": "高雄市",
+        "groupRef": "5420510266",
+        "groupName": "沿海社區醫療群",
+        "hos1Ref": "1102110011",
+        "hos1Name": "高雄市立小港醫院（委託財團法人私立高雄醫學大學經營）",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.345982,22.52677]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.568269",
+        "clinicRef": "3502112033",
+        "clinicName": "佳生診所",
+        "clinicAddr": "高雄市小港區康莊路136號1樓正苓里",
+        "city": "高雄市",
+        "groupRef": "5420510266",
+        "groupName": "沿海社區醫療群",
+        "hos1Ref": "1102110011",
+        "hos1Name": "高雄市立小港醫院（委託財團法人私立高雄醫學大學經營）",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.35353,22.568269]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.566466",
+        "clinicRef": "3502112140",
+        "clinicName": "明港診所",
+        "clinicAddr": "高雄市小港區山明里華山路137號一樓、139號一樓",
+        "city": "高雄市",
+        "groupRef": "5420510266",
+        "groupName": "沿海社區醫療群",
+        "hos1Ref": "1102110011",
+        "hos1Name": "高雄市立小港醫院（委託財團法人私立高雄醫學大學經營）",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.367428,22.566466]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.6371481",
+        "clinicRef": "3542060769",
+        "clinicName": "大順診所",
+        "clinicAddr": "高雄市大寮區鳳屏一路562號",
+        "city": "高雄市",
+        "groupRef": "5420610238",
+        "groupName": "優而康社區醫療群",
+        "hos1Ref": "1142010518",
+        "hos1Name": "高雄市立鳳山醫院（委託長庚醫療財團法人經營）",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.3944365,22.6371481]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.6371481",
+        "clinicRef": "3542060769",
+        "clinicName": "大順診所",
+        "clinicAddr": "高雄市大寮區鳳屏一路562號",
+        "city": "高雄市",
+        "groupRef": "5420610238",
+        "groupName": "優而康社區醫療群",
+        "hos1Ref": "1142010518",
+        "hos1Name": "高雄市立鳳山醫院（委託長庚醫療財團法人經營）",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.3944365,22.6371481]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.628926",
+        "clinicRef": "3542014392",
+        "clinicName": "新華田內科診所",
+        "clinicAddr": "高雄市鳳山區曹公路16-4號",
+        "city": "高雄市",
+        "groupRef": "5420610238",
+        "groupName": "優而康社區醫療群",
+        "hos1Ref": "1142010518",
+        "hos1Name": "高雄市立鳳山醫院（委託長庚醫療財團法人經營）",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.357329,22.628926]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.6439787",
+        "clinicRef": "3542012076",
+        "clinicName": "黃大沅小兒科診所",
+        "clinicAddr": "高雄市鳳山區青年路二段468號",
+        "city": "高雄市",
+        "groupRef": "5420610238",
+        "groupName": "優而康社區醫療群",
+        "hos1Ref": "1142010518",
+        "hos1Name": "高雄市立鳳山醫院（委託長庚醫療財團法人經營）",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.3515516,22.6439787]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.626188",
+        "clinicRef": "3542012469",
+        "clinicName": "林誓揚診所",
+        "clinicAddr": "高雄市鳳山區經武路18號",
+        "city": "高雄市",
+        "groupRef": "5420610238",
+        "groupName": "優而康社區醫療群",
+        "hos1Ref": "1142010518",
+        "hos1Name": "高雄市立鳳山醫院（委託長庚醫療財團法人經營）",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.362202,22.626188]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.618256",
+        "clinicRef": "3542060536",
+        "clinicName": "奈良診所",
+        "clinicAddr": "高雄市大寮區鳳林四路228號",
+        "city": "高雄市",
+        "groupRef": "5420610238",
+        "groupName": "優而康社區醫療群",
+        "hos1Ref": "1142010518",
+        "hos1Name": "高雄市立鳳山醫院（委託長庚醫療財團法人經營）",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.384202,22.618256]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.9134234",
+        "clinicRef": "3542171338",
+        "clinicName": "吳南寬診所",
+        "clinicAddr": "高雄市茄萣區白砂路257號1樓",
+        "city": "高雄市",
+        "groupRef": "5421510213",
+        "groupName": "大路竹社區醫療群",
+        "hos1Ref": "942020019",
+        "hos1Name": "高雄市立岡山醫院（委託秀傳醫療社團法人經營）",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.1852483,22.9134234]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.8634618",
+        "clinicRef": "3542150348",
+        "clinicName": "長星診所",
+        "clinicAddr": "高雄市路竹區大社路68號",
+        "city": "高雄市",
+        "groupRef": "5421510213",
+        "groupName": "大路竹社區醫療群",
+        "hos1Ref": "942020019",
+        "hos1Name": "高雄市立岡山醫院（委託秀傳醫療社團法人經營）",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.2624715,22.8634618]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.8634832",
+        "clinicRef": "3542151569",
+        "clinicName": "國良診所",
+        "clinicAddr": "高雄市路竹區大社路27號",
+        "city": "高雄市",
+        "groupRef": "5421510213",
+        "groupName": "大路竹社區醫療群",
+        "hos1Ref": "942020019",
+        "hos1Name": "高雄市立岡山醫院（委託秀傳醫療社團法人經營）",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.2624429,22.8634832]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.8642661",
+        "clinicRef": "3542151532",
+        "clinicName": "馨美診所",
+        "clinicAddr": "高雄市路竹區大社路157號",
+        "city": "高雄市",
+        "groupRef": "5421510213",
+        "groupName": "大路竹社區醫療群",
+        "hos1Ref": "942020019",
+        "hos1Name": "高雄市立岡山醫院（委託秀傳醫療社團法人經營）",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.2631475,22.8642661]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.9100484",
+        "clinicRef": "3542160184",
+        "clinicName": "永健診所",
+        "clinicAddr": "高雄市湖內區太爺里中正路一段30號",
+        "city": "高雄市",
+        "groupRef": "5421510213",
+        "groupName": "大路竹社區醫療群",
+        "hos1Ref": "942020019",
+        "hos1Name": "高雄市立岡山醫院（委託秀傳醫療社團法人經營）",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.2243835,22.9100484]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.9100484",
+        "clinicRef": "3542160184",
+        "clinicName": "永健診所",
+        "clinicAddr": "高雄市湖內區太爺里中正路一段30號",
+        "city": "高雄市",
+        "groupRef": "5421510213",
+        "groupName": "大路竹社區醫療群",
+        "hos1Ref": "942020019",
+        "hos1Name": "高雄市立岡山醫院（委託秀傳醫療社團法人經營）",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.2243835,22.9100484]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.89052",
+        "clinicRef": "3542160264",
+        "clinicName": "方舟診所",
+        "clinicAddr": "高雄市湖內區民權路158號",
+        "city": "高雄市",
+        "groupRef": "5421510213",
+        "groupName": "大路竹社區醫療群",
+        "hos1Ref": "942020019",
+        "hos1Name": "高雄市立岡山醫院（委託秀傳醫療社團法人經營）",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.243293,22.89052]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.890397",
+        "clinicRef": "3507030045",
+        "clinicName": "大惠診所",
+        "clinicAddr": "高雄市旗山區延平一路337號1樓",
+        "city": "高雄市",
+        "groupRef": "5422110206",
+        "groupName": "旗山社區醫療群",
+        "hos1Ref": "142030019",
+        "hos1Name": "衛生福利部旗山醫院",
+        "hos2Ref": "1142120001",
+        "hos2Name": "義大醫療財團法人義大醫院",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.4834197,22.890397]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.890397",
+        "clinicRef": "3507030036",
+        "clinicName": "大政診所",
+        "clinicAddr": "高雄市旗山區瑞吉里延平一路337號1樓",
+        "city": "高雄市",
+        "groupRef": "5422110206",
+        "groupName": "旗山社區醫療群",
+        "hos1Ref": "142030019",
+        "hos1Name": "衛生福利部旗山醫院",
+        "hos2Ref": "1142120001",
+        "hos2Name": "義大醫療財團法人義大醫院",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.4834197,22.890397]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.901758",
+        "clinicRef": "3542040187",
+        "clinicName": "李樹榮診所",
+        "clinicAddr": "高雄市美濃區中正路一段17號",
+        "city": "高雄市",
+        "groupRef": "5422110206",
+        "groupName": "旗山社區醫療群",
+        "hos1Ref": "142030019",
+        "hos1Name": "衛生福利部旗山醫院",
+        "hos2Ref": "1142120001",
+        "hos2Name": "義大醫療財團法人義大醫院",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.541391,22.901758]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.8941391",
+        "clinicRef": "3542040169",
+        "clinicName": "小太陽診所",
+        "clinicAddr": "高雄市美濃區合和里成功路129號",
+        "city": "高雄市",
+        "groupRef": "5422110206",
+        "groupName": "旗山社區醫療群",
+        "hos1Ref": "142030019",
+        "hos1Name": "衛生福利部旗山醫院",
+        "hos2Ref": "1142120001",
+        "hos2Name": "義大醫療財團法人義大醫院",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.546766,22.8941391]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.901856",
+        "clinicRef": "3542040178",
+        "clinicName": "霑龍診所",
+        "clinicAddr": "高雄市美濃區泰安路15號",
+        "city": "高雄市",
+        "groupRef": "5422110206",
+        "groupName": "旗山社區醫療群",
+        "hos1Ref": "142030019",
+        "hos1Name": "衛生福利部旗山醫院",
+        "hos2Ref": "1142120001",
+        "hos2Name": "義大醫療財團法人義大醫院",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.537968,22.901856]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.900555",
+        "clinicRef": "3542040123",
+        "clinicName": "吳文禮診所",
+        "clinicAddr": "高雄市美濃區泰安里中正路一段41號",
+        "city": "高雄市",
+        "groupRef": "5422110206",
+        "groupName": "旗山社區醫療群",
+        "hos1Ref": "142030019",
+        "hos1Name": "衛生福利部旗山醫院",
+        "hos2Ref": "1142120001",
+        "hos2Name": "義大醫療財團法人義大醫院",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.541826,22.900555]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.9955164",
+        "clinicRef": "3542211257",
+        "clinicName": "大嘉診所",
+        "clinicAddr": "高雄市六龜區太平路114號",
+        "city": "高雄市",
+        "groupRef": "5422110206",
+        "groupName": "旗山社區醫療群",
+        "hos1Ref": "142030019",
+        "hos1Name": "衛生福利部旗山醫院",
+        "hos2Ref": "1142120001",
+        "hos2Name": "義大醫療財團法人義大醫院",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.636194,22.9955164]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.6322455",
+        "clinicRef": "3502080303",
+        "clinicName": "徐貴勝診所",
+        "clinicAddr": "高雄市苓雅區六合路52號",
+        "city": "高雄市",
+        "groupRef": "5430410253",
+        "groupName": "新興社區醫療群",
+        "hos1Ref": "102070020",
+        "hos1Name": "高雄市立大同醫院（委託財團法人私立高雄醫學大學附設中和紀念",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.317825,22.6322455]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.636212",
+        "clinicRef": "3502063151",
+        "clinicName": "蘇鉉釗耳鼻喉科診所",
+        "clinicAddr": "高雄市新興區林森一路274、276號1-2樓",
+        "city": "高雄市",
+        "groupRef": "5430410253",
+        "groupName": "新興社區醫療群",
+        "hos1Ref": "102070020",
+        "hos1Name": "高雄市立大同醫院（委託財團法人私立高雄醫學大學附設中和紀念",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.305266,22.636212]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.636212",
+        "clinicRef": "3502060561",
+        "clinicName": "蘇信福診所",
+        "clinicAddr": "高雄市新興區林森一路274號",
+        "city": "高雄市",
+        "groupRef": "5430410253",
+        "groupName": "新興社區醫療群",
+        "hos1Ref": "102070020",
+        "hos1Name": "高雄市立大同醫院（委託財團法人私立高雄醫學大學附設中和紀念",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.305266,22.636212]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.6322455",
+        "clinicRef": "3502080303",
+        "clinicName": "徐貴勝診所",
+        "clinicAddr": "高雄市苓雅區六合路52號",
+        "city": "高雄市",
+        "groupRef": "5430410253",
+        "groupName": "新興社區醫療群",
+        "hos1Ref": "102070020",
+        "hos1Name": "高雄市立大同醫院（委託財團法人私立高雄醫學大學附設中和紀念",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.317825,22.6322455]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.628441",
+        "clinicRef": "3502063259",
+        "clinicName": "偉峰診所",
+        "clinicAddr": "高雄市新興區林森一路126號一樓",
+        "city": "高雄市",
+        "groupRef": "5430410253",
+        "groupName": "新興社區醫療群",
+        "hos1Ref": "102070020",
+        "hos1Name": "高雄市立大同醫院（委託財團法人私立高雄醫學大學附設中和紀念",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.3045139,22.628441]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.635598",
+        "clinicRef": "3502060632",
+        "clinicName": "展華內兒科診所",
+        "clinicAddr": "高雄市新興區八德一路182號",
+        "city": "高雄市",
+        "groupRef": "5430410253",
+        "groupName": "新興社區醫療群",
+        "hos1Ref": "102070020",
+        "hos1Name": "高雄市立大同醫院（委託財團法人私立高雄醫學大學附設中和紀念",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.3088,22.635598]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.636212",
+        "clinicRef": "3502063151",
+        "clinicName": "蘇鉉釗耳鼻喉科診所",
+        "clinicAddr": "高雄市新興區林森一路274、276號1-2樓",
+        "city": "高雄市",
+        "groupRef": "5430410253",
+        "groupName": "新興社區醫療群",
+        "hos1Ref": "102070020",
+        "hos1Name": "高雄市立大同醫院（委託財團法人私立高雄醫學大學附設中和紀念",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.305266,22.636212]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "lat": "22.63077",
+        "clinicRef": "3502063035",
+        "clinicName": "蔡瑞聲診所",
+        "clinicAddr": "高雄市新興區中正三路63號1樓及夾層",
+        "city": "高雄市",
+        "groupRef": "5430410253",
+        "groupName": "新興社區醫療群",
+        "hos1Ref": "102070020",
+        "hos1Name": "高雄市立大同醫院（委託財團法人私立高雄醫學大學附設中和紀念",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.30776,22.63077]
+      }
+    }
+  ]
+}

@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>map</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.1/leaflet.css" />
+	<script src="http://cdn.leafletjs.com/leaflet-0.7.1/leaflet.js"></script>
+	<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+	<link rel="dat1" type="application/json" href="kaoh_clin.geojson" />
+	<style type="text/css">
+		body {
+			padding: 0;
+			margin: 0;
+		}
+		html, body, #map {
+			height: 100%;
+		}
+		.info {
+			padding: 6px 8px;
+			font: 14px/16px Arial, Helvetica, sans-serif;
+			background: white;
+			background: rgba(255,255,255,0.8);
+			box-shadow: 0 0 15px rgba(0,0,0,0.2);
+			border-radius: 5px;
+		}
+		.legend {
+			line-height: 18px;
+			color: #555;
+		}
+		.legend i {
+			width: 18px;
+			height: 18px;
+			float: left;
+			margin-right: 8px;
+			opacity: 0.5;
+		}
+	</style>
+</head>
+<body>
+	<div id="map"></div>
+	<script type="text/javascript">
+		var map = L.map('map')
+		var baseMap1 = L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+			attribution: '&copy; <a href="http://openstreetmap.org/copyright">OpenStreetMap contributors</a>'
+		});
+		baseMap1.addTo(map);
+		var baseMap2 = L.tileLayer('http://{s}.tile.cloudmade.com/BC9A493B41014CAABB98F0471D759707/997/256/{z}/{x}/{y}.png', {
+			attribution: '&copy; <a href="http://openstreetmap.org/copyright">OpenStreetMap contributors</a>'
+		});
+		baseMap2.addTo(map);
+		var baseMap3 = L.tileLayer('http://otile{s}.mqcdn.com/tiles/1.0.0/{type}/{z}/{x}/{y}.png', {
+			subdomains: '1234',
+			type: 'osm',
+			attribution: '&copy; <a href="http://openstreetmap.org/copyright">OpenStreetMap contributors</a>'
+		});
+		baseMap3.addTo(map);
+		function onEachFeature(feature, layer) {
+			if (feature.properties && feature.properties.clinicRef) {
+				layer.bindPopup("clinicRef: " + feature.properties.clinicRef);
+			}
+		};
+		function getValue(x) {
+			return x == "安康社區醫療群" ? "#F8766D" :
+			       x == "成功社區醫療群" ? "#F27D54" :
+			       x == "大高雄社區醫療群" ? "#EB8333" :
+			       x == "大路竹社區醫療群" ? "#E28900" :
+			       x == "鳳龍社區醫療群" ? "#D98F00" :
+			       x == "鳳山第一社區醫療群" ? "#CE9500" :
+			       x == "鳳山社區醫療群" ? "#C29A00" :
+			       x == "富康社區醫療群" ? "#B5A000" :
+			       x == "岡山基層社區醫療群" ? "#A6A400" :
+			       x == "岡山橋頭社區醫療群" ? "#95A900" :
+			       x == "岡山仁壽社區醫療群" ? "#81AD00" :
+			       x == "岡山壽天社區醫療群" ? "#69B100" :
+			       x == "岡山維仁社區醫療群" ? "#48B500" :
+			       x == "岡山燕巢社區醫療群" ? "#00B817" :
+			       x == "高榮樂活社區醫療群" ? "#00BB44" :
+			       x == "高榮平安社區醫療群" ? "#00BD5F" :
+			       x == "高榮溫馨社區醫療群" ? "#00BF75" :
+			       x == "高雄基層社區醫療群" ? "#00C089" :
+			       x == "高雄中區社區醫療群" ? "#00C19C" :
+			       x == "高醫社區醫療群" ? "#00C1AD" :
+			       x == "國光社區醫療群" ? "#00C0BD" :
+			       x == "好厝邊社區醫療群" ? "#00BECC" :
+			       x == "河岸網醫療群" ? "#00BCD9" :
+			       x == "健康100社區醫療群" ? "#00B8E6" :
+			       x == "蕉城社區醫療群" ? "#00B3F1" :
+			       x == "康源社區醫療群" ? "#00AEFA" :
+			       x == "南高雄家醫社區醫療群" ? "#00A7FF" :
+			       x == "楠心社區醫療群" ? "#4F9FFF" :
+			       x == "旗山社區醫療群" ? "#7D96FF" :
+			       x == "全家福社區醫療群" ? "#9E8DFF" :
+			       x == "三民東區社區醫療群" ? "#B783FF" :
+			       x == "三民社區醫療群" ? "#CC7AFF" :
+			       x == "蔚藍海岸社區醫療群" ? "#DC71FA" :
+			       x == "小港聯合社區醫療群" ? "#EA6AF1" :
+			       x == "新北高雄社區醫療群" ? "#F365E6" :
+			       x == "新希望社區醫療群" ? "#FB61D9" :
+			       x == "新興社區醫療群" ? "#FF61CA" :
+			       x == "幸福社區醫療群" ? "#FF62BA" :
+			       x == "沿海社區醫療群" ? "#FF66A9" :
+			       x == "永康社區醫療群" ? "#FF6B97" :
+			       x == "優而康社區醫療群" ? "#FD7083" :
+			       "#808080";
+		}
+		function style(feature) {
+			return {
+				"color": getValue(feature.properties.groupName),
+				"fillOpacity": 0.5
+			};
+		}
+		$.getJSON($("link[rel='dat1']").attr("href"), function(data) {
+			var dat = L.geoJson(data, {
+				onEachFeature: onEachFeature,
+				pointToLayer: function (feature, latlng) {
+					return L.circleMarker(latlng, style(feature));
+				}
+			});
+			map.fitBounds(dat.getBounds());
+			dat.addTo(map);
+		});
+		var baseMaps = {
+			"OpenStreetMap": baseMap1,
+			"CloudMade": baseMap2,
+			"MapQuest OSM": baseMap3
+		};
+		L.control.layers(baseMaps).addTo(map);
+		var legend = L.control({position: 'bottomright'});
+		legend.onAdd = function(map) {
+			var div = L.DomUtil.create('div', 'info legend'),
+			labels = [],
+			cats = ["安康社區醫療群", "成功社區醫療群", "大高雄社區醫療群", "大路竹社區醫療群", "鳳龍社區醫療群", "鳳山第一社區醫療群", "鳳山社區醫療群", "富康社區醫療群", "岡山基層社區醫療群", "岡山橋頭社區醫療群", "岡山仁壽社區醫療群", "岡山壽天社區醫療群", "岡山維仁社區醫療群", "岡山燕巢社區醫療群", "高榮樂活社區醫療群", "高榮平安社區醫療群", "高榮溫馨社區醫療群", "高雄基層社區醫療群", "高雄中區社區醫療群", "高醫社區醫療群", "國光社區醫療群", "好厝邊社區醫療群", "河岸網醫療群", "健康100社區醫療群", "蕉城社區醫療群", "康源社區醫療群", "南高雄家醫社區醫療群", "楠心社區醫療群", "旗山社區醫療群", "全家福社區醫療群", "三民東區社區醫療群", "三民社區醫療群", "蔚藍海岸社區醫療群", "小港聯合社區醫療群", "新北高雄社區醫療群", "新希望社區醫療群", "新興社區醫療群", "幸福社區醫療群", "沿海社區醫療群", "永康社區醫療群", "優而康社區醫療群"];
+			for (var i = 0; i < cats.length; i++) {
+				div.innerHTML +=
+					'<i style="background:' + getValue(cats[i]) + '"></i> ' +
+					cats[i] + '<br>';
+			}
+			div.innerHTML +=
+				'<i style="background:' + getValue() + '"></i> NA'
+			return div;
+		};
+		legend.addTo(map);
+	</script>
+</body>
+</html>
