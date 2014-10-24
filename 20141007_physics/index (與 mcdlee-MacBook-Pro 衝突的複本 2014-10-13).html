@@ -1,0 +1,496 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=792, user-scalable=no">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<link rel="stylesheet" href="lib/shower/themes/ribbon/styles/screen.css">
+	<link rel="stylesheet" href="lib/csshake.min.css">
+	<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+	<style type="text/css" media="all">
+	        section.slide p.source {
+            		color: #000;
+            		position: absolute;
+            		bottom: 10px;
+            		right: 10px;
+            		text-align: right;
+            		font-size: 0.5em;
+            		margin: 0px;
+        	}   
+        	section.slide p.source a {
+            		color: #000;
+        	}
+        	table.clean td img {
+            		vertical-align: top;
+        	}
+        	table.clean td {
+            		background: none;
+        	}
+			section.slide.cover h2{
+				color: #000;
+				font-size: 70 px;
+				text-align:center;
+				background-color: rgba(250, 250, 250, 0.5);
+			}
+        
+			/* two column slides */
+			section.slide.twocol div.left {
+				width: 	48%;
+				float: left;
+			}
+			section.slide.twocol div.right {
+				width: 48%;
+				float: right;
+			}
+			section.slide.twocol-ll div.left {
+				width: 65%;
+				float: left;
+			}
+			section.slide.twocol-ll div.right {
+				width: 35%;
+				float: right;
+			}
+			section.slide.twocol-lr div.left {
+				width: 35%;
+				float: left;
+			}
+			section.slide.twocol-lr div.right {
+				width: 65%;
+				float: right;
+			}
+    		</style>
+</head>
+<body class="list">
+	<header class="caption">
+		<h1>核醫物理</h1>
+		<p>2014-10-07</p>
+	</header>
+	<section class="slide cover" id="Cover"><div>
+		<h2>核醫物理</h2>
+		<p>Department of Nuclear Medicine, Kaohsiung Veterans General Hospital<br /> <a href="http://www.mcdlee.tw">Sin-di Lee</a></p>
+		<img src="pics/cover.png" alt="">
+		<p class="source">Background picture: <a href="http://maps.stamen.com/watercolor/">Stamen</a> / Map data: <a href="http://www.openstreetmap.org">OSM</a> and its contributors</p>
+		<!--
+			To apply styles to the certain slides
+			set slide ID to get needed elements
+			-->
+		<style>
+			#Cover h2 {
+				margin:80px 0 0;
+				}
+			#Cover p {
+				margin:10px 0 0;
+				text-align:center;
+				color:#000;
+				font-style:italic;
+				font-size:20px;
+				}
+			#Cover p a {
+				color:#000;
+				}
+		</style>
+	</div></section>
+	<section class="slide"><div>
+	<h2 class="shake shake-constant shake-slow">今天要講</h2>
+	<ul>
+		<li>基本核醫物理 (Basic nuclear medicine physics)</li>
+		<li>非閃爍偵檢 (Nonscintillation detectors)</li>
+		<li>非影像閃爍偵檢 (Nonimaging scintillation detector)</li>
+		<li>影像 (Imaging instrument)</li></ul>
+	</div></section>
+	<section class="slide"><div>
+	<h2 class="shake shake-constant shake-slow">沒講，但你應該要會的</h2>
+	<ul>
+		<li>輻射與物質交互作用 (Interaction of radiation with matter)</li>
+		<li>核種的製備 (Formation radionuclides)</li>
+		<li>Quality control</li>
+		<li>Imaging reconstruction (SPECT and PET)</li>
+		<li>Radiation biology, dosimetry, safety</li></ul>
+	</div></section>
+	<section class="slide"><div>
+	<h2>Reference</h2>
+	<ul>
+		<li>主要參考： Essential nuclear medicine physics, 2nd edition</li>
+		<li>輔助： Essentials of nuclear medicine imaging, 6th edition</li>
+		<li>圖片：<a href="http://en.wikibooks.org/wiki/Basic_Physics_of_Nuclear_Medicine">Basic physics of nuclear medicine</a>, Wikibooks</li>
+		<li>圖片：<a href="http://en.wikipedia.org/wiki/">Wikipedia</a></li> </ul>
+	</div></section>
+	<section class="slide shout"><div>
+	<h2>基本核醫物理</h2>
+	</div></section>
+	<section class="slide twocol-ll"><div>
+	<h2>原子的基本粒子</h2>
+	<div class="left"> 
+	<ul>
+		<li>核外電子 (electron)</li>
+		<li>核內質子 (proton) 和中子 (neutron) 合稱核子 (nucleon)</li>
+		<li>質量 (amu or u = 1.66E-27 kg) <ul>
+			<li>電子：5.486E-4 u</li>
+			<li>質子：1.007 u</li>
+			<li>中子：1.008 u</li></ul></li>
+	</ul>
+	</div>
+	<div class="right">
+	<p>\[
+	\ _{88}^{223}\textrm{Ra}_{115}^{2+}
+	\]</p>
+	<img src="pics/electron.png" />
+	<p class="source"><a href="http://commons.wikimedia.org/wiki/File:Electron_orbitals.svg#mediaviewer/File:Electron_orbitals.svg">"Electron orbitals" by Patricia.fidi - own work by Patricia.fidi and Lt Paul - Originally from pl:Grafika:Orbitale.png, author. Licensed under Public domain via Wikimedia Commons</a></p>
+	</div>
+	</div></section>
+	<section class="slide"><div>
+	<h2>衰變的種類</h2>
+	<p>原子核內的事，無關核外的化學環境和溫度</p>
+	<ul>
+		<li>Excessive nuclear mass: alpha decay, fission</li>
+		<li>Too many neutrons: beta decay</li>
+		<li>Too many position: positron decay, electron capture</li>
+		<li>Appropriate numbers of nucleons, but too many energy: gamma emission, internal conversion</li></ul>
+	</div></section>
+	<section class="slide twocol"><div>
+	<div class="left">
+	<h2>Alpha decay</h2>
+		<img src="pics/alpha.svg"/>
+		<p class="source"><a href="http://commons.wikimedia.org/wiki/File:Alpha_Decay.svg#mediaviewer/File:Alpha_Decay.svg">"Alpha Decay" by Inductiveload - self-madeThis vector image was created with Inkscape.. Licensed under Public domain via Wikimedia Commons</a></p>
+	</div>
+	<div class="right">
+	<ul>
+		<li>α</li>
+		<li>Example: Ra-223, Rn-222</li>
+		<li>能量產出：質能互換</li>
+		<li>能量分配：請把握<mark>能量守恆</mark>和<mark>動量守恆</mark>兩大原則<ul>
+			<li>1 u = 1.66E-27 kg = 931 MeV (質能互換)</li>
+			<li>1 eV = 1.602E-19 J</li>
+			<li>1 J = 6.2415E18 eV</li></ul></li></ul>
+	</div>
+	</div></section>
+	<section class="slide"><div>
+	<h2>例題</h2>
+	<ul>
+		<li>Ra-223 (質量：223.0185 u) 以 Alpha decay 的方式衰變為 Rn-219 (質量：219.0094 u)，Alpha particle 的質量為 4.0026u，請問？<ol>
+			<li>本次釋放出來的能量為？ (單位 eV) </li>
+			<li>Rn-219 與 Alpha particle 各自分配到的能量？ (單位 eV)</li>
+			<li>Alpha particle 的速度？ (單位 m/s)</li></ol></li>
+		</ul>
+	</div></section>
+	<section class="slide twocol"><div>
+	<h2>Beta decay</h2>
+	<div class="left"><img src="pics/beta.svg"/><p class="source"><a href="http://commons.wikimedia.org/wiki/File:Beta-minus_Decay.svg#mediaviewer/File:Beta-minus_Decay.svg">"Beta-minus Decay" by Inductiveload - self-madeThis vector image was created with Inkscape.. Licensed under Public domain via Wikimedia Commons</a></p></div>
+	<div class="right">
+	<ul>
+		<li>β</li>
+		<li>Example: I-131, Y-90, Co-60, Sr-98</li>
+		<li>能量產出：質能互換</li>
+		<li>能量分配：請把握<mark>能量守恆</mark>和<mark>動量守恆</mark>兩大原則，先計算電子獲得最大能量，平均能量大約為三分之一</li></ul>
+	</div>
+	</div></section>
+	<section class="slide"><div>
+	<img src="pics/beta-spectrum.png" />
+	</div></section>
+	<section class="slide"><div>
+	<h2>Positron decay</h2>
+	<ul>
+		<li>β+</li>
+		<li>Example: F-18, C-11, N-14</li>
+		<li>能量產出：質能互換</li>
+		<li>能量分配：請把握<mark>能量守恆</mark>和<mark>動量守恆</mark>兩大原則，先計算正子獲得最大能量，平均能量大約為三分之一</li></ul>
+	</div></section>
+	<section class="slide twocol"><div>
+	<div class="left"><img src="pics/electroncapture.png"/>
+	<p class="source"><a href="http://commons.wikimedia.org/wiki/File:Elektroneneinfang_(2_Phasen).png#mediaviewer/File:Elektroneneinfang_(2_Phasen).png">"Elektroneneinfang (2 Phasen)" by User:Journey234 - Created from Image:Elektroneneinfang.svg/Image:Elektroneneinfang.png.. Licensed under Public domain via Wikimedia Commons</a></p></div>
+	<div class="right">
+	<h2>Electron capture</h2>
+	<ul>
+		<li>ϵ or E. C.</li>
+		<li>Example: Tl-201, Ga-67, I-123, In-111</li>
+		<li>能量產出：質能互換，產生的光子和愕惹電子能量需要考慮每層軌道的能量</li></ul>
+	</div>
+	</div></section>
+	<section class="slide twocol"><div>
+	<h2>Isomeric transition</h2>
+	<div class="left">
+	<ul>
+		<li>I. T.</li>
+		<li>能量來源： metastable nucleus</li>
+		<li>能量產出形式：<ul>
+			<li>Gamma emission: Gamma ray</li>
+			<li>Internal conversion: conversion electron or secondary Auger electron</li></ul></li></ul>
+	</div>
+	<div class="right">
+	<ul>
+		<li>Example: Tc-99m, Kr-81m, Sr-87m</li>
+		<li>Gamma emission and internal conversion 會互相競爭</li></ul>
+	</div>
+	</div></section>
+	<section class="slide"><div>
+	<h2>請試著解釋下列式子</h2>
+	<p>
+	\(
+	\ A(t) = A(0)* 1/2 ^{\frac{t}{T}}
+	\)</p>
+	<p>
+	\(
+	\ N(t) = N(0)* 1/2 ^{\frac{t}{T}}
+	\)</p>
+	<p>\(
+	\ A(t) = -\frac{\mathrm{d} }{\mathrm{d} t}N(t)
+	\)</p>
+	</div></section>
+	<section class="slide twocol"><div>
+	<div class="left">
+	<p>
+	\( 
+	\ A(t)
+	\\ = A(0)* 1/2 ^{\frac{t}{T}}
+	\\ = A(0) * e ^ {- ln 2 * {\frac{t}{T}} }
+	\\ = A(0) * e ^ {- \frac{0.693}{T}  t}
+	\\ = A(0) * e ^ {- \lambda t}
+	\)
+	</p>
+	</div>
+	<div class="right">
+	<p>
+	\( 
+	\ N(t)
+	\\ = N(0)* 1/2 ^{\frac{t}{T}}
+	\\ = N(0) * e ^ {- ln 2 * {\frac{t}{T}} }
+	\\ = N(0) * e ^ {- \frac{0.693}{T}  t}
+	\\ = N(0) * e ^ {- \lambda t}
+	\)
+	</p>
+	</div>
+	</div></section>
+	<section class="slide twocol"><div>
+	<div class="left">
+	<p>
+	\(
+	\ A(t)
+	\\  = -\frac{\mathrm{d} }{\mathrm{d} t}N(t)
+	\\ = -\frac{\mathrm{d} }{\mathrm{d} t} N(0) * e ^ {- \lambda t}
+	\\ = \lambda * N(0) * e ^ {- \lambda t}
+	\\ = \lambda N(t)
+	\)
+	</p>
+	</div>
+	<div class="right">
+	<p>
+	\(
+	\ A = \lambda  N
+	\)</p>
+	<p>
+	\(
+	\ \lambda = \frac{A}{N}
+	\\ = \frac{0.693}{T}
+	\)
+	</p>
+	</div>
+	</div></section>
+	<section class="slide twocol"><div>
+	<h2>名詞</h2>
+	<div class="left">
+	<ol>
+		<li>Half-life (半衰期)</li>
+		<li>Decay constant (衰變常數)</li>
+		<li>Mean lifetime (平均壽命)</li>
+		<li>Specific activity (比活度)</li>
+		<li>Cumulated activity (累積活度)</li></ol>
+	</div>
+	<div class="right">
+	<ol>
+		<li class="next">
+		\(
+		\ T = \frac{0.693}{\lambda}
+		\)
+		</li>
+		<li class="next">
+		\(
+		\ \lambda = \frac{0.693}{T}
+		\)
+		</li>
+		<li class="next">
+		\(
+		\ \frac{1}{\lambda} = \frac{T}{0.693}
+		\)
+		</li>
+		<li class="next">單位質量的物質的衰變活度 (請注意 1 mol = 6E23 個分子)</li>
+		<li class="next">某時間範圍內衰變的次數，即 \(
+		\ -\Delta N
+		\)
+		</li></ol>
+	</div>
+	</div></section>
+	<section class="slide"><div>
+	<img src="pics/time-to-N.gif" class="place" />
+	<p class="source"><a href="http://en.wikibooks.org/wiki/Basic_Physics_of_Nuclear_Medicine/The_Radioactive_Decay_Law#mediaviewer/File:NM4_12a.gif">Bisic physics of nuclear medicine</a>, Licensed under Public domain via Wikibooks</p>
+	</div></section>
+	<section class="slide"><div>
+	<h2>例題</h2>
+	<ul>
+		<li>Tc-99m 的半衰期為 6 個小時，請問 <ol>
+			<li>它的衰變常數 (單位 1/s)</li>
+			<li>它的平均壽命 (單位 hr)</li>
+			<li>比活度 (單位 mCi/mg)</li>
+			<li>唾液腺造影會使用 10 mCi 的\( TcO_{4}^{-}\)，請問大約多少克</li>
+			<li>不小心漏針到皮下，假設藥物全部停留在皮下組織沒有被運走，該部位10個小時內的累積活度 (單位 Ci * hr)</li></ol></li></ul>
+	</div></section>
+	<section class="slide shout"><div>
+	<h2><span class="shake shake-constant shake-slow">非閃爍</span>偵檢</h2>
+	</div></section>
+	<section class="slide"><div>
+	<h2>非閃爍偵檢</h2>
+	<ul>
+		<li>充氣式 (gas-filled detectors)</li>
+		<li>Photographic detectors</li>
+		<li>半導體 (semiconductor detectors)</li></ul>
+	</div></section>
+	<section class="slide"><div>
+	<img src="pics/gas-vol.gif" />
+	<p class="source">"<a href="http://commons.wikimedia.org/wiki/File:Detector_regions.gif#mediaviewer/File:Detector_regions.gif">Detector regions</a>" by <a href="//commons.wikimedia.org/wiki/User:Dougsim" title="User:Dougsim">Doug Sim</a> - <span class="int-own-work">Own work</span>. Licensed under <a title="Creative Commons Attribution-Share Alike 3.0" href="http://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a> via <a href="//commons.wikimedia.org/wiki/">Wikimedia Commons</a>.</p>
+	</div></section>
+	<section class="slide"><div>
+	<h2>Ionization chambers</h2>
+	<ul>
+		<li>氣體：通常是空氣，壓力 1 atm 或略低</li>
+		<li>電壓：ionization region</li>
+		<li>一次游離</li>
+		<li>Sensitivity：受安培計靈敏度影響，但不是用來量單一事件，而是量一段時間的平均。在 10 keV 到 1MeV 範圍內可測量到<1mR</li>
+		<li>Energy dependce： yes， alpha > beta > photon</li>
+		<li class="next">Example: dose calibrator, survey meter, pocket dosimeter</li></ul>
+	</div></section>
+	<section class="slide"><div>
+	<h2>Proportional counters</h2>
+	<ul>
+		<li>氣體：通常是氬氣 (Argon)或氬氣甲烷混合 (Argon-methane mixture)</li>
+		<li>電壓：較高，有放大作用，proportional region</li>
+		<li>一次游離產生的電子還會產生二次游離</li>
+		<li>Sensitivity：有機會量到單一事件</li>
+		<li>Energy dependce： yes， alpha > beta > photon</li>
+		<li class="next">Example: Survey meter</li></ul>
+	</div></section>
+	<section class="slide"><div>
+	<h2>Geiger counters</h2>
+	<ul>
+		<li>氣體：通常是氬氣 (Argon)、甲烷 (methane)或各種鹵素 (halogen)，通常 1 atm 或略高</li>
+		<li>電壓：更高，Geiger region</li>
+		<li>多次游離，可能所有氣體都解離 -> dead time</li>
+		<li>Sensitivity：和電壓與輻射性質無關</li>
+		<li>Energy dependce： yes， alpha = beta = photon</li>
+		<li class="next">Example: radiation monitor, survey meter</li></ul>
+
+	</div></section>
+	<section class="slide"><div>
+	<h2>Photographic detectors</h2>
+	<ul>
+		<li>Film badge</li></ul>
+	</div></section>
+	<section class="slide twocol"><div>
+	<h2>半導體式</h2>
+	<div class="left">
+	<h3>Features</h3>
+	<ul>
+		<li>solid</li>
+		<li>higher density, less tightly bound between electron and atoms -> greater yeild</li>
+		<li>smaller volume, can be used for smaller detector units (ex: intraoperative probes)</li></ul>
+	</div>
+	<div class="right">
+	<h3>Types</h3>
+	<ul>
+		<li>CdTe</li>
+		<li>CdZnTe (CZT)</li>
+		<li>ZnTe</li></ul>
+	</div>
+	</div></section>
+	<section class="slide shout"><div>
+	<h2>非影像<br />閃爍偵測器</h2>
+	</div></section>
+	<section class="slide"><div>
+	<h2>閃爍偵檢器結構</h2>
+	<ul>
+		<li>Crystal (在核醫多為 NaI(Tl)</li>
+		<li>Photomultiplier tubes (PMT)</li>
+		<li>Preamplifiers and amplifiers (two-stage)</li>
+		<li>Pulse-height analyzer</li></ul>
+	</div></section>
+	<section class="slide twocol"><div>
+	<h2>Crystal</h2>
+	<div class="left">
+	<ol>
+		<li>gamma rays 透過光電作用或康普頓散射使晶體的電子游離</li>
+		<li>電子回到基態放出較低能量的光子，稱作 light photons</li></ol>
+	<blockquote class="next">每 1 keV 的能量轉移，可產生約 40 個 light photons</blockquote>
+	</div>
+	<div class="right">
+	<img src="pics/CsI.jpg" width="95%" />
+	<p class="source">"<a href="http://commons.wikimedia.org/wiki/File:Kristall-CsI(Tl)_mit_Skala.jpg#mediaviewer/File:Kristall-CsI(Tl)_mit_Skala.jpg">Kristall-CsI(Tl) mit Skala</a>" 由 MyName (<a href="//commons.wikimedia.org/wiki/User:A1000" title="User:A1000">A1000</a>) - <span class="int-own-work">自己的作品</span>。 使用來自 <a href="//commons.wikimedia.org/wiki/">維基共享資源</a> 的 <a title="Creative Commons Attribution-Share Alike 3.0-2.5-2.0-1.0" href="http://creativecommons.org/licenses/by-sa/3.0">創用CC 姓名標示-相同方式分享 3.0</a> 條款授權。</p>
+	</div>
+	</div></section>
+	<section class="slide twocol"><div>
+	<h2>Photomultiplier tubes</h2>
+	<div class="left">
+		<img src="pics/pmt.gif" width="90%"/></div>
+	<div class="right">
+	<ol>
+		<li>photocathode: 4-6 light photons -> one photoelectron</li>
+		<li>one dynode: 2-4 folds of electrons</li>
+		<li>two-stage process</li></ol></div>
+	<p class="source"><a href="http://en.wikibooks.org/wiki/File:NM9_3.gif#mediaviewer/File:NM9_3.gif">NM9 3</a>". Via <a href="//en.wikibooks.org/wiki/">Wikibooks</a>.</p>
+	</div></section>
+	<section class="slide twocol"><div>
+	<h2>Pulse-height analyzer</h2>
+	<div class="left">
+	<img src="pics/TcScatterSpectrum.gif" width="99%" />
+	</div>
+	<div class="right">
+	<ul>
+		<li>photopeak (blunt)</li>
+		<li>Compton peak (edge), iodine escape peak, backscatter peak, characteristic lead X-ray peak</li>
+		<li>能量高於1.02 MeV -> annihilation peak</li>
+		<li>兩個以上photo peak 或在 decay time 中被偵測 -> coincidence peak</li></ul>
+	</div>
+	<p class="source">"<a href="http://en.wikibooks.org/wiki/File:TcScatterSpectrum.gif#mediaviewer/File:TcScatterSpectrum.gif">TcScatterSpectrum</a>". Via <a href="//en.wikibooks.org/wiki/">Wikibooks</a>.</p>
+	</div></section>
+	<section class="slide"><div>
+	<h2>Nonimaging scintillator detectors 特色</h2>
+	<ul>
+		<li>Energy resolution is not so good.</li>
+		<li>Decay time: 230 ns in NaI(Tl) crystal (coincidence peak)</li>
+		<li>Efficiency: overall, geometric and intrinsic</li>
+		<li>Example: thyroid probe, well counter, dosimeter and area monitor</li></ul>
+	</div></section>
+	<section class="slide shout"><div>
+	<h2>Imaging instrumentation</h2>
+	</div></section>
+	<section class="slide"><div>
+	<h2>Gamma camera</h2>
+	<ul>
+		<li>Collimater</li>
+		<li>Crystals, PMT, preamplifier and amplifier</li>
+		<li>Positioning circuit<ul>
+			<li>以電阻分壓的方式將放大之後的訊號定位</li>
+			<li>電腦定義 matrix size</li></ul></li></ul>
+	</div></section>
+	<section class="slide"><div>
+	<h2>Image smoothing</h2>
+	<ul>
+		<li>nine-point smoothing: 常考</li>
+		<li>filter in frequency domain: 常用<ul>
+			<li>基本單位是 Nyquist frequency (highest is 0.5 cycles / pixel)</li></ul></li></ul>
+	</div></section>
+	<section class="slide"><div>
+	<h2>例題</h2>
+	</div></section>
+	<section class="slide"><div>
+	
+	</div></section>
+	<p class="badge"><a href="https://github.com/shower/shower">Fork me on Github</a></p>
+	<!--
+		To hide progress bar from entire presentation
+		just remove “progress” element.
+		-->
+	<div class="progress"><div></div></div>
+	<script src="lib/shower/shower.min.js"></script>
+	<!-- Copyright 2013 Yours Truly, Famous Inc. -->
+	<!-- Photos by John Carey, fiftyfootshadows.net -->
+</body>
+</html>
