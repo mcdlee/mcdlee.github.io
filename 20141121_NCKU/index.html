@@ -1,0 +1,371 @@
+﻿<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<title>OpenStreetMap @ 成功大學自由軟體課程</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=792, user-scalable=no">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<link rel="stylesheet" href="lib/shower/themes/ribbon/styles/screen.css">
+	<link rel="stylesheet" href="lib/csshake.min.css">
+	<style type="text/css" media="all">
+	        section.slide p.source {
+            		color: #000;
+            		position: absolute;
+            		bottom: 10px;
+            		right: 10px;
+            		text-align: right;
+            		font-size: 0.8em;
+            		margin: 0px;
+        	}   
+        	section.slide p.source a {
+            		color: #000;
+        	}
+        	table.clean td img {
+            		vertical-align: top;
+        	}
+        	table.clean td {
+            		background: none;
+        	}
+			section.slide.cover h2{
+				color: #000;
+				font-size: 70 px;
+				text-align:center;
+				background-color: rgba(250, 250, 250, 0.5);
+			}
+        
+			/* two column slides */
+			section.slide.twocol div.left {
+				width: 	48%;
+				float: left;
+			}
+			section.slide.twocol div.right {
+				width: 48%;
+				float: right;
+			}
+			section.slide.twocol-ll div.left {
+				width: 65%;
+				float: left;
+			}
+			section.slide.twocol-ll div.right {
+				width: 35%;
+				float: right;
+			}
+			section.slide.twocol-lr div.left {
+				width: 35%;
+				float: left;
+			}
+			section.slide.twocol-lr div.right {
+				width: 65%;
+				float: right;
+			}
+    		</style>
+</head>
+<body class="list">
+	<header class="caption">
+		<h1>OpenStreetMap 開放街圖</h1>
+		<p>2014-11-21 NCKU</p>
+	</header>
+	<section class="slide cover" id="Cover"><div>
+		<h2>OpenStreetMap 開放街圖</h2>
+		<p><a href="http://www.mcdlee.tw">李昕迪</a></p>
+		<img src="pics/cover.png">
+		<p class="source">Background picture: <a href="http://maps.stamen.com/watercolor/">Stamen</a> / Map data: <a href="http://www.openstreetmap.org">OSM</a> and its contributors</p>
+		<!--
+			To apply styles to the certain slides
+			set slide ID to get needed elements
+			-->
+		<style>
+			#Cover h2 {
+				margin:80px 0 0;
+				}
+			#Cover p {
+				margin:10px 0 0;
+				text-align:center;
+				color:#000;
+				font-style:italic;
+				font-size:20px;
+				}
+			#Cover p a {
+				color:#000;
+				}
+		</style>
+	</div></section>
+	<section class="slide twocol"><div>
+	<div class="left">
+	<h2>自我介紹</h2>
+	<ul>
+		<li>李昕迪</li>
+		<li>@mcdlee </li>
+		<li>自由軟體使用者 since 2007</li>
+		<li>OpenStreetMap 圖客 since 2009</li>
+		<li>目前正職是高雄榮總核子醫學科住院醫師</li></ul>
+	</div>
+	<div class="right">
+	<img src="pics/heatmap.png" width="80%"/>
+	<p class="source"><a href="http://yosmhm.neis-one.org/?mcdlee">http://yosmhm.neis-one.org/?mcdlee</a></p>
+	</div>
+	</div></section>
+	<section class="slide shout"><div>
+	<h2>正式開始之前</h2>
+	</div></section>
+	<section class="slide shout"><div>
+	<h2>請想像一下</h2>
+	</div></section>
+	<section class="slide"><div>
+	<h2>請想像你是一個地圖廠商的老闆</h2>
+	<ul>
+		<li class="next">收集一個城市/國家的資料要多少資源？</li>
+		<li class="next">花費多少比例的資源在收集資料上？</li>
+		<li class="next">多久要更新一次？</li>
+		<li class="next">使用者反應一個 bug ，多久之後才能修改？</li></ul>
+	</div></section>
+	<section class="slide shout"><div>
+	<h2>回到主題</h2>
+	</div></section>
+	<section class="slide"><div>
+	<h2>Outline</h2>
+	<ul>
+		<li>OpenStreetMap 是什麼？它怎麼運作？幫助我們什麼？</li>
+		<li>OpenStreetMap 的資料形式，我們可以怎麼運用它</li>
+		<li>我們如何貢獻 OpenStreetMap</li>
+		<li>特別來賓：hychen</li></ul>
+	</div></section>
+	<section class="slide twocol-ll"><div>
+	<div class="left">
+	<h2>OpenStreetMap</h2>
+	<ul>
+		<li>Since 2004, founded by <a href="http://en.wikipedia.org/wiki/Steve_Coast">Steve Coast</a></li>
+		<li>Open source 和 Wikipedia 的精神</li>
+		<li><a href="http://www.openstreetmap.org">http://www.openstreetmap.org</a> or <a href="http://www.osm.org">http://www.osm.org</a></li>
+		<li>中文譯作<strong>開放街圖</strong></li></ul>
+	</div>
+	<div class="right">
+	<img src="pics/logo.png" width="90%"/>
+	</div>
+	</div></section>
+	<section class="slide"><div>
+	<h2>OpenStreetMap 的特色</h2>
+	<ul>
+		<li>開放授權 (ODbL)</li>
+		<li>開放格式 (交換格式為 xml)</li>
+		<li>包羅萬象的地理資料庫<ul>
+			<li>基本：路網、地名</li>
+			<li>實用：商店、設施、停車場、速限</li>
+			<li>神奇：轉彎限制、路燈、樹、長椅</li></ul></li>
+		<li>可以作為 "Data source"， 也可以當作其他地圖的底層</li></ul>
+	</div></section>
+	<section class="slide"><div>
+	<iframe width="800" height="450" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://www.openstreetmap.org/export/embed.html?bbox=120.20776748657225%2C22.99178017169129%2C120.22735834121704%2C23.004480813678175&amp;layer=mapnik" style="border: 1px solid black"></iframe><br/><small><a href="http://www.openstreetmap.org/#map=16/22.9981/120.2176">View Larger Map</a></small>
+	</div></section>
+	<section class="slide"><div>
+	<ul>
+		<li>台灣 OSM 社群網站：<a href="http://www.openstreetmap.tw">http://www.openstreetmap.tw</a></li>
+		<li>台灣 OSM 社群 FB 社團：<br /><a href="https://www.facebook.com/groups/OpenStreetMap.TW/">https://www.facebook.com/groups/OpenStreetMap.TW/</a></li>
+		<li>台灣 OSM 社群 G+ ：<a href="https://plus.google.com/+OpenstreetmapTw">https://plus.google.com/+OpenstreetmapTw</a></li></ul>
+	</div></section>
+	<section class="slide shout"><div>
+	<h2>Mapper</h2>
+	</div></section>
+	<section class="slide"><div>
+	<img src="pics/mappers.png" class="place" width="100%"/>
+	</div></section>
+	<section class="slide"><div>
+	<img src="pics/sticker.jpg" class="place"/>
+	</div></section>
+	<section class="slide shout"><div>
+	<h2>圖客的工具</h2>
+	</div></section>
+	<section class="slide"><div>
+	<img src="pics/gps.jpg" width="100%" class="place" />
+	<p class="source"><a href="https://www.flickr.com/photos/mcdlee/5088884494/">https://www.flickr.com/photos/mcdlee/5088884494/</a></p>
+	</div></section>
+	<section class="slide"><div>
+	<img src="pics/photo.jpg" width="100%" class="place" />
+	<p class="source"><a href="https://www.flickr.com/photos/mcdlee/5088912144/">https://www.flickr.com/photos/mcdlee/5088912144/</a></p>
+	</div></section>
+	<section class="slide"><div>
+	<img src="pics/gpx.gif" class="place"/>
+	<p class="source"><a href="http://www.openstreetmap.org/user/mcdlee/traces/1744368">http://www.openstreetmap.org/user/mcdlee/traces/1744368</a></p>
+	</div></section>
+	<section class="slide"><div>
+	<img src="pics/bing.png" class="place"/>
+	</div></section>
+	<section class="slide"><div>
+	<img src="pics/aero.png" class="place"/>
+	<p class="source"><a href="https://www.youtube.com/watch?v=D1gHYhfcAao">OSM-TW Webinar</a></p>
+	</div></section>
+	<section class="slide"><div>
+	<img src="pics/and.png" class="place" width="50%"/>
+	</div></section>
+	<section class="slide"><div>
+	<h2>Import from TIGER</h2>
+	<img src="pics/tiger.gif" class="place"/>
+	</div></section>
+	<section class="slide"><div>
+	<img src="pics/fieldpapers.png" class="place"/>
+	</div></section>
+	<section class="slide"><div>
+	<img src="pics/fieldp.jpg" class="place"/>	
+	</div></section>
+	<section class="slide"><div>
+	<img src="pics/stat-u.png" class="place"/>
+	<p class="source"><a href="http://wiki.openstreetmap.org/wiki/Stats">http://wiki.openstreetmap.org/wiki/Stats</a></p>
+	</div></section>
+	<section class="slide"><div>
+	<img src="pics/stat-p.png" class="place"/>
+	<p class="source"><a href="http://wiki.openstreetmap.org/wiki/Stats">http://wiki.openstreetmap.org/wiki/Stats</a></p>
+	</div></section>
+	<section class="slide"><div>
+	<img src="pics/stat-t.png" class="place"/>
+	<p class="source"><a href="http://www.slideshare.net/dongpo/20131109-sot-mtaiwan-28062622">Dongpo, SotM Taiwan 2013</a></p>
+	</div></section>
+	<section class="slide shout"><div>
+	<h2>Wiki-style</h2>
+	</div></section>
+	<section class="slide"><div>
+	<img src="pics/sanying.png" width="80%" class="place"/>
+	<p class="source"><a href="http://tools.geofabrik.de/mc/#18/24.9436/121.3551&num=3&mt0=mapnik&mt1=google-map&mt2=google-satellite">http://tools.geofabrik.de/mc/#18/24.9436/121.3551&num=3&mt0=mapnik&mt1=google-map&mt2=google-satellite</a></p>
+	</div></section>
+	<section class="slide"><div>
+	<img src="pics/neihu.png" width="60%" class="place"/>
+	<p class="source"><a href="https://www.facebook.com/photo.php?fbid=10151788750300668&set=pb.713795667.-2207520000.1416536414.&type=3&theater">https://www.facebook.com/photo.php?fbid=10151788750300668&set=pb.713795667.-2207520000.1416536414.&type=3&theater</a></p>
+	</div></section>
+	<section class="slide shout"><div>
+	<h2>也有杯具</h2>
+	</div></section>
+	<section class="slide"><div>
+	<h2>板橋查獲我家</h2>
+	<img src="pics/bc.png"/>
+	</div></section>
+	<section class="slide"><div>
+	<h2>花蓮外海發現塗鴉</h2>
+	<img src="pics/hl.png" width="90%"/>
+	</div></section>
+	<section class="slide"><div>
+	<h2>附近鐵軌遭到破壞</h2>
+	<img src="pics/ch.png" width="60%"/>
+	</div></section>
+	<section class="slide"><div>
+	<img src="pics/kl.png" width="100%"/>
+	</div></section>
+	<section class="slide"><div>
+	<h2>Wiki style 的特色</h2>
+	<ul>
+		<li>可能發生悲劇 (但都有解決方案的)</li>
+		<li>所有紀錄都有跡可循</li>
+		<li>半成品 is welcomed (Release early, release often)</li></ul>
+	</div></section>
+	<section class="slide"><div>
+	<h2>開放的授權</h2>
+	<ul>
+		<li>資料：ODbL</li>
+		<li>圖磚：CC-BY-SA</li>
+		<li>可以自由地複製、散布、傳輸與修改</li>
+		<li>必須標明作者為 OpenStreetMap 及其貢獻者</li>
+		<li>相同授權條款散布有關成果</li></ul>
+	</div></section>
+	<section class="slide"><div>
+	<img src="pics/wheelmap.png" />
+	<p class="source">圖片來源：<a href="http://www.wheelmap.org">wheelmap.org</a>截圖</p>
+	</div></section>
+	<section class="slide"><div>
+	<h2>Wheelmap.org</h2>
+	<ul>
+		<li>應用 OpenStreetMap 的資料和底圖</li>
+		<li>中文化地圖：<a href="http://wheelmap.org/zh_TW/map">http://wheelmap.org/zh_TW/map</a></li>
+		<li>有 <a href="http://itunes.apple.com/de/app/wheelmap/id399239476?mt=8">iOS</a> 和 <a href="https://play.google.com/store/apps/details?id=org.wheelmap.android.online">Android</a> Apps</li></ul>
+	</div></section>
+	<section class="slide"><div>
+	<img src="pics/veg.png" class="place" />
+	<p class="source"><a href="http://antology.me/vegan/15/22.993873983415885/120.20626544952393#Mapnik">http://antology.me/vegan/15/22.993873983415885/120.20626544952393#Mapnik</a></p>
+	</div></section>
+	<section class="slide"><div>
+	<img src="pics/crayon.png" class="place" />
+	<p class="source"><a href="http://crayonmap.herokuapp.com/#map=14/22.674174/120.296173">http://crayonmap.herokuapp.com/#map=14/22.674174/120.296173</a></p>
+	</div></section>
+	<section class="slide"><div>
+	<img src="pics/sketchy.png" class="place" />
+	<p class="source"><a href="http://wiki.openstreetmap.org/wiki/File:Toulouse_sketchy_map_sample.png">http://wiki.openstreetmap.org/wiki/File:Toulouse_sketchy_map_sample.png</a></p>
+	</div></section>
+	<section class="slide"><div>
+	<img src="pics/hot.png" width="90%" class="place" />
+	<p class="source"><a href="http://a.tiles.mapbox.com/v3/americanredcross.map-ms6tihx6/page.html#16/11.2473/125.0031">http://a.tiles.mapbox.com/v3/americanredcross.map-ms6tihx6/page.html#16/11.2473/125.0031</a></p>
+	</div></section>
+	<section class="slide"><div>
+	<img src="pics/osmand.png" class="place" />
+	</div></section>
+	<section class="slide"><div>
+	<img src="pics/foursquare.png" class="place" />
+	<p class="source"><a href="https://foursquare.com/explore?mode=url&near=Taipei&q=Seafood">https://foursquare.com/explore?mode=url&near=Taipei&q=Seafood</a></p>
+	</div></section>
+	<section class="slide"><div>
+	<img src="pics/apple.png" class="place" />
+	<p class="source"><a href="http://infographic.appledaily.com.tw/events/dajiamazu2014">蘋果日報</a></p>
+	</div></section>
+	<section class="slide"><div>
+	<h2>這不是平行時空</h2>
+<iframe width="800" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://www.openhistoricalmap.org/export/embed.html?bbox=-74.04278755187988%2C40.70074783237384%2C-73.97420883178711%2C40.73906330729812&amp;layer=historical" style="border: 1px solid black"></iframe><br/><small><a href="http://www.openhistoricalmap.org/#map=14/40.7199/-74.0085&amp;layers=H">View Larger Map</a></small>
+	</div></section>
+	<section class="slide shout"><div>
+	<h2>Lucy 表示...</h2>
+	</div></section>
+	<section class="slide"><div>
+	<img src="pics/as_a.png" class="place" width="100%" />
+	</div></section>
+	<section class="slide"><div>
+	<img src="pics/OSM_Components.png" width="80%" class="place"/>
+	<p class="source"><a href="http://wiki.openstreetmap.org/wiki/Component_overview">http://wiki.openstreetmap.org/wiki/Component_overview</a></p>
+	</div></section>
+	<section class="slide"><div>
+	<iframe width="800" height="450" src="http://wiki.openstreetmap.org/wiki/OSM_XML"></iframe><br /><a href="http://wiki.openstreetmap.org/wiki/OSM_XML">OSM XML schema</a>
+	</div></section>
+	<section class="slide"><div>
+	<h2>你可以作...</h2>
+	<ul>
+		<li>Routing</li>
+		<li>Render</li>
+		<li>Data mining</li>
+		<li>...</li></ul>
+	</div></section>
+	<section class="slide"><div>
+	<h2>你可以這樣開始</h2>
+	<ul>
+		<li>閱讀<a href="http://wiki.openstreetmap.org/wiki/Develop">官方 wiki</a></li>
+		<li>先玩玩 <a href="http://overpass-turbo.eu/">Overpass turbo</a></li>
+		<li>Google: "你喜歡的程式語言 + OpenStreetMap"</li></ul>
+	</div></section>
+	<section class="slide"><div>
+	<img src="pics/overpassturbo.png" class="place" width="80%"/>
+	<p class="source"><a href="http://overpass-turbo.eu/s/69M">Overpass turbo</a></p>
+	</div></section>
+	<section class="slide shout"><div>
+	<h2>回到原來的問題</h2>
+	</div></section>
+	<section class="slide"><div>
+	<h2>請想像你是一個地圖廠商的老闆</h2>
+	<ul>
+		<li class="next">收集一個城市/國家的資料要多少資源？</li>
+		<li class="next">花費多少比例的資源在收集資料上？</li>
+		<li class="next">多久要更新一次？</li>
+		<li class="next">使用者反應一個 bug ，多久之後才能修改？</li></ul>
+	</div></section>
+	<section class="slide shout"><div>
+	<h2>編輯地圖</h2>
+	</div></section>
+	<section class="slide"><div>
+	
+	</div></section>
+	<section class="slide"><div>
+	
+	</div></section>
+	<p class="badge"><a href="https://github.com/shower/shower">Fork me on Github</a></p>
+	<!--
+		To hide progress bar from entire presentation
+		just remove “progress” element.
+		-->
+	<div class="progress"><div></div></div>
+	<script src="lib/shower/shower.min.js"></script>
+	<!-- Copyright 2013 Yours Truly, Famous Inc. -->
+	<!-- Photos by John Carey, fiftyfootshadows.net -->
+</body>
+</html>

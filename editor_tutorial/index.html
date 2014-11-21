@@ -1,0 +1,527 @@
+﻿<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<title>OpenStreetMap 編輯器之 iD 與 JOSM </title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=792, user-scalable=no">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<link rel="stylesheet" href="lib/shower/themes/bright/styles/screen.css">
+	<link rel="stylesheet" href="lib/csshake.min.css">
+	<style type="text/css" media="all">
+	        section.slide p.source {
+            		color: #000;
+            		position: absolute;
+            		bottom: 10px;
+            		right: 10px;
+            		text-align: right;
+            		font-size: 0.8em;
+            		margin: 0px;
+        	}   
+        	section.slide p.source a {
+            		color: #000;
+        	}
+        	table.clean td img {
+            		vertical-align: top;
+        	}
+        	table.clean td {
+            		background: none;
+        	}
+			section.slide.cover h2{
+				color: #000;
+				font-size: 70 px;
+				text-align:center;
+				background-color: rgba(250, 250, 250, 0.5);
+			}
+        
+			/* two column slides */
+			section.slide.twocol div.left {
+				width: 	48%;
+				float: left;
+			}
+			section.slide.twocol div.right {
+				width: 48%;
+				float: right;
+			}
+			section.slide.twocol-ll div.left {
+				width: 65%;
+				float: left;
+			}
+			section.slide.twocol-ll div.right {
+				width: 35%;
+				float: right;
+			}
+			section.slide.twocol-lr div.left {
+				width: 35%;
+				float: left;
+			}
+			section.slide.twocol-lr div.right {
+				width: 65%;
+				float: right;
+			}
+    		</style>
+		<link rel="stylesheet" href="lib/highlight/styles/default.css">
+		<script src="lib/highlight/highlight.pack.js"></script>
+		<script>hljs.initHighlightingOnLoad();</script>
+</head>
+<body class="list">
+	<header class="caption">
+		<h1>OpenStreetMap editors - iD and JOSM</h1>
+	</header>
+	<section class="slide cover" id="Cover"><div>
+			<h2>OpenStreetMap editors - iD & JOSM</h2>
+		<p><a href="http://www.mcdlee.tw">mcdlee</a></p>
+		<img src="pics/cover.png" alt="">
+		<p class="source">Background picture: <a href="http://maps.stamen.com/watercolor/">Stamen</a> / Map data: <a href="http://www.openstreetmap.org">OSM</a> and its contributors</p>
+		<!--
+			To apply styles to the certain slides
+			set slide ID to get needed elements
+			-->
+		<style>
+			#Cover h2 {
+				margin:80px 0 0;
+				}
+			#Cover p {
+				margin:10px 0 0;
+				text-align:center;
+				color:#000;
+				font-style:italic;
+				font-size:20px;
+				}
+			#Cover p a {
+				color:#000;
+				}
+		</style>
+	</div></section>
+	<section class="slide shout"><div>
+			<h2>請先<a href="http://www.openstreetmap.tw/documents/20" class="shake shake-constant shake-slow hover-stop" target="_blank">申請帳號</a></h2>
+	</div></section>
+	<section class="slide"><div>
+	<img src="pics/street1.jpg" class="place"/>
+	</div></section>
+	<section class="slide shout right"><div>
+	<h2>請問你看到什麼？</h2>
+	</div></section>
+	<section class="slide"><div>
+	<img src="pics/street2.jpg" class="place"/>
+	</div></section>
+	<section class="slide"><div>
+	<img src="pics/street3.jpg" class="place"/>
+	</div></section>
+	<section class="slide"><div>
+	<h2>示範以 iD 新增下列地物</h2>
+	<ul>
+		<li>一個消防栓</li>
+		<li>一間便利商店，並紀錄地址與其他資訊</li>
+		<li>一所幼稚園，並標示哪裡是大門</li></ul>
+	</div></section>
+	<section class="slide"><div>
+	<img src="pics/demo1.png" class="place" />
+	</div></section>
+	<section class="slide"><div>
+	<img src="pics/demo2.png" class="place" />
+	</div></section>
+	<section class="slide"><div>
+	<img src="pics/demo3.png" class="place" />
+	</div></section>
+	<section class="slide"><div>
+	<img src="pics/demo4.png" class="place" />
+	</div></section>
+	<section class="slide"><div>
+	<img src="pics/demo5.png" class="place" />
+	</div></section>
+	<section class="slide"><div>
+	<img src="pics/demo6.png" class="place" />
+	</div></section>
+	<section class="slide"><div>
+	<img src="pics/demo7.png" class="place" />
+	</div></section>
+	<section class="slide"><div>
+	<img src="pics/demo8.png" class="place" />
+	</div></section>
+	<section class="slide"><div>
+	<img src="pics/demo9.png" class="place" />
+	<p class="source"><a href="http://wiki.openstreetmap.org/wiki/Zh-hant:Key:opening_hours">OSM wiki: Key:opening_hours</a></p>
+	</div></section>
+	<section class="slide"><div>
+	<img src="pics/demo10.png" class="place" />
+	</div></section>
+	<section class="slide"><div>
+	<img src="pics/demo11.png" class="place" />
+	</div></section>
+	<section class="slide"><div>
+	<img src="pics/demo12.png" class="place" />
+	</div></section>
+	<section class="slide"><div>
+	<img src="pics/demo13.png" class="place" />
+	</div></section>
+	<section class="slide"><div>
+	<img src="pics/demo14.png" class="place" />
+	</div></section>
+	<section class="slide"><div>
+	<img src="pics/demo15.png" class="place" />
+	</div></section>
+	<section class="slide"><div>
+	<img src="pics/demo16.png" class="place" />
+	</div></section>
+	<section class="slide"><div>
+	<img src="pics/demo17.png" class="place" />
+	</div></section>
+	<section class="slide"><div>
+	<img src="pics/demo18.png" class="place" />
+	</div></section>
+	<section class="slide"><div>
+	<img src="pics/street4.jpg" class="place" />
+	<p style="position: absolute; bottom: 15px; right: 10px; text-align: right" class="next"><a href="https://www.google.com.tw/maps/@22.718923,120.285011,3a,75y,157.38h,86.72t/data=!3m4!1e1!3m2!1sXaCmEsbRpdJRboZi21MpMg!2e0">換個角度</a></p>
+	</div></section>
+	<section class="slide"><div>
+	<img src="pics/demo19.png" class="place" />
+	</div></section>
+	<section class="slide twocol"><div>
+		<div class="left"><img src="pics/demo20-1.png" /></div>
+		<div class="right"><img src="pics/demo20-2.png" /></div>
+	</div></section>
+	<section class="slide" id="highway_table"><div>
+	<style type="text/css" media="all">
+		#highway_table th {font-size: 15px }
+		#highway_table td {font-size: 15px }
+	</style>
+	<table>
+		<tr>
+			<th>台灣道路等級</th>
+			<th>OpenStreetMap 標籤</th>
+			<th>iD 中文化</th></tr>
+		<tr>
+			<td>國道</td>
+			<td>highway=motorway</td>
+			<td>高速公路</td></tr>
+		<tr>
+			<td>快速道路</td>
+			<td>highway=trunk</td>
+			<td>幹道</td></tr>
+		<tr>
+			<td>省道</td>
+			<td>highway=primary</td>
+			<td>主要道路</td></tr>
+		<tr>
+			<td>縣道</td>
+			<td>highway=secondary</td>
+			<td>次要道路</td></tr>
+		<tr>
+			<td>鄉道</td>
+			<td>highway=tertiary</td>
+			<td>三級道路</td></tr>
+		<tr>
+			<td>(沒有編號的重要道路)</td>
+			<td>highway=unclassified</td>
+			<td>未分類的道路</td></tr>
+		<tr>
+			<td>住宅區道路</td>
+			<td>highway=residential</td>
+			<td>住宅區道路</td></tr>
+		<tr>
+			<td>停車場車道</td>
+			<td>highway=service + service=parking_aisle</td>
+			<td>輔助道路...</td></tr>
+		<tr>
+			<td>小巷</td>
+			<td>highway=service + service=alley</td>
+			<td>輔助道路... or 巷弄</td></tr>
+		<tr>
+			<td>?</td>
+			<td>highway=living_street</td>
+			<td>生活街道</td></tr>
+		<tr>
+			<td>產業道路</td>
+			<td>highway=track</td>
+			<td>未鋪設路面的車徑</td></tr>
+		<tr>
+			<td>人行道</td>
+			<td>highway=pedistrian</td>
+			<td>步行徑</td></tr>
+		<tr>
+			<td>? (不是給車輛走的)</td>
+			<td>highway=path</td>
+			<td>小徑</td></tr>
+		<tr>
+			<td>(我不知道)</td>
+			<td>highway=road</td>
+			<td>未知種類的道路</td></tr>
+	</table>
+	<p class="source"><a href="http://wiki.openstreetmap.org/wiki/Key:highway">OSM wiki: key:highway</a></p>
+	</div></section>
+	<section class="slide"><div>
+	<img src="pics/demo21.png" class="place" />
+	</div></section>
+	<section class="slide"><div>
+	<img src="pics/demo22.png" class="place" />
+	</div></section>
+	<section class="slide"><div>
+	<img src="pics/demo23.png" class="place" />
+	</div></section>
+	<section class="slide shout"><div>
+	<h2>道路、橋樑、隧道</h2>
+	</div></section>
+	<section class="slide"><div>
+	<img src="pics/demo24-1.png" class="place" />
+	</div></section>
+	<section class="slide"><div>
+	<img src="pics/demo24-2.png" class="place" />
+	</div></section>
+	<section class="slide"><div>
+	<h2>Feature of Highway: example</h2>
+	<table>
+		<tr>
+			<th>Key</th>
+			<th>Value</th>
+			<th>說明</th></tr>
+		<tr>
+			<td>highway</td>
+			<td>tertiary</td>
+			<td>這是一條鄉道</td></tr>
+		<tr>
+			<td>name</td>
+			<td>大馬路</td>
+			<td>路名</td></tr>
+		<tr>
+			<td>name:en</td>
+			<td>Dama Rd.</td>
+			<td>英文路名</td></tr>
+		<tr>
+			<td>ref</td>
+			<td>中26</td>
+			<td>道路編號</td></tr>
+		<tr>
+			<td>ref:en</td>
+			<td>TC26</td>
+			<td>英文道路編號</td></tr>
+	
+	</table>
+	<p class="source"><a href="http://www.openstreetmap.org/way/228549943">OpenStreetMap 圖資</a></p>
+	</div></section>
+	<section class="slide"><div>
+	<img src="pics/demo25-1.png" class="place" />
+	</div></section>
+	<section class="slide twocol"><div>
+	<div class="left"><img src="pics/demo25-2.png" /></div>
+	<div class="right"><img src="pics/demo25-3.png" /></div>
+	</div></section>
+	<section class="slide shout"><div>
+	<h2>注意!!</h2>
+	</div></section>
+	<section class="slide"><div>
+	<h2>橋樑、隧道的端點</h2>
+	<img src="pics/Tunnel-Junction-Connection.png" class="place" />
+	<p class="source"><a href="http://wiki.openstreetmap.org/wiki/Project_of_the_week/2011/Feb_23">OSM wiki</a></p>
+	</div></section>
+	<section class="slide"><div>
+	<h2>Layers</h2>
+	<img src="pics/Layers.png" class="place" />
+	<p class="source"><a href="http://wiki.openstreetmap.org/wiki/Project_of_the_week/2011/Feb_23">OSM wiki</a></p>
+	</div></section>
+	<section class="slide"><div>
+	<h2>思考一下 這要怎麼標</h2>
+	<ul>
+		<li>中間有一塊住宅區的農田</li>
+		<li>公車路線</li>
+		<li>禁止左轉的路口</li></ul>
+	<p class="next"><a href="http://wiki.openstreetmap.org/wiki/Relation">關係 (relation)</a>就是設計來處理這樣的問題。</p>
+	<p class="next">iD 也可以編輯關係，但我想之後用 JOSM 示範。</p>
+	</div></section>	
+	<section class="slide shout"><div>
+	<h2>iD 不是我的最愛</h2>
+	</div></section>
+	<section class="slide"><div>
+	<h2>iD 的優點</h2>
+	<ul>
+		<li>在大多數最新的瀏覽器皆可執行 (包含 IE 和 Safari on iPad)</li>
+		<li>介面惹人愛</li>
+		<li>可滿足大多數的需求</li></ul>
+	</div></section>
+	<section class="slide"><div>
+	<h2>iD 相對於 JOSM 的弱點</h2>
+	<ul>
+		<li>無法調解編輯衝突</li>
+		<li>Validator 涵蓋不夠完整</li>
+		<li>沒有過濾器的功能</li>
+		<li>編輯關係仍不算方便</li>
+		<li>可以自訂的功能比較少 (eg: 預設組合、快速鍵)</li></ul>
+	</div></section>
+	<section class="slide shout"><div>
+	<h2>請下載並安裝 <a class="shake shake-constant shake-slow hover-stop" href="http://josm.openstreetmap.de/" target="_blank">JOSM</a></h2>
+	</div></section>
+	<section class="slide"><div>
+	<h2>JOSM 和 iD 操作方式的不同</h2>
+	<ul>
+		<li>需額外安裝程式</li>
+		<li>離線版的編輯器 (offline editor)</li>
+		<li>用<mark>右鍵</mark>移動地圖</li>
+		<li>有很多很多 plug-in</li></ul>
+	</div></section>
+	<section class="slide"><div>
+	<h2>下載資料</h2>
+	<img src="pics/josm-01.png" width="60%"/>
+	</div></section>
+	<section class="slide"><div>
+	<h2>檢視空照圖</h2>
+	<img src="pics/josm-02.png" />
+	</div></section>
+	<section class="slide"><div>
+	<h2>開啟本地端 GPX 或圖片</h2>
+	<img src="pics/josm-03.png" width="70%"/>
+	</div></section>
+	<section class="slide"><div>
+	<img src="pics/josm-04.png" width="80%"/>
+	</div></section>
+	<section class="slide"><div>
+	<h2>Filter</h2>
+	<img src="pics/josm-05.png" />
+	</div></section>
+	<section class="slide"><div>
+	<h2>Filter</h2>
+	<img src="pics/josm-06.png" width="70%"/>
+	</div></section>
+	<section class="slide"><div>
+	<h2>新增機車行</h2>
+	<img src="pics/josm-07.png" width="50%"/>
+	</div></section>
+	<section class="slide"><div>
+	<h2>新增機車行</h2>
+	<img src="pics/josm-08.png" width="50%"/>
+	</div></section>
+	<section class="slide"><div>
+	<h2>新增道路</h2>
+	<img src="pics/josm-09.png" width="50%" />
+	</div></section>
+	<section class="slide"><div>
+	<h2>新增預設組合</h2>
+	<img src="pics/josm-10.png"  width="70%"/>
+	</div></section>
+	<section class="slide"><div>
+	<h2>關係：土地利用</h2>
+	<img src="pics/josm-11.png"  width="50%"/>
+	</div></section>
+	<section class="slide"><div>
+	<h2>關係：土地利用</h2>
+	<img src="pics/josm-12.png"  width="50%"/>
+	</div></section>
+	<section class="slide twocol"><div>
+	<div class="left"><img src="pics/multipolygon1.svg" /></div>
+	<div class="right">
+		<table>
+			<tr>
+				<th>member</th>
+				<th>role</th></tr>
+			<tr>
+				<td>1</td>
+				<td>outer</td></tr>
+			<tr>
+				<td>4</td>
+				<td>outer</td></tr>
+			<tr>
+				<td>3</td>
+				<td>outer</td></tr>		
+		</table>
+		<table class="next">
+			<tr>
+				<th>member</th>
+				<th>role</th></tr>
+			<tr>
+				<td>2</td>
+				<td>outer</td></tr>
+			<tr>
+				<td>3</td>
+				<td>outer</td></tr>		
+		</table>
+	</div>
+	<p class="source"><a href="http://wiki.openstreetmap.org/wiki/Relation:multipolygon">OSM wiki</a></p>
+	</div></section>
+	<section class="slide twocol"><div>
+	<div class="left"><img src="pics/multipolygon2.svg" /></div>
+	<div class="right">
+		<table class="next">
+			<tr>
+				<th>member</th>
+				<th>role</th></tr>
+			<tr>
+				<td>1</td>
+				<td>outer</td></tr>
+			<tr>
+				<td>2</td>
+				<td>outer</td></tr>
+			<tr class="next">
+				<td>3</td>
+				<td>inner</td></tr>		
+		</table>
+	</div>
+	<p class="source"><a href="http://wiki.openstreetmap.org/wiki/Relation:multipolygon">OSM wiki</a></p>
+	</div></section>
+	<section class="slide twocol"><div>
+	<div class="left"><img src="pics/multipolygon3.svg" /></div>
+	<div class="right">
+		<table class="next">
+			<tr>
+				<th>member</th>
+				<th>role</th></tr>
+			<tr>
+				<td>1</td>
+				<td>outer</td></tr>
+			<tr>
+				<td>2</td>
+				<td>inner</td></tr>
+			<tr class="next">
+				<td>3</td>
+				<td>outer</td></tr>		
+		</table>
+	</div>
+	<p class="source"><a href="http://wiki.openstreetmap.org/wiki/Relation:multipolygon">OSM wiki</a></p>
+	</div></section>
+	<section class="slide twocol"><div>
+	<div class="left"><img src="pics/multipolygon4.svg" /></div>
+	<div class="right">
+		<table class="next">
+			<tr>
+				<th>member</th>
+				<th>role</th></tr>
+			<tr>
+				<td>1~4</td>
+				<td>outer</td></tr>
+			<tr>
+				<td>5~6, 7~10, 11</td>
+				<td>inner</td></tr>
+			<tr>
+				<td>12~15</td>
+				<td>outer</td></tr>
+			<tr>
+				<td>16~19</td>
+				<td>inner</td></tr>
+			<tr>
+				<td>20</td>
+				<td>outer</td></tr>
+		</table>
+	</div>
+	<p class="source"><a href="http://wiki.openstreetmap.org/wiki/Relation:multipolygon">OSM wiki</a></p>
+	</div></section>
+	<section class="slide"><div>
+	<h2>關係：公車路線</h2>
+	<img src="pics/josm-13.png"  width="50%"/>
+	</div></section>
+	<section class="slide twocol"><div>
+	<h2>關係：禁止左轉</h2>
+	<div class="left"><img src="pics/josm-14.png" width="100%"/></div>
+	<div class="right"><img src="pics/demo26.png" width="100%"/></div>
+	<p class="source">詳情請看：<a href="wiki.openstreetmap.org/wiki/Relation:restriction">OSM wiki</a></p>
+	</div></section>
+	<section class="slide shout"><div>
+	<h2>Happy Mapping</h2>
+	</div></section>
+	<p class="badge"><a href="https://github.com/shower/shower">Fork me on Github</a></p>
+	<!--
+		To hide progress bar from entire presentation
+		just remove “progress” element.
+		-->
+	<div class="progress"><div></div></div>
+	<script src="lib/shower/shower.min.js"></script>
+	<!-- Copyright 2013 Yours Truly, Famous Inc. -->
+	<!-- Photos by John Carey, fiftyfootshadows.net -->
+</body>
+</html>
