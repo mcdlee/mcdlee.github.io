@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+   <link rel="stylesheet" href="https://rawgit.com/andrewgiessel/leafletstuff/master/leaflet.css" />
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.js"></script>
+
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+
+   <link rel="stylesheet" href="https://rawgit.com/lvoogdt/Leaflet.awesome-markers/2.0/develop/dist/leaflet.awesome-markers.css">
+   <script src="https://rawgithub.com/lvoogdt/Leaflet.awesome-markers/2.0/develop/dist/leaflet.awesome-markers.js"></script>
+
+
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/0.4.0/MarkerCluster.Default.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/0.4.0/MarkerCluster.css">
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/0.4.0/leaflet.markercluster-src.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/0.4.0/leaflet.markercluster.js"></script>
+
+   <link rel="stylesheet" href="https://birdage.github.io/Leaflet.awesome-markers/dist/leaflet.awesome.rotate.css">
+
+   
+   
+   
+   
+
+   <style>
+
+      html, body {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+
+      #map {
+        position:absolute;
+        top:0;
+        bottom:0;
+        right:0;
+        left:0;
+      }
+
+   </style>
+</head>
+
+<body>
+
+   <div class="folium-map" id="folium_89356fdabe2e40be99096ae2c30cadbf" style="width: 100%; height: 100%"></div>
+
+   <script>
+
+      
+
+      var base_tile = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+          maxZoom: 18,
+          minZoom: 1,
+          attribution: 'Map data (c) <a href="http://openstreetmap.org">OpenStreetMap</a> contributors'
+      });
+
+      var baseLayer = {
+        "Base Layer": base_tile
+      };
+
+      /*
+      addition of the wms layers
+      */
+
+      
+
+      /*
+      addition of the tile layers
+      */
+      
+
+      /*
+      list of layers to be added
+      */
+      var layer_list = {
+      
+      };
+
+      /*
+      Bounding box.
+      */
+      var southWest = L.latLng(-90, -180),
+          northEast = L.latLng(90, 180),
+          bounds = L.latLngBounds(southWest, northEast);
+
+      /*
+      Creates the map and adds the selected layers
+      */
+      var map = L.map('folium_89356fdabe2e40be99096ae2c30cadbf', {
+                                       center:[22.605, 120.3],
+                                       zoom: 15,
+                                       maxBounds: bounds,
+                                       layers: [base_tile]
+                                     });
+
+      L.control.layers(baseLayer, layer_list).addTo(map);
+
+      /*
+      addition of the image layers
+      */
+      
+      
+      //cluster group
+      var clusteredmarkers = L.markerClusterGroup();
+      //section for adding clustered markers
+      
+      //add the clustered markers to the group anyway
+      map.addLayer(clusteredmarkers);
+
+      
+
+      
+
+      
+      var latLngs = [ [22.6059887, 120.3092002],  [22.6037204, 120.3092002],  [22.6037204, 120.3065418],  [22.6059887, 120.3065418],  [22.6059887, 120.3092002], ];
+var line_1 = L.polyline(latLngs,{
+
+
+
+});
+      line_1.bindPopup("<a href=\"http://www.openstreetmap.org/changeset/35481765\">35481765</a>, mcdlee, &#29509;&#30002;&#22283;&#20013; #mappingparty");
+      line_1._popup.options.maxWidth = 300;
+      map.addLayer(line_1);
+      
+      var latLngs = [ [22.6052398, 120.3083403],  [22.6051585, 120.3083403],  [22.6051585, 120.3082438],  [22.6052398, 120.3082438],  [22.6052398, 120.3083403], ];
+var line_2 = L.polyline(latLngs,{
+
+
+
+});
+      line_2.bindPopup("<a href=\"http://www.openstreetmap.org/changeset/35481822\">35481822</a>, mcdlee, &#29509;&#30002;&#22283;&#20013; #mappingparty");
+      line_2._popup.options.maxWidth = 300;
+      map.addLayer(line_2);
+      
+      var latLngs = [ [22.6050306, 120.3079909],  [22.6050306, 120.3079909],  [22.6050306, 120.3079909],  [22.6050306, 120.3079909],  [22.6050306, 120.3079909], ];
+var line_3 = L.polyline(latLngs,{
+
+
+
+});
+      line_3.bindPopup("<a href=\"http://www.openstreetmap.org/changeset/35481881\">35481881</a>, mcdlee, &#29509;&#30002;&#22283;&#20013; #mappingparty");
+      line_3._popup.options.maxWidth = 300;
+      map.addLayer(line_3);
+      
+      var latLngs = [ [22.6083452, 120.3095099],  [22.6082411, 120.3095099],  [22.6082411, 120.3093905],  [22.6083452, 120.3093905],  [22.6083452, 120.3095099], ];
+var line_4 = L.polyline(latLngs,{
+
+
+
+});
+      line_4.bindPopup("<a href=\"http://www.openstreetmap.org/changeset/35481956\">35481956</a>, s8321414, &#20844;&#24257;");
+      line_4._popup.options.maxWidth = 300;
+      map.addLayer(line_4);
+      
+      var latLngs = [ [22.6082959, 120.3094525],  [22.6082959, 120.3094525],  [22.6082959, 120.3094525],  [22.6082959, 120.3094525],  [22.6082959, 120.3094525], ];
+var line_5 = L.polyline(latLngs,{
+
+
+
+});
+      line_5.bindPopup("<a href=\"http://www.openstreetmap.org/changeset/35481988\">35481988</a>, s8321414, &#20844;&#24257;&#65306;&#28961;&#38556;&#31001;&#24257;&#25152;");
+      line_5._popup.options.maxWidth = 300;
+      map.addLayer(line_5);
+      
+      var latLngs = [ [22.6073048, 120.3079578],  [22.6070918, 120.3079578],  [22.6070918, 120.3077606],  [22.6073048, 120.3077606],  [22.6073048, 120.3079578], ];
+var line_6 = L.polyline(latLngs,{
+
+
+
+});
+      line_6.bindPopup("<a href=\"http://www.openstreetmap.org/changeset/35482075\">35482075</a>, s8321414, &#32769;&#20154;&#27963;&#21205;&#20013;&#24515;");
+      line_6._popup.options.maxWidth = 300;
+      map.addLayer(line_6);
+      
+      var latLngs = [ [22.6081175, 120.3101035],  [22.6072186, 120.3101035],  [22.6072186, 120.3091325],  [22.6081175, 120.3091325],  [22.6081175, 120.3101035], ];
+var line_7 = L.polyline(latLngs,{
+
+
+
+});
+      line_7.bindPopup("<a href=\"http://www.openstreetmap.org/changeset/35482236\">35482236</a>, s8321414, &#20154;&#34892;&#36947;");
+      line_7._popup.options.maxWidth = 300;
+      map.addLayer(line_7);
+      
+      var latLngs = [ [22.60494, 120.3075572],  [22.6048608, 120.3075572],  [22.6048608, 120.3075384],  [22.60494, 120.3075384],  [22.60494, 120.3075572], ];
+var line_8 = L.polyline(latLngs,{
+
+
+
+});
+      line_8.bindPopup("<a href=\"http://www.openstreetmap.org/changeset/35482238\">35482238</a>, xiao lin, .");
+      line_8._popup.options.maxWidth = 300;
+      map.addLayer(line_8);
+      
+      var latLngs = [ [22.6060674, 120.3091662],  [22.6035879, 120.3091662],  [22.6035879, 120.3065046],  [22.6060674, 120.3065046],  [22.6060674, 120.3091662], ];
+var line_9 = L.polyline(latLngs,{
+
+
+
+});
+      line_9.bindPopup("<a href=\"http://www.openstreetmap.org/changeset/35482266\">35482266</a>, mcdlee, &#29509;&#30002;&#22283;&#20013; roof modeling #mappingparty");
+      line_9._popup.options.maxWidth = 300;
+      map.addLayer(line_9);
+      
+      var latLngs = [ [22.6059942, 120.3092349],  [22.6036367, 120.3092349],  [22.6036367, 120.3064799],  [22.6059942, 120.3064799],  [22.6059942, 120.3092349], ];
+var line_10 = L.polyline(latLngs,{
+
+
+
+});
+      line_10.bindPopup("<a href=\"http://www.openstreetmap.org/changeset/35482336\">35482336</a>, &#26575;&#26031;&#21520;, #mappingparty");
+      line_10._popup.options.maxWidth = 300;
+      map.addLayer(line_10);
+      
+      var latLngs = [ [22.6043559, 120.3077774],  [22.6041426, 120.3077774],  [22.6041426, 120.3076214],  [22.6043559, 120.3076214],  [22.6043559, 120.3077774], ];
+var line_11 = L.polyline(latLngs,{
+
+
+
+});
+      line_11.bindPopup("<a href=\"http://www.openstreetmap.org/changeset/35482395\">35482395</a>, &#26575;&#26031;&#21520;, #mappingparty");
+      line_11._popup.options.maxWidth = 300;
+      map.addLayer(line_11);
+      
+      var latLngs = [ [22.60494, 120.3075572],  [22.6048608, 120.3075572],  [22.6048608, 120.3075384],  [22.60494, 120.3075384],  [22.60494, 120.3075572], ];
+var line_12 = L.polyline(latLngs,{
+
+
+
+});
+      line_12.bindPopup("<a href=\"http://www.openstreetmap.org/changeset/35482401\">35482401</a>, xiao lin, .");
+      line_12._popup.options.maxWidth = 300;
+      map.addLayer(line_12);
+      
+      var latLngs = [ [22.6080313, 120.3099689],  [22.6074351, 120.3099689],  [22.6074351, 120.3092771],  [22.6080313, 120.3092771],  [22.6080313, 120.3099689], ];
+var line_13 = L.polyline(latLngs,{
+
+
+
+});
+      line_13.bindPopup("<a href=\"http://www.openstreetmap.org/changeset/35482448\">35482448</a>, s8321414, &#21214;&#24037;&#32946;&#27138;&#20013;&#24515;");
+      line_13._popup.options.maxWidth = 300;
+      map.addLayer(line_13);
+      
+      var latLngs = [ [22.6076432, 120.3094969],  [22.6076432, 120.3094969],  [22.6076432, 120.3094969],  [22.6076432, 120.3094969],  [22.6076432, 120.3094969], ];
+var line_14 = L.polyline(latLngs,{
+
+
+
+});
+      line_14.bindPopup("<a href=\"http://www.openstreetmap.org/changeset/35482466\">35482466</a>, s8321414, &#21214;&#24037;&#32946;&#27138;&#20013;&#24515;");
+      line_14._popup.options.maxWidth = 300;
+      map.addLayer(line_14);
+      
+      var latLngs = [ [22.605881, 120.3091396],  [22.6037271, 120.3091396],  [22.6037271, 120.3066155],  [22.605881, 120.3066155],  [22.605881, 120.3091396], ];
+var line_15 = L.polyline(latLngs,{
+
+
+
+});
+      line_15.bindPopup("<a href=\"http://www.openstreetmap.org/changeset/35482468\">35482468</a>, &#26575;&#26031;&#21520;, #mappingparty");
+      line_15._popup.options.maxWidth = 300;
+      map.addLayer(line_15);
+      
+      var latLngs = [ [22.604782, 120.3086996],  [22.603674, 120.3086996],  [22.603674, 120.3070468],  [22.604782, 120.3070468],  [22.604782, 120.3086996], ];
+var line_16 = L.polyline(latLngs,{
+
+
+
+});
+      line_16.bindPopup("<a href=\"http://www.openstreetmap.org/changeset/35482530\">35482530</a>, &#26575;&#26031;&#21520;, #mappingparty");
+      line_16._popup.options.maxWidth = 300;
+      map.addLayer(line_16);
+      
+      var latLngs = [ [22.6058457, 120.3090151],  [22.6037443, 120.3090151],  [22.6037443, 120.3066283],  [22.6058457, 120.3066283],  [22.6058457, 120.3090151], ];
+var line_17 = L.polyline(latLngs,{
+
+
+
+});
+      line_17.bindPopup("<a href=\"http://www.openstreetmap.org/changeset/35482586\">35482586</a>, s8321414, &#29509;&#30002;&#22283;&#20013;");
+      line_17._popup.options.maxWidth = 300;
+      map.addLayer(line_17);
+      
+      var latLngs = [ [22.6062065, 120.3078167],  [22.6062065, 120.3078167],  [22.6062065, 120.3078167],  [22.6062065, 120.3078167],  [22.6062065, 120.3078167], ];
+var line_18 = L.polyline(latLngs,{
+
+
+
+});
+      line_18.bindPopup("<a href=\"http://www.openstreetmap.org/changeset/35482622\">35482622</a>, s8321414, &#29509;&#30002;&#31449;");
+      line_18._popup.options.maxWidth = 300;
+      map.addLayer(line_18);
+      
+      var latLngs = [ [22.6084751, 120.3102155],  [22.6070733, 120.3102155],  [22.6070733, 120.3090362],  [22.6084751, 120.3090362],  [22.6084751, 120.3102155], ];
+var line_19 = L.polyline(latLngs,{
+
+
+
+});
+      line_19.bindPopup("<a href=\"http://www.openstreetmap.org/changeset/35482659\">35482659</a>, yellowsoar, &#32232;&#36655;&#39640;&#38596;&#21214;&#24037;&#20844;&#22290;");
+      line_19._popup.options.maxWidth = 300;
+      map.addLayer(line_19);
+      
+      var latLngs = [ [22.6052457, 120.3021574],  [22.6046833, 120.3021574],  [22.6046833, 120.3015749],  [22.6052457, 120.3015749],  [22.6052457, 120.3021574], ];
+var line_20 = L.polyline(latLngs,{
+
+
+
+});
+      line_20.bindPopup("<a href=\"http://www.openstreetmap.org/changeset/35482769\">35482769</a>, s8321414, &#20013;&#37628;&#22823;&#27155;");
+      line_20._popup.options.maxWidth = 300;
+      map.addLayer(line_20);
+      
+      var latLngs = [ [22.6071789, 120.3084035],  [22.6068657, 120.3084035],  [22.6068657, 120.3080609],  [22.6071789, 120.3080609],  [22.6071789, 120.3084035], ];
+var line_21 = L.polyline(latLngs,{
+
+
+
+});
+      line_21.bindPopup("<a href=\"http://www.openstreetmap.org/changeset/35509768\">35509768</a>, s8321414, &#39640;&#25463;&#32005;&#32218;&#24037;&#27556;&#32000;&#24565;&#30865;");
+      line_21._popup.options.maxWidth = 300;
+      map.addLayer(line_21);
+      
+      var latLngs = [ [22.6052882, 120.3089306],  [22.604126, 120.3089306],  [22.604126, 120.3074899],  [22.6052882, 120.3074899],  [22.6052882, 120.3089306], ];
+var line_22 = L.polyline(latLngs,{
+
+
+
+});
+      line_22.bindPopup("<a href=\"http://www.openstreetmap.org/changeset/35510511\">35510511</a>, mcdlee, &#29509;&#30002;&#22283;&#20013; roof modeling #mappingparty");
+      line_22._popup.options.maxWidth = 300;
+      map.addLayer(line_22);
+      
+      var latLngs = [ [22.6072468, 120.3091495],  [22.6036794, 120.3091495],  [22.6036794, 120.305869],  [22.6072468, 120.305869],  [22.6072468, 120.3091495], ];
+var line_23 = L.polyline(latLngs,{
+
+
+
+});
+      line_23.bindPopup("<a href=\"http://www.openstreetmap.org/changeset/35511990\">35511990</a>, Supaplex, &#29509;&#30002;&#22283;&#20013;&#12289;&#29509;&#30002;&#22283;&#23567;");
+      line_23._popup.options.maxWidth = 300;
+      map.addLayer(line_23);
+      
+      var latLngs = [ [22.6075472, 120.3095277],  [22.6075472, 120.3095277],  [22.6075472, 120.3095277],  [22.6075472, 120.3095277],  [22.6075472, 120.3095277], ];
+var line_24 = L.polyline(latLngs,{
+
+
+
+});
+      line_24.bindPopup("<a href=\"http://www.openstreetmap.org/changeset/35523256\">35523256</a>, s8321414, &#39640;&#38596;&#21214;&#24037;&#20844;&#22290;");
+      line_24._popup.options.maxWidth = 300;
+      map.addLayer(line_24);
+      
+      var latLngs = [ [22.6091306, 120.311051],  [22.6053159, 120.311051],  [22.6053159, 120.3074379],  [22.6091306, 120.3074379],  [22.6091306, 120.311051], ];
+var line_25 = L.polyline(latLngs,{
+
+
+
+});
+      line_25.bindPopup("<a href=\"http://www.openstreetmap.org/changeset/35523275\">35523275</a>, s8321414, &#39640;&#38596;&#21214;&#24037;&#20844;&#22290;");
+      line_25._popup.options.maxWidth = 300;
+      map.addLayer(line_25);
+      
+      var latLngs = [ [22.6081177, 120.3090864],  [22.6076077, 120.3090864],  [22.6076077, 120.3084942],  [22.6081177, 120.3084942],  [22.6081177, 120.3090864], ];
+var line_26 = L.polyline(latLngs,{
+
+
+
+});
+      line_26.bindPopup("<a href=\"http://www.openstreetmap.org/changeset/35523279\">35523279</a>, s8321414, &#39640;&#38596;&#21214;&#24037;&#20844;&#22290;");
+      line_26._popup.options.maxWidth = 300;
+      map.addLayer(line_26);
+      
+      var latLngs = [ [22.6047391, 120.3076783],  [22.6042312, 120.3076783],  [22.6042312, 120.3071618],  [22.6047391, 120.3071618],  [22.6047391, 120.3076783], ];
+var line_27 = L.polyline(latLngs,{
+
+
+
+});
+      line_27.bindPopup("<a href=\"http://www.openstreetmap.org/changeset/35523307\">35523307</a>, mcdlee, &#29509;&#30002;&#22283;&#20013; #mappingparty");
+      line_27._popup.options.maxWidth = 300;
+      map.addLayer(line_27);
+      
+      var latLngs = [ [22.6076075, 120.3090464],  [22.6075084, 120.3090464],  [22.6075084, 120.3089168],  [22.6076075, 120.3089168],  [22.6076075, 120.3090464], ];
+var line_28 = L.polyline(latLngs,{
+
+
+
+});
+      line_28.bindPopup("<a href=\"http://www.openstreetmap.org/changeset/35523338\">35523338</a>, s8321414, &#39640;&#38596;&#21214;&#24037;&#20844;&#22290;");
+      line_28._popup.options.maxWidth = 300;
+      map.addLayer(line_28);
+      
+      var latLngs = [ [22.6079382, 120.3101697],  [22.6067283, 120.3101697],  [22.6067283, 120.3086904],  [22.6079382, 120.3086904],  [22.6079382, 120.3101697], ];
+var line_29 = L.polyline(latLngs,{
+
+
+
+});
+      line_29.bindPopup("<a href=\"http://www.openstreetmap.org/changeset/35523348\">35523348</a>, s8321414, &#39640;&#38596;&#21214;&#24037;&#20844;&#22290;");
+      line_29._popup.options.maxWidth = 300;
+      map.addLayer(line_29);
+      
+      var latLngs = [ [22.6082776, 120.3102129],  [22.6071336, 120.3102129],  [22.6071336, 120.3090093],  [22.6082776, 120.3090093],  [22.6082776, 120.3102129], ];
+var line_30 = L.polyline(latLngs,{
+
+
+
+});
+      line_30.bindPopup("<a href=\"http://www.openstreetmap.org/changeset/35523403\">35523403</a>, s8321414, &#39640;&#38596;&#21214;&#24037;&#20844;&#22290;");
+      line_30._popup.options.maxWidth = 300;
+      map.addLayer(line_30);
+      
+      var latLngs = [ [22.6076974, 120.3097133],  [22.6072153, 120.3097133],  [22.6072153, 120.3091275],  [22.6076974, 120.3091275],  [22.6076974, 120.3097133], ];
+var line_31 = L.polyline(latLngs,{
+
+
+
+});
+      line_31.bindPopup("<a href=\"http://www.openstreetmap.org/changeset/35523446\">35523446</a>, s8321414, &#39640;&#38596;&#21214;&#24037;&#20844;&#22290;");
+      line_31._popup.options.maxWidth = 300;
+      map.addLayer(line_31);
+      
+      var latLngs = [ [22.6080608, 120.3100095],  [22.607364, 120.3100095],  [22.607364, 120.3092457],  [22.6080608, 120.3092457],  [22.6080608, 120.3100095], ];
+var line_32 = L.polyline(latLngs,{
+
+
+
+});
+      line_32.bindPopup("<a href=\"http://www.openstreetmap.org/changeset/35523460\">35523460</a>, s8321414, &#39640;&#38596;&#21214;&#24037;&#20844;&#22290;");
+      line_32._popup.options.maxWidth = 300;
+      map.addLayer(line_32);
+      
+      var latLngs = [ [22.6076565, 120.3096632],  [22.6073599, 120.3096632],  [22.6073599, 120.3093411],  [22.6076565, 120.3093411],  [22.6076565, 120.3096632], ];
+var line_33 = L.polyline(latLngs,{
+
+
+
+});
+      line_33.bindPopup("<a href=\"http://www.openstreetmap.org/changeset/35523469\">35523469</a>, s8321414, &#39640;&#38596;&#21214;&#24037;&#20844;&#22290;");
+      line_33._popup.options.maxWidth = 300;
+      map.addLayer(line_33);
+      
+      var latLngs = [ [22.6075231, 120.3095076],  [22.6073944, 120.3095076],  [22.6073944, 120.3093587],  [22.6075231, 120.3093587],  [22.6075231, 120.3095076], ];
+var line_34 = L.polyline(latLngs,{
+
+
+
+});
+      line_34.bindPopup("<a href=\"http://www.openstreetmap.org/changeset/35523493\">35523493</a>, s8321414, &#39640;&#38596;&#21214;&#24037;&#20844;&#22290;");
+      line_34._popup.options.maxWidth = 300;
+      map.addLayer(line_34);
+      
+      var latLngs = [ [22.6082729, 120.3100779],  [22.6073241, 120.3100779],  [22.6073241, 120.309035],  [22.6082729, 120.309035],  [22.6082729, 120.3100779], ];
+var line_35 = L.polyline(latLngs,{
+
+
+
+});
+      line_35.bindPopup("<a href=\"http://www.openstreetmap.org/changeset/35523550\">35523550</a>, s8321414, &#39640;&#38596;&#21214;&#24037;&#20844;&#22290;");
+      line_35._popup.options.maxWidth = 300;
+      map.addLayer(line_35);
+      
+      var latLngs = [ [22.6079743, 120.3099336],  [22.6073836, 120.3099336],  [22.6073836, 120.3093476],  [22.6079743, 120.3093476],  [22.6079743, 120.3099336], ];
+var line_36 = L.polyline(latLngs,{
+
+
+
+});
+      line_36.bindPopup("<a href=\"http://www.openstreetmap.org/changeset/35523627\">35523627</a>, s8321414, &#39640;&#38596;&#21214;&#24037;&#20844;&#22290;");
+      line_36._popup.options.maxWidth = 300;
+      map.addLayer(line_36);
+      
+      var latLngs = [ [22.6079772, 120.3099366],  [22.6078638, 120.3099366],  [22.6078638, 120.3098199],  [22.6079772, 120.3098199],  [22.6079772, 120.3099366], ];
+var line_37 = L.polyline(latLngs,{
+
+
+
+});
+      line_37.bindPopup("<a href=\"http://www.openstreetmap.org/changeset/35523682\">35523682</a>, s8321414, &#39640;&#38596;&#21214;&#24037;&#20844;&#22290;");
+      line_37._popup.options.maxWidth = 300;
+      map.addLayer(line_37);
+      
+      var latLngs = [ [22.6082764, 120.3101859],  [22.6071687, 120.3101859],  [22.6071687, 120.3095873],  [22.6082764, 120.3095873],  [22.6082764, 120.3101859], ];
+var line_38 = L.polyline(latLngs,{
+
+
+
+});
+      line_38.bindPopup("<a href=\"http://www.openstreetmap.org/changeset/35523719\">35523719</a>, s8321414, &#39640;&#38596;&#21214;&#24037;&#20844;&#22290;");
+      line_38._popup.options.maxWidth = 300;
+      map.addLayer(line_38);
+      
+      var latLngs = [ [22.6084161, 120.3096541],  [22.6081949, 120.3096541],  [22.6081949, 120.3094275],  [22.6084161, 120.3094275],  [22.6084161, 120.3096541], ];
+var line_39 = L.polyline(latLngs,{
+
+
+
+});
+      line_39.bindPopup("<a href=\"http://www.openstreetmap.org/changeset/35523772\">35523772</a>, s8321414, &#39640;&#38596;&#21214;&#24037;&#20844;&#22290;");
+      line_39._popup.options.maxWidth = 300;
+      map.addLayer(line_39);
+      
+      var latLngs = [ [22.6270445, 120.3230622],  [22.625429, 120.3230622],  [22.625429, 120.3213159],  [22.6270445, 120.3213159],  [22.6270445, 120.3230622], ];
+var line_40 = L.polyline(latLngs,{
+
+
+
+});
+      line_40.bindPopup("<a href=\"http://www.openstreetmap.org/changeset/35523821\">35523821</a>, s8321414, &#22283;&#31435;&#39640;&#38596;&#24107;&#31684;&#22823;&#23416;&#38468;&#23660;&#39640;&#32026;&#20013;&#23416;");
+      line_40._popup.options.maxWidth = 300;
+      map.addLayer(line_40);
+      
+      var latLngs = [ [22.6470915, 120.3110943],  [22.6470915, 120.3110943],  [22.6470915, 120.3110943],  [22.6470915, 120.3110943],  [22.6470915, 120.3110943], ];
+var line_41 = L.polyline(latLngs,{
+
+
+
+});
+      line_41.bindPopup("<a href=\"http://www.openstreetmap.org/changeset/35526461\">35526461</a>, jytr1024, solve note https://www.openstreetmap.org/note/469753#map=19/22.64707/120.31147");
+      line_41._popup.options.maxWidth = 300;
+      map.addLayer(line_41);
+      
+      var latLngs = [ [22.6272875, 120.2658446],  [22.6272875, 120.2658446],  [22.6272875, 120.2658446],  [22.6272875, 120.2658446],  [22.6272875, 120.2658446], ];
+var line_42 = L.polyline(latLngs,{
+
+
+
+});
+      line_42.bindPopup("<a href=\"http://www.openstreetmap.org/changeset/35564044\">35564044</a>, jytr1024, solve note https://www.openstreetmap.org/note/462736#map=19/22.62690/120.26609");
+      line_42._popup.options.maxWidth = 300;
+      map.addLayer(line_42);
+      
+
+      
+
+      
+
+      
+
+
+
+   </script>
+
+</body>
