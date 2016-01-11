@@ -1,0 +1,824 @@
+<!DOCTYPE html>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+   <link rel="stylesheet" href="https://rawgit.com/andrewgiessel/leafletstuff/master/leaflet.css" />
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.js"></script>
+
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+
+   <link rel="stylesheet" href="https://rawgit.com/lvoogdt/Leaflet.awesome-markers/2.0/develop/dist/leaflet.awesome-markers.css">
+   <script src="https://rawgithub.com/lvoogdt/Leaflet.awesome-markers/2.0/develop/dist/leaflet.awesome-markers.js"></script>
+
+
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/0.4.0/MarkerCluster.Default.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/0.4.0/MarkerCluster.css">
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/0.4.0/leaflet.markercluster-src.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/0.4.0/leaflet.markercluster.js"></script>
+
+   <link rel="stylesheet" href="https://birdage.github.io/Leaflet.awesome-markers/dist/leaflet.awesome.rotate.css">
+
+   
+   
+   
+   
+
+   <style>
+
+      html, body {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+
+      #map {
+        position:absolute;
+        top:0;
+        bottom:0;
+        right:0;
+        left:0;
+      }
+
+   </style>
+</head>
+
+<body>
+
+   <div class="folium-map" id="folium_3d95fe5318ad4a24a0b9cf0db94e0128" style="width: 100%; height: 100%"></div>
+
+   <script>
+
+      
+
+      var base_tile = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+          maxZoom: 18,
+          minZoom: 1,
+          attribution: 'Map data (c) <a href="http://openstreetmap.org">OpenStreetMap</a> contributors'
+      });
+
+      var baseLayer = {
+        "Base Layer": base_tile
+      };
+
+      /*
+      addition of the wms layers
+      */
+
+      
+
+      /*
+      addition of the tile layers
+      */
+      
+
+      /*
+      list of layers to be added
+      */
+      var layer_list = {
+      
+      };
+
+      /*
+      Bounding box.
+      */
+      var southWest = L.latLng(-90, -180),
+          northEast = L.latLng(90, 180),
+          bounds = L.latLngBounds(southWest, northEast);
+
+      /*
+      Creates the map and adds the selected layers
+      */
+      var map = L.map('folium_3d95fe5318ad4a24a0b9cf0db94e0128', {
+                                       center:[22.607, 120.309],
+                                       zoom: 16,
+                                       maxBounds: bounds,
+                                       layers: [base_tile]
+                                     });
+
+      L.control.layers(baseLayer, layer_list).addTo(map);
+
+      /*
+      addition of the image layers
+      */
+      
+      
+      //cluster group
+      var clusteredmarkers = L.markerClusterGroup();
+      //section for adding clustered markers
+      
+      //add the clustered markers to the group anyway
+      map.addLayer(clusteredmarkers);
+
+      
+
+      
+
+      
+      var latLngs = [ [22.6076159, 120.3094513],  [22.6076159, 120.3094513],  [22.6076159, 120.3094513],  [22.6076159, 120.3094513],  [22.6076159, 120.3094513], ];
+var line_1 = L.polyline(latLngs,{
+
+
+
+});
+      line_1.bindPopup("<a href=\"http://www.openstreetmap.org/changeset/36459186\">36459186</a>, yoi, add wheelchair access");
+      line_1._popup.options.maxWidth = 300;
+      map.addLayer(line_1);
+      
+      var latLngs = [ [22.6076108, 120.3094809],  [22.6076108, 120.3094809],  [22.6076108, 120.3094809],  [22.6076108, 120.3094809],  [22.6076108, 120.3094809], ];
+var line_2 = L.polyline(latLngs,{
+
+
+
+});
+      line_2.bindPopup("<a href=\"http://www.openstreetmap.org/changeset/36459206\">36459206</a>, yoi, add a public phone");
+      line_2._popup.options.maxWidth = 300;
+      map.addLayer(line_2);
+      
+      var latLngs = [ [22.6076752, 120.3095346],  [22.6076752, 120.3095346],  [22.6076752, 120.3095346],  [22.6076752, 120.3095346],  [22.6076752, 120.3095346], ];
+var line_3 = L.polyline(latLngs,{
+
+
+
+});
+      line_3.bindPopup("<a href=\"http://www.openstreetmap.org/changeset/36459219\">36459219</a>, yoi, add a public phone");
+      line_3._popup.options.maxWidth = 300;
+      map.addLayer(line_3);
+      
+      var latLngs = [ [22.6076238, 120.3098886],  [22.6076238, 120.3098886],  [22.6076238, 120.3098886],  [22.6076238, 120.3098886],  [22.6076238, 120.3098886], ];
+var line_4 = L.polyline(latLngs,{
+
+
+
+});
+      line_4.bindPopup("<a href=\"http://www.openstreetmap.org/changeset/36459230\">36459230</a>, yoi, add toilets");
+      line_4._popup.options.maxWidth = 300;
+      map.addLayer(line_4);
+      
+      var latLngs = [ [22.6078628, 120.3097512],  [22.6078628, 120.3097512],  [22.6078628, 120.3097512],  [22.6078628, 120.3097512],  [22.6078628, 120.3097512], ];
+var line_5 = L.polyline(latLngs,{
+
+
+
+});
+      line_5.bindPopup("<a href=\"http://www.openstreetmap.org/changeset/36459285\">36459285</a>, yoi, add a hostel");
+      line_5._popup.options.maxWidth = 300;
+      map.addLayer(line_5);
+      
+      var latLngs = [ [22.6075232, 120.309355],  [22.6075232, 120.309355],  [22.6075232, 120.309355],  [22.6075232, 120.309355],  [22.6075232, 120.309355], ];
+var line_6 = L.polyline(latLngs,{
+
+
+
+});
+      line_6.bindPopup("<a href=\"http://www.openstreetmap.org/changeset/36459315\">36459315</a>, yoi, add hydrant ");
+      line_6._popup.options.maxWidth = 300;
+      map.addLayer(line_6);
+      
+      var latLngs = [ [22.6073954, 120.3095326],  [22.6073954, 120.3095326],  [22.6073954, 120.3095326],  [22.6073954, 120.3095326],  [22.6073954, 120.3095326], ];
+var line_7 = L.polyline(latLngs,{
+
+
+
+});
+      line_7.bindPopup("<a href=\"http://www.openstreetmap.org/changeset/36459334\">36459334</a>, yoi, add fire hydrant ");
+      line_7._popup.options.maxWidth = 300;
+      map.addLayer(line_7);
+      
+      var latLngs = [ [22.60756, 120.3100191],  [22.6072889, 120.3100191],  [22.6072889, 120.309739],  [22.60756, 120.309739],  [22.60756, 120.3100191], ];
+var line_8 = L.polyline(latLngs,{
+
+
+
+});
+      line_8.bindPopup("<a href=\"http://www.openstreetmap.org/changeset/36459350\">36459350</a>, yoi, add motorbike parking space");
+      line_8._popup.options.maxWidth = 300;
+      map.addLayer(line_8);
+      
+      var latLngs = [ [22.6076406, 120.310701],  [22.6067565, 120.310701],  [22.6067565, 120.3097451],  [22.6076406, 120.3097451],  [22.6076406, 120.310701], ];
+var line_9 = L.polyline(latLngs,{
+
+
+
+});
+      line_9.bindPopup("<a href=\"http://www.openstreetmap.org/changeset/36459370\">36459370</a>, yoi, change the tag baseball court to cricket court");
+      line_9._popup.options.maxWidth = 300;
+      map.addLayer(line_9);
+      
+      var latLngs = [ [22.6073066, 120.3097594],  [22.6073066, 120.3097594],  [22.6073066, 120.3097594],  [22.6073066, 120.3097594],  [22.6073066, 120.3097594], ];
+var line_10 = L.polyline(latLngs,{
+
+
+
+});
+      line_10.bindPopup("<a href=\"http://www.openstreetmap.org/changeset/36459406\">36459406</a>, yoi, add a bollard");
+      line_10._popup.options.maxWidth = 300;
+      map.addLayer(line_10);
+      
+      var latLngs = [ [22.6079142, 120.3101655],  [22.6071762, 120.3101655],  [22.6071762, 120.3096686],  [22.6079142, 120.3096686],  [22.6079142, 120.3101655], ];
+var line_11 = L.polyline(latLngs,{
+
+
+
+});
+      line_11.bindPopup("<a href=\"http://www.openstreetmap.org/changeset/36459413\">36459413</a>, yoi, add a foot path");
+      line_11._popup.options.maxWidth = 300;
+      map.addLayer(line_11);
+      
+      var latLngs = [ [22.6092073, 120.3111411],  [22.605096, 120.3111411],  [22.605096, 120.3072871],  [22.6092073, 120.3072871],  [22.6092073, 120.3111411], ];
+var line_12 = L.polyline(latLngs,{
+
+
+
+});
+      line_12.bindPopup("<a href=\"http://www.openstreetmap.org/changeset/36459423\">36459423</a>, Kagami, &#29509;&#30002;&#21214;&#24037;&#20844;&#22290; &#8234;#&#8206;khmeetup&#8236;");
+      line_12._popup.options.maxWidth = 300;
+      map.addLayer(line_12);
+      
+      var latLngs = [ [22.6176851, 120.3146834],  [22.6045693, 120.3146834],  [22.6045693, 120.307261],  [22.6176851, 120.307261],  [22.6176851, 120.3146834], ];
+var line_13 = L.polyline(latLngs,{
+
+
+
+});
+      line_13.bindPopup("<a href=\"http://www.openstreetmap.org/changeset/36459424\">36459424</a>, mcdlee, &#39640;&#38596;&#24066;&#29509;&#30002;&#21214;&#24037;&#20844;&#22290; #khmeetup");
+      line_13._popup.options.maxWidth = 300;
+      map.addLayer(line_13);
+      
+      var latLngs = [ [22.6091071, 120.3111829],  [22.6052046, 120.3111829],  [22.6052046, 120.3072865],  [22.6091071, 120.3072865],  [22.6091071, 120.3111829], ];
+var line_14 = L.polyline(latLngs,{
+
+
+
+});
+      line_14.bindPopup("<a href=\"http://www.openstreetmap.org/changeset/36459484\">36459484</a>, yoi, add a foot path");
+      line_14._popup.options.maxWidth = 300;
+      map.addLayer(line_14);
+      
+      var latLngs = [ [22.6071983, 120.310306],  [22.6066072, 120.310306],  [22.6066072, 120.3096455],  [22.6071983, 120.3096455],  [22.6071983, 120.310306], ];
+var line_15 = L.polyline(latLngs,{
+
+
+
+});
+      line_15.bindPopup("<a href=\"http://www.openstreetmap.org/changeset/36459497\">36459497</a>, yoi, add a phone");
+      line_15._popup.options.maxWidth = 300;
+      map.addLayer(line_15);
+      
+      var latLngs = [ [22.6071384, 120.3097581],  [22.6070176, 120.3097581],  [22.6070176, 120.3096266],  [22.6071384, 120.3096266],  [22.6071384, 120.3097581], ];
+var line_16 = L.polyline(latLngs,{
+
+
+
+});
+      line_16.bindPopup("<a href=\"http://www.openstreetmap.org/changeset/36459506\">36459506</a>, yoi, add benches");
+      line_16._popup.options.maxWidth = 300;
+      map.addLayer(line_16);
+      
+      var latLngs = [ [22.6070789, 120.309691],  [22.6069452, 120.309691],  [22.6069452, 120.3093692],  [22.6070789, 120.3093692],  [22.6070789, 120.309691], ];
+var line_17 = L.polyline(latLngs,{
+
+
+
+});
+      line_17.bindPopup("<a href=\"http://www.openstreetmap.org/changeset/36459515\">36459515</a>, yoi, add benches");
+      line_17._popup.options.maxWidth = 300;
+      map.addLayer(line_17);
+      
+      var latLngs = [ [22.6066493, 120.309406],  [22.6066493, 120.309406],  [22.6066493, 120.309406],  [22.6066493, 120.309406],  [22.6066493, 120.309406], ];
+var line_18 = L.polyline(latLngs,{
+
+
+
+});
+      line_18.bindPopup("<a href=\"http://www.openstreetmap.org/changeset/36459559\">36459559</a>, yoi, add a memorial");
+      line_18._popup.options.maxWidth = 300;
+      map.addLayer(line_18);
+      
+      var latLngs = [ [22.6061488, 120.308595],  [22.6057882, 120.308595],  [22.6057882, 120.3084043],  [22.6061488, 120.3084043],  [22.6061488, 120.308595], ];
+var line_19 = L.polyline(latLngs,{
+
+
+
+});
+      line_19.bindPopup("<a href=\"http://www.openstreetmap.org/changeset/36459598\">36459598</a>, yoi, add benches and CCTV");
+      line_19._popup.options.maxWidth = 300;
+      map.addLayer(line_19);
+      
+      var latLngs = [ [22.6064945, 120.3080079],  [22.6064177, 120.3080079],  [22.6064177, 120.307938],  [22.6064945, 120.307938],  [22.6064945, 120.3080079], ];
+var line_20 = L.polyline(latLngs,{
+
+
+
+});
+      line_20.bindPopup("<a href=\"http://www.openstreetmap.org/changeset/36459630\">36459630</a>, yoi, add disabled parking space");
+      line_20._popup.options.maxWidth = 300;
+      map.addLayer(line_20);
+      
+      var latLngs = [ [22.6069911, 120.3076883],  [22.6068475, 120.3076883],  [22.6068475, 120.3075716],  [22.6069911, 120.3075716],  [22.6069911, 120.3076883], ];
+var line_21 = L.polyline(latLngs,{
+
+
+
+});
+      line_21.bindPopup("<a href=\"http://www.openstreetmap.org/changeset/36459643\">36459643</a>, yoi, add disabled parking space");
+      line_21._popup.options.maxWidth = 300;
+      map.addLayer(line_21);
+      
+      var latLngs = [ [22.6067859, 120.3078794],  [22.6067859, 120.3078794],  [22.6067859, 120.3078794],  [22.6067859, 120.3078794],  [22.6067859, 120.3078794], ];
+var line_22 = L.polyline(latLngs,{
+
+
+
+});
+      line_22.bindPopup("<a href=\"http://www.openstreetmap.org/changeset/36459653\">36459653</a>, yoi, add a fire hydrant ");
+      line_22._popup.options.maxWidth = 300;
+      map.addLayer(line_22);
+      
+      var latLngs = [ [22.6064945, 120.3080079],  [22.6064234, 120.3080079],  [22.6064234, 120.3079423],  [22.6064945, 120.3079423],  [22.6064945, 120.3080079], ];
+var line_23 = L.polyline(latLngs,{
+
+
+
+});
+      line_23.bindPopup("<a href=\"http://www.openstreetmap.org/changeset/36459662\">36459662</a>, yoi, edit a disabled parking space");
+      line_23._popup.options.maxWidth = 300;
+      map.addLayer(line_23);
+      
+      var latLngs = [ [22.6081372, 120.3109253],  [22.6066435, 120.3109253],  [22.6066435, 120.3080187],  [22.6081372, 120.3080187],  [22.6081372, 120.3109253], ];
+var line_24 = L.polyline(latLngs,{
+
+
+
+});
+      line_24.bindPopup("<a href=\"http://www.openstreetmap.org/changeset/36459677\">36459677</a>, Kagami, &#29509;&#30002;&#21214;&#24037;&#20844;&#22290; &#8234;#&#8206;khmeetup&#8236;");
+      line_24._popup.options.maxWidth = 300;
+      map.addLayer(line_24);
+      
+      var latLngs = [ [22.6073013, 120.3079621],  [22.607113, 120.3079621],  [22.607113, 120.3077746],  [22.6073013, 120.3077746],  [22.6073013, 120.3079621], ];
+var line_25 = L.polyline(latLngs,{
+
+
+
+});
+      line_25.bindPopup("<a href=\"http://www.openstreetmap.org/changeset/36459692\">36459692</a>, yoi, add name to the building");
+      line_25._popup.options.maxWidth = 300;
+      map.addLayer(line_25);
+      
+      var latLngs = [ [22.6072132, 120.3077454],  [22.6071644, 120.3077454],  [22.6071644, 120.3077011],  [22.6072132, 120.3077011],  [22.6072132, 120.3077454], ];
+var line_26 = L.polyline(latLngs,{
+
+
+
+});
+      line_26.bindPopup("<a href=\"http://www.openstreetmap.org/changeset/36459701\">36459701</a>, yoi, add a public toilet");
+      line_26._popup.options.maxWidth = 300;
+      map.addLayer(line_26);
+      
+      var latLngs = [ [22.6071266, 120.3084622],  [22.6071266, 120.3084622],  [22.6071266, 120.3084622],  [22.6071266, 120.3084622],  [22.6071266, 120.3084622], ];
+var line_27 = L.polyline(latLngs,{
+
+
+
+});
+      line_27.bindPopup("<a href=\"http://www.openstreetmap.org/changeset/36459717\">36459717</a>, yoi, add a bench");
+      line_27._popup.options.maxWidth = 300;
+      map.addLayer(line_27);
+      
+      var latLngs = [ [22.6071984, 120.3084126],  [22.6071984, 120.3084126],  [22.6071984, 120.3084126],  [22.6071984, 120.3084126],  [22.6071984, 120.3084126], ];
+var line_28 = L.polyline(latLngs,{
+
+
+
+});
+      line_28.bindPopup("<a href=\"http://www.openstreetmap.org/changeset/36459723\">36459723</a>, yoi, add a bench");
+      line_28._popup.options.maxWidth = 300;
+      map.addLayer(line_28);
+      
+      var latLngs = [ [22.6081217, 120.3085028],  [22.6077868, 120.3085028],  [22.6077868, 120.3080874],  [22.6081217, 120.3080874],  [22.6081217, 120.3085028], ];
+var line_29 = L.polyline(latLngs,{
+
+
+
+});
+      line_29.bindPopup("<a href=\"http://www.openstreetmap.org/changeset/36459764\">36459764</a>, yoi, add bus stop and motorbike parking");
+      line_29._popup.options.maxWidth = 300;
+      map.addLayer(line_29);
+      
+      var latLngs = [ [22.6082907, 120.3101435],  [22.6071478, 120.3101435],  [22.6071478, 120.3090552],  [22.6082907, 120.3090552],  [22.6082907, 120.3101435], ];
+var line_30 = L.polyline(latLngs,{
+
+
+
+});
+      line_30.bindPopup("<a href=\"http://www.openstreetmap.org/changeset/36459768\">36459768</a>, Kagami, &#29509;&#30002;&#21214;&#24037;&#20844;&#22290; &#8234;#&#8206;khmeetup&#8236;");
+      line_30._popup.options.maxWidth = 300;
+      map.addLayer(line_30);
+      
+      var latLngs = [ [22.6078913, 120.3082504],  [22.6078722, 120.3082504],  [22.6078722, 120.3082309],  [22.6078913, 120.3082309],  [22.6078913, 120.3082504], ];
+var line_31 = L.polyline(latLngs,{
+
+
+
+});
+      line_31.bindPopup("<a href=\"http://www.openstreetmap.org/changeset/36459770\">36459770</a>, yoi, add motorbike parking");
+      line_31._popup.options.maxWidth = 300;
+      map.addLayer(line_31);
+      
+      var latLngs = [ [22.60908, 120.3092869],  [22.6071904, 120.3092869],  [22.6071904, 120.3071841],  [22.60908, 120.3071841],  [22.60908, 120.3092869], ];
+var line_32 = L.polyline(latLngs,{
+
+
+
+});
+      line_32.bindPopup("<a href=\"http://www.openstreetmap.org/changeset/36459816\">36459816</a>, yoi, add street parking");
+      line_32._popup.options.maxWidth = 300;
+      map.addLayer(line_32);
+      
+      var latLngs = [ [22.6090094, 120.3109811],  [22.607274, 120.3109811],  [22.607274, 120.3079473],  [22.6090094, 120.3079473],  [22.6090094, 120.3109811], ];
+var line_33 = L.polyline(latLngs,{
+
+
+
+});
+      line_33.bindPopup("<a href=\"http://www.openstreetmap.org/changeset/36459838\">36459838</a>, yoi, add street parking");
+      line_33._popup.options.maxWidth = 300;
+      map.addLayer(line_33);
+      
+      var latLngs = [ [22.6085788, 120.3098447],  [22.6081769, 120.3098447],  [22.6081769, 120.309209],  [22.6085788, 120.309209],  [22.6085788, 120.3098447], ];
+var line_34 = L.polyline(latLngs,{
+
+
+
+});
+      line_34.bindPopup("<a href=\"http://www.openstreetmap.org/changeset/36459901\">36459901</a>, yoi, add benches and trees");
+      line_34._popup.options.maxWidth = 300;
+      map.addLayer(line_34);
+      
+      var latLngs = [ [22.6085669, 120.31037],  [22.6061772, 120.31037],  [22.6061772, 120.3075906],  [22.6085669, 120.3075906],  [22.6085669, 120.31037], ];
+var line_35 = L.polyline(latLngs,{
+
+
+
+});
+      line_35.bindPopup("<a href=\"http://www.openstreetmap.org/changeset/36459928\">36459928</a>, Kagami, &#29509;&#30002;&#21214;&#24037;&#20844;&#22290; &#8234;#&#8206;khmeetup&#8236;");
+      line_35._popup.options.maxWidth = 300;
+      map.addLayer(line_35);
+      
+      var latLngs = [ [22.6058971, 120.3094399],  [22.605442, 120.3094399],  [22.605442, 120.3089285],  [22.6058971, 120.3089285],  [22.6058971, 120.3094399], ];
+var line_36 = L.polyline(latLngs,{
+
+
+
+});
+      line_36.bindPopup("<a href=\"http://www.openstreetmap.org/changeset/36459948\">36459948</a>, yoi, add bicycle parking");
+      line_36._popup.options.maxWidth = 300;
+      map.addLayer(line_36);
+      
+      var latLngs = [ [22.6058117, 120.3093993],  [22.6053861, 120.3093993],  [22.6053861, 120.3089235],  [22.6058117, 120.3089235],  [22.6058117, 120.3093993], ];
+var line_37 = L.polyline(latLngs,{
+
+
+
+});
+      line_37.bindPopup("<a href=\"http://www.openstreetmap.org/changeset/36459961\">36459961</a>, yoi, add motorbike parking");
+      line_37._popup.options.maxWidth = 300;
+      map.addLayer(line_37);
+      
+      var latLngs = [ [22.6057896, 120.3093993],  [22.6053829, 120.3093993],  [22.6053829, 120.3090228],  [22.6057896, 120.3090228],  [22.6057896, 120.3093993], ];
+var line_38 = L.polyline(latLngs,{
+
+
+
+});
+      line_38.bindPopup("<a href=\"http://www.openstreetmap.org/changeset/36459968\">36459968</a>, yoi, add motorbike parking");
+      line_38._popup.options.maxWidth = 300;
+      map.addLayer(line_38);
+      
+      var latLngs = [ [22.6082597, 120.3102834],  [22.6071128, 120.3102834],  [22.6071128, 120.3090479],  [22.6082597, 120.3090479],  [22.6082597, 120.3102834], ];
+var line_39 = L.polyline(latLngs,{
+
+
+
+});
+      line_39.bindPopup("<a href=\"http://www.openstreetmap.org/changeset/36459971\">36459971</a>, Kagami, &#29509;&#30002;&#21214;&#24037;&#20844;&#22290; &#8234;#&#8206;khmeetup&#8236;");
+      line_39._popup.options.maxWidth = 300;
+      map.addLayer(line_39);
+      
+      var latLngs = [ [22.6056916, 120.3087399],  [22.6056916, 120.3087399],  [22.6056916, 120.3087399],  [22.6056916, 120.3087399],  [22.6056916, 120.3087399], ];
+var line_40 = L.polyline(latLngs,{
+
+
+
+});
+      line_40.bindPopup("<a href=\"http://www.openstreetmap.org/changeset/36460002\">36460002</a>, yoi, add public phone");
+      line_40._popup.options.maxWidth = 300;
+      map.addLayer(line_40);
+      
+      var latLngs = [ [22.6060623, 120.3096836],  [22.6053925, 120.3096836],  [22.6053925, 120.3087399],  [22.6060623, 120.3087399],  [22.6060623, 120.3096836], ];
+var line_41 = L.polyline(latLngs,{
+
+
+
+});
+      line_41.bindPopup("<a href=\"http://www.openstreetmap.org/changeset/36460022\">36460022</a>, yoi, add public phone");
+      line_41._popup.options.maxWidth = 300;
+      map.addLayer(line_41);
+      
+      var latLngs = [ [22.6063272, 120.3094543],  [22.6057826, 120.3094543],  [22.6057826, 120.3088643],  [22.6063272, 120.3088643],  [22.6063272, 120.3094543], ];
+var line_42 = L.polyline(latLngs,{
+
+
+
+});
+      line_42.bindPopup("<a href=\"http://www.openstreetmap.org/changeset/36460085\">36460085</a>, yoi, add opening hours of swimming pool");
+      line_42._popup.options.maxWidth = 300;
+      map.addLayer(line_42);
+      
+      var latLngs = [ [22.6091239, 120.3110823],  [22.6051782, 120.3110823],  [22.6051782, 120.3073455],  [22.6091239, 120.3073455],  [22.6091239, 120.3110823], ];
+var line_43 = L.polyline(latLngs,{
+
+
+
+});
+      line_43.bindPopup("<a href=\"http://www.openstreetmap.org/changeset/36460098\">36460098</a>, Kagami, &#29509;&#30002;&#21214;&#24037;&#20844;&#22290; &#8234;#&#8206;khmeetup&#8236;");
+      line_43._popup.options.maxWidth = 300;
+      map.addLayer(line_43);
+      
+      var latLngs = [ [22.6065923, 120.308404],  [22.6062712, 120.308404],  [22.6062712, 120.308075],  [22.6065923, 120.308075],  [22.6065923, 120.308404], ];
+var line_44 = L.polyline(latLngs,{
+
+
+
+});
+      line_44.bindPopup("<a href=\"http://www.openstreetmap.org/changeset/36460126\">36460126</a>, yoi, add a garden");
+      line_44._popup.options.maxWidth = 300;
+      map.addLayer(line_44);
+      
+      var latLngs = [ [22.6070713, 120.3090367],  [22.6063032, 120.3090367],  [22.6063032, 120.3082557],  [22.6070713, 120.3082557],  [22.6070713, 120.3090367], ];
+var line_45 = L.polyline(latLngs,{
+
+
+
+});
+      line_45.bindPopup("<a href=\"http://www.openstreetmap.org/changeset/36460142\">36460142</a>, yoi, add name to an area");
+      line_45._popup.options.maxWidth = 300;
+      map.addLayer(line_45);
+      
+      var latLngs = [ [22.6076406, 120.310701],  [22.6067565, 120.310701],  [22.6067565, 120.3097451],  [22.6076406, 120.3097451],  [22.6076406, 120.310701], ];
+var line_46 = L.polyline(latLngs,{
+
+
+
+});
+      line_46.bindPopup("<a href=\"http://www.openstreetmap.org/changeset/36460150\">36460150</a>, yoi, add English name to the area");
+      line_46._popup.options.maxWidth = 300;
+      map.addLayer(line_46);
+      
+      var latLngs = [ [22.6083452, 120.3095099],  [22.608241, 120.3095099],  [22.608241, 120.3093905],  [22.6083452, 120.3093905],  [22.6083452, 120.3095099], ];
+var line_47 = L.polyline(latLngs,{
+
+
+
+});
+      line_47.bindPopup("<a href=\"http://www.openstreetmap.org/changeset/36460159\">36460159</a>, yoi, delete a duplicated tag - toilet");
+      line_47._popup.options.maxWidth = 300;
+      map.addLayer(line_47);
+      
+      var latLngs = [ [22.6078098, 120.3097926],  [22.6078098, 120.3097926],  [22.6078098, 120.3097926],  [22.6078098, 120.3097926],  [22.6078098, 120.3097926], ];
+var line_48 = L.polyline(latLngs,{
+
+
+
+});
+      line_48.bindPopup("<a href=\"http://www.openstreetmap.org/changeset/36460250\">36460250</a>, yoi, Add AED");
+      line_48._popup.options.maxWidth = 300;
+      map.addLayer(line_48);
+      
+      var latLngs = [ [22.607811, 120.3098194],  [22.607811, 120.3098194],  [22.607811, 120.3098194],  [22.607811, 120.3098194],  [22.607811, 120.3098194], ];
+var line_49 = L.polyline(latLngs,{
+
+
+
+});
+      line_49.bindPopup("<a href=\"http://www.openstreetmap.org/changeset/36460265\">36460265</a>, yoi, add a phone");
+      line_49._popup.options.maxWidth = 300;
+      map.addLayer(line_49);
+      
+      var latLngs = [ [22.6075843, 120.3079007],  [22.6072699, 120.3079007],  [22.6072699, 120.3074772],  [22.6075843, 120.3074772],  [22.6075843, 120.3079007], ];
+var line_50 = L.polyline(latLngs,{
+
+
+
+});
+      line_50.bindPopup("<a href=\"http://www.openstreetmap.org/changeset/36460298\">36460298</a>, yoi, add street car parking");
+      line_50._popup.options.maxWidth = 300;
+      map.addLayer(line_50);
+      
+      var latLngs = [ [22.6081382, 120.3085066],  [22.6075099, 120.3085066],  [22.6075099, 120.3078655],  [22.6081382, 120.3078655],  [22.6081382, 120.3085066], ];
+var line_51 = L.polyline(latLngs,{
+
+
+
+});
+      line_51.bindPopup("<a href=\"http://www.openstreetmap.org/changeset/36460359\">36460359</a>, yoi, add street car parking spaces");
+      line_51._popup.options.maxWidth = 300;
+      map.addLayer(line_51);
+      
+      var latLngs = [ [22.6089292, 120.3099242],  [22.6080468, 120.3099242],  [22.6080468, 120.3083518],  [22.6089292, 120.3083518],  [22.6089292, 120.3099242], ];
+var line_52 = L.polyline(latLngs,{
+
+
+
+});
+      line_52.bindPopup("<a href=\"http://www.openstreetmap.org/changeset/36460532\">36460532</a>, yoi, add a marketplace");
+      line_52._popup.options.maxWidth = 300;
+      map.addLayer(line_52);
+      
+      var latLngs = [ [22.6088935, 120.3100055],  [22.6080365, 120.3100055],  [22.6080365, 120.3084773],  [22.6088935, 120.3084773],  [22.6088935, 120.3100055], ];
+var line_53 = L.polyline(latLngs,{
+
+
+
+});
+      line_53.bindPopup("<a href=\"http://www.openstreetmap.org/changeset/36460553\">36460553</a>, yoi, add a marketplace");
+      line_53._popup.options.maxWidth = 300;
+      map.addLayer(line_53);
+      
+      var latLngs = [ [22.6089254, 120.3109117],  [22.6051906, 120.3109117],  [22.6051906, 120.3072382],  [22.6089254, 120.3072382],  [22.6089254, 120.3109117], ];
+var line_54 = L.polyline(latLngs,{
+
+
+
+});
+      line_54.bindPopup("<a href=\"http://www.openstreetmap.org/changeset/36465446\">36465446</a>, yoi, add English name of the flower market and extend the boundary");
+      line_54._popup.options.maxWidth = 300;
+      map.addLayer(line_54);
+      
+      var latLngs = [ [22.6063272, 120.3094543],  [22.6057826, 120.3094543],  [22.6057826, 120.3088643],  [22.6063272, 120.3088643],  [22.6063272, 120.3094543], ];
+var line_55 = L.polyline(latLngs,{
+
+
+
+});
+      line_55.bindPopup("<a href=\"http://www.openstreetmap.org/changeset/36465496\">36465496</a>, yoi, add English name of the swimming pool");
+      line_55._popup.options.maxWidth = 300;
+      map.addLayer(line_55);
+      
+      var latLngs = [ [22.6079744, 120.3099425],  [22.6074615, 120.3099425],  [22.6074615, 120.3093808],  [22.6079744, 120.3093808],  [22.6079744, 120.3099425], ];
+var line_56 = L.polyline(latLngs,{
+
+
+
+});
+      line_56.bindPopup("<a href=\"http://www.openstreetmap.org/changeset/36465546\">36465546</a>, yoi, add English name");
+      line_56._popup.options.maxWidth = 300;
+      map.addLayer(line_56);
+      
+      var latLngs = [ [22.6088108, 120.3108326],  [22.6054274, 120.3108326],  [22.6054274, 120.3075439],  [22.6088108, 120.3075439],  [22.6088108, 120.3108326], ];
+var line_57 = L.polyline(latLngs,{
+
+
+
+});
+      line_57.bindPopup("<a href=\"http://www.openstreetmap.org/changeset/36465563\">36465563</a>, yoi, add English name");
+      line_57._popup.options.maxWidth = 300;
+      map.addLayer(line_57);
+      
+      var latLngs = [ [22.6088872, 120.3108581],  [22.6072579, 120.3108581],  [22.6072579, 120.3085008],  [22.6088872, 120.3085008],  [22.6088872, 120.3108581], ];
+var line_58 = L.polyline(latLngs,{
+
+
+
+});
+      line_58.bindPopup("<a href=\"http://www.openstreetmap.org/changeset/36465578\">36465578</a>, yoi, add English name");
+      line_58._popup.options.maxWidth = 300;
+      map.addLayer(line_58);
+      
+      var latLngs = [ [22.6066776, 120.3083976],  [22.6062411, 120.3083976],  [22.6062411, 120.3079426],  [22.6066776, 120.3079426],  [22.6066776, 120.3083976], ];
+var line_59 = L.polyline(latLngs,{
+
+
+
+});
+      line_59.bindPopup("<a href=\"http://www.openstreetmap.org/changeset/36465644\">36465644</a>, yoi, add house no.");
+      line_59._popup.options.maxWidth = 300;
+      map.addLayer(line_59);
+      
+      var latLngs = [ [22.6066776, 120.3080556],  [22.606557, 120.3080556],  [22.606557, 120.3079426],  [22.6066776, 120.3079426],  [22.6066776, 120.3080556], ];
+var line_60 = L.polyline(latLngs,{
+
+
+
+});
+      line_60.bindPopup("<a href=\"http://www.openstreetmap.org/changeset/36465728\">36465728</a>, yoi, add station name");
+      line_60._popup.options.maxWidth = 300;
+      map.addLayer(line_60);
+      
+      var latLngs = [ [22.6057767, 120.3087344],  [22.6056613, 120.3087344],  [22.6056613, 120.308631],  [22.6057767, 120.308631],  [22.6057767, 120.3087344], ];
+var line_61 = L.polyline(latLngs,{
+
+
+
+});
+      line_61.bindPopup("<a href=\"http://www.openstreetmap.org/changeset/36465779\">36465779</a>, yoi, add station name");
+      line_61._popup.options.maxWidth = 300;
+      map.addLayer(line_61);
+      
+      var latLngs = [ [22.6058899, 120.3100668],  [22.6058899, 120.3100668],  [22.6058899, 120.3100668],  [22.6058899, 120.3100668],  [22.6058899, 120.3100668], ];
+var line_62 = L.polyline(latLngs,{
+
+
+
+});
+      line_62.bindPopup("<a href=\"http://www.openstreetmap.org/changeset/36466035\">36466035</a>, yoi, Add English name");
+      line_62._popup.options.maxWidth = 300;
+      map.addLayer(line_62);
+      
+      var latLngs = [ [22.6058899, 120.3100668],  [22.60567, 120.3100668],  [22.60567, 120.308631],  [22.6058899, 120.308631],  [22.6058899, 120.3100668], ];
+var line_63 = L.polyline(latLngs,{
+
+
+
+});
+      line_63.bindPopup("<a href=\"http://www.openstreetmap.org/changeset/36466084\">36466084</a>, yoi, Correct English name");
+      line_63._popup.options.maxWidth = 300;
+      map.addLayer(line_63);
+      
+      var latLngs = [ [22.6066776, 120.3080556],  [22.606557, 120.3080556],  [22.606557, 120.3079426],  [22.6066776, 120.3079426],  [22.6066776, 120.3080556], ];
+var line_64 = L.polyline(latLngs,{
+
+
+
+});
+      line_64.bindPopup("<a href=\"http://www.openstreetmap.org/changeset/36466102\">36466102</a>, yoi, Correct English name");
+      line_64._popup.options.maxWidth = 300;
+      map.addLayer(line_64);
+      
+      var latLngs = [ [22.6065746, 120.3083511],  [22.6063208, 120.3083511],  [22.6063208, 120.3080816],  [22.6065746, 120.3080816],  [22.6065746, 120.3083511], ];
+var line_65 = L.polyline(latLngs,{
+
+
+
+});
+      line_65.bindPopup("<a href=\"http://www.openstreetmap.org/changeset/36466116\">36466116</a>, yoi, change the boundary of a garden");
+      line_65._popup.options.maxWidth = 300;
+      map.addLayer(line_65);
+      
+      var latLngs = [ [22.6065389, 120.3083295],  [22.6064095, 120.3083295],  [22.6064095, 120.3081954],  [22.6065389, 120.3081954],  [22.6065389, 120.3083295], ];
+var line_66 = L.polyline(latLngs,{
+
+
+
+});
+      line_66.bindPopup("<a href=\"http://www.openstreetmap.org/changeset/36466121\">36466121</a>, yoi, change the boundary of a garden");
+      line_66._popup.options.maxWidth = 300;
+      map.addLayer(line_66);
+      
+      var latLngs = [ [22.6090094, 120.3109811],  [22.607274, 120.3109811],  [22.607274, 120.3091803],  [22.6090094, 120.3091803],  [22.6090094, 120.3109811], ];
+var line_67 = L.polyline(latLngs,{
+
+
+
+});
+      line_67.bindPopup("<a href=\"http://www.openstreetmap.org/changeset/36481192\">36481192</a>, FvGordon, Typo in key corrected");
+      line_67._popup.options.maxWidth = 300;
+      map.addLayer(line_67);
+      
+      var latLngs = [ [22.6085257, 120.3112537],  [22.607683, 120.3112537],  [22.607683, 120.3103872],  [22.6085257, 120.3103872],  [22.6085257, 120.3112537], ];
+var line_68 = L.polyline(latLngs,{
+
+
+
+});
+      line_68.bindPopup("<a href=\"http://www.openstreetmap.org/changeset/36502014\">36502014</a>, s8321414, &#24489;&#33288;&#22283;&#23567;");
+      line_68._popup.options.maxWidth = 300;
+      map.addLayer(line_68);
+      
+      var latLngs = [ [22.607238, 120.3106661],  [22.607238, 120.3106661],  [22.607238, 120.3106661],  [22.607238, 120.3106661],  [22.607238, 120.3106661], ];
+var line_69 = L.polyline(latLngs,{
+
+
+
+});
+      line_69.bindPopup("<a href=\"http://www.openstreetmap.org/changeset/36503672\">36503672</a>, mcdlee, &#39640;&#38596;&#24066;&#29509;&#30002;&#21214;&#24037;&#20844;&#22290; &#22744;&#29699;&#22580;&#39154;&#27700;&#27231; (&#38918;&#20415;&#28204;&#35430; presets)");
+      line_69._popup.options.maxWidth = 300;
+      map.addLayer(line_69);
+      
+
+      
+
+      
+
+      
+
+
+
+   </script>
+
+</body>
