@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+   <link rel="stylesheet" href="https://rawgit.com/andrewgiessel/leafletstuff/master/leaflet.css" />
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.js"></script>
+
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+
+   <link rel="stylesheet" href="https://rawgit.com/lvoogdt/Leaflet.awesome-markers/2.0/develop/dist/leaflet.awesome-markers.css">
+   <script src="https://rawgithub.com/lvoogdt/Leaflet.awesome-markers/2.0/develop/dist/leaflet.awesome-markers.js"></script>
+
+
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/0.4.0/MarkerCluster.Default.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/0.4.0/MarkerCluster.css">
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/0.4.0/leaflet.markercluster-src.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/0.4.0/leaflet.markercluster.js"></script>
+
+   <link rel="stylesheet" href="https://birdage.github.io/Leaflet.awesome-markers/dist/leaflet.awesome.rotate.css">
+
+   
+   
+   
+   
+
+   <style>
+
+      html, body {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+
+      #map {
+        position:absolute;
+        top:0;
+        bottom:0;
+        right:0;
+        left:0;
+      }
+
+   </style>
+</head>
+
+<body>
+
+   <div class="folium-map" id="folium_73bf4b1a3f67401997b3eb7e76e4304a" style="width: 100%; height: 100%"></div>
+
+   <script>
+
+      
+
+      var base_tile = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+          maxZoom: 18,
+          minZoom: 1,
+          attribution: 'Map data (c) <a href="http://openstreetmap.org">OpenStreetMap</a> contributors'
+      });
+
+      var baseLayer = {
+        "Base Layer": base_tile
+      };
+
+      /*
+      addition of the wms layers
+      */
+
+      
+
+      /*
+      addition of the tile layers
+      */
+      
+
+      /*
+      list of layers to be added
+      */
+      var layer_list = {
+      
+      };
+
+      /*
+      Bounding box.
+      */
+      var southWest = L.latLng(-90, -180),
+          northEast = L.latLng(90, 180),
+          bounds = L.latLngBounds(southWest, northEast);
+
+      /*
+      Creates the map and adds the selected layers
+      */
+      var map = L.map('folium_73bf4b1a3f67401997b3eb7e76e4304a', {
+                                       center:[22.605, 120.3],
+                                       zoom: 11,
+                                       maxBounds: bounds,
+                                       layers: [base_tile]
+                                     });
+
+      L.control.layers(baseLayer, layer_list).addTo(map);
+
+      /*
+      addition of the image layers
+      */
+      
+      
+      //cluster group
+      var clusteredmarkers = L.markerClusterGroup();
+      //section for adding clustered markers
+      
+      //add the clustered markers to the group anyway
+      map.addLayer(clusteredmarkers);
+
+      
+
+      
+
+      
+      var latLngs = [ [22.6794551, 120.3219638],  [22.6777966, 120.3219638],  [22.6777966, 120.3213397],  [22.6794551, 120.3213397],  [22.6794551, 120.3219638], ];
+var line_1 = L.polyline(latLngs,{
+
+
+
+});
+      line_1.bindPopup("<a href=\"http://www.openstreetmap.org/changeset/36171185\">36171185</a>, mcdlee, &#27054;&#32317;&#36335; photo mapping #khmeetup");
+      line_1._popup.options.maxWidth = 300;
+      map.addLayer(line_1);
+      
+      var latLngs = [ [22.6936924, 120.299037],  [22.6917903, 120.299037],  [22.6917903, 120.2927387],  [22.6936924, 120.2927387],  [22.6936924, 120.299037], ];
+var line_2 = L.polyline(latLngs,{
+
+
+
+});
+      line_2.bindPopup("<a href=\"http://www.openstreetmap.org/changeset/36171761\">36171761</a>, mcdlee, &#28023;&#21151;&#36335; photo mapping #khmeetup");
+      line_2._popup.options.maxWidth = 300;
+      map.addLayer(line_2);
+      
+      var latLngs = [ [22.5713096, 120.364301],  [22.568236, 120.364301],  [22.568236, 120.3619096],  [22.5713096, 120.3619096],  [22.5713096, 120.364301], ];
+var line_3 = L.polyline(latLngs,{
+
+
+
+});
+      line_3.bindPopup("<a href=\"http://www.openstreetmap.org/changeset/36172534\">36172534</a>, mcdlee, &#35299; note #khmeetup #474489 #474490 #474491 #474492");
+      line_3._popup.options.maxWidth = 300;
+      map.addLayer(line_3);
+      
+      var latLngs = [ [22.6813079, 120.3226023],  [22.6807281, 120.3226023],  [22.6807281, 120.3219589],  [22.6813079, 120.3219589],  [22.6813079, 120.3226023], ];
+var line_4 = L.polyline(latLngs,{
+
+
+
+});
+      line_4.bindPopup("<a href=\"http://www.openstreetmap.org/changeset/36175719\">36175719</a>, mcdlee, &#35299; note #khmeetup #481157");
+      line_4._popup.options.maxWidth = 300;
+      map.addLayer(line_4);
+      
+
+      
+
+      
+
+      
+
+
+
+   </script>
+
+</body>
+</html>
