@@ -4,131 +4,14 @@
     {
       "type": "Feature",
       "properties": {
-        "clinicName": "亮忠診所",
-        "clinicAddr": "高雄市三民區明誠二路28號一樓",
-        "city": "高雄市",
-        "groupRef": "5020810372",
-        "groupName": "高榮平安社區醫療群",
-        "hos1Ref": "602030026",
-        "hos1Name": "高雄榮民總醫院",
-        "hos2Ref": "NA",
-        "hos2Name": "",
-        "hos3Ref": "NA",
-        "hos3Name": "",
-        "hos4Ref": "NA",
-        "hos4Name": "",
-        "lon": "120.314912",
-        "lat": "22.659911"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [120.314912,22.659911]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "clinicName": "華夏診所",
-        "clinicAddr": "高雄市左營區華夏路708號1樓",
-        "city": "高雄市",
-        "groupRef": "5020810372",
-        "groupName": "高榮平安社區醫療群",
-        "hos1Ref": "602030026",
-        "hos1Name": "高雄榮民總醫院",
-        "hos2Ref": "NA",
-        "hos2Name": "",
-        "hos3Ref": "NA",
-        "hos3Name": "",
-        "hos4Ref": "NA",
-        "hos4Name": "",
-        "lon": "120.302205",
-        "lat": "22.677888"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [120.302205,22.677888]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "clinicName": "劉明海診所",
-        "clinicAddr": "高雄市大寮區永芳里鳳林三路458號",
-        "city": "高雄市",
-        "groupRef": "5020810372",
-        "groupName": "高榮平安社區醫療群",
-        "hos1Ref": "602030026",
-        "hos1Name": "高雄榮民總醫院",
-        "hos2Ref": "NA",
-        "hos2Name": "",
-        "hos3Ref": "NA",
-        "hos3Name": "",
-        "hos4Ref": "NA",
-        "hos4Name": "",
-        "lon": "120.3958275",
-        "lat": "22.6043655"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [120.3958275,22.6043655]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "clinicName": "藍偉宏診所",
-        "clinicAddr": "高雄市鳥松區仁美里學堂路105之1號",
-        "city": "高雄市",
-        "groupRef": "5020810372",
-        "groupName": "高榮平安社區醫療群",
-        "hos1Ref": "602030026",
-        "hos1Name": "高雄榮民總醫院",
-        "hos2Ref": "NA",
-        "hos2Name": "",
-        "hos3Ref": "NA",
-        "hos3Name": "",
-        "hos4Ref": "NA",
-        "hos4Name": "",
-        "lon": "120.391172",
-        "lat": "22.659349"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [120.391172,22.659349]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "clinicName": "廣佑安診所",
-        "clinicAddr": "高雄市楠梓區後昌路678號1樓",
-        "city": "高雄市",
-        "groupRef": "5020810372",
-        "groupName": "高榮平安社區醫療群",
-        "hos1Ref": "602030026",
-        "hos1Name": "高雄榮民總醫院",
-        "hos2Ref": "NA",
-        "hos2Name": "",
-        "hos3Ref": "NA",
-        "hos3Name": "",
-        "hos4Ref": "NA",
-        "hos4Name": "",
-        "lon": "120.297728",
-        "lat": "22.7091"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [120.297728,22.7091]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
+        "clinicRef": "3502080894",
         "clinicName": "林國坤診所",
         "clinicAddr": "高雄市苓雅區建國一路115之4號",
+        "clinicTel": "07-7225391",
         "city": "高雄市",
-        "groupRef": "5020810372",
+        "groupRef": "5020810472",
         "groupName": "高榮平安社區醫療群",
+        "groupTel": "診所日間(07)7225391/PM9:00-AM7:00(07)-3468369",
         "hos1Ref": "602030026",
         "hos1Name": "高雄榮民總醫院",
         "hos2Ref": "NA",
@@ -136,23 +19,99 @@
         "hos3Ref": "NA",
         "hos3Name": "",
         "hos4Ref": "NA",
-        "hos4Name": "",
-        "lon": "120.332712",
-        "lat": "22.63152"
+        "hos4Name": ""
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [120.332712,22.63152]
+        "coordinates": [120.3327092,22.6315204]
       }
     },
     {
       "type": "Feature",
       "properties": {
+        "clinicRef": "3542060349",
+        "clinicName": "劉明海診所",
+        "clinicAddr": "高雄市大寮區永芳里鳳林三路458號",
+        "clinicTel": "07-7817358",
+        "city": "高雄市",
+        "groupRef": "5020810472",
+        "groupName": "高榮平安社區醫療群",
+        "groupTel": "診所日間(07)7817358/PM9:00-AM7:00(07)-3468369",
+        "hos1Ref": "602030026",
+        "hos1Name": "高雄榮民總醫院",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.3957867,22.6043624]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "clinicRef": "3502030947",
+        "clinicName": "國聖診所",
+        "clinicAddr": "高雄市左營區文慈路150號1樓",
+        "clinicTel": "07-3506203",
+        "city": "高雄市",
+        "groupRef": "5020810472",
+        "groupName": "高榮平安社區醫療群",
+        "groupTel": "診所日間(07)3506203/PM9:00-AM7:00(07)-3468369",
+        "hos1Ref": "602030026",
+        "hos1Name": "高雄榮民總醫院",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.31807,22.681811]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "clinicRef": "3502080894",
+        "clinicName": "林國坤診所",
+        "clinicAddr": "高雄市苓雅區建國一路115之4號",
+        "clinicTel": "07-7225391",
+        "city": "高雄市",
+        "groupRef": "5020810472",
+        "groupName": "高榮平安社區醫療群",
+        "groupTel": "診所日間(07)7225391/PM9:00-AM7:00(07)-3468369",
+        "hos1Ref": "602030026",
+        "hos1Name": "高雄榮民總醫院",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.3327092,22.6315204]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "clinicRef": "3502042248",
         "clinicName": "廣佑安診所",
         "clinicAddr": "高雄市楠梓區後昌路678號1樓",
+        "clinicTel": "07-3605998",
         "city": "高雄市",
-        "groupRef": "5020810372",
+        "groupRef": "5020810472",
         "groupName": "高榮平安社區醫療群",
+        "groupTel": "診所日間(07)3605998/PM9:00-AM7:00(07)-3468369",
         "hos1Ref": "602030026",
         "hos1Name": "高雄榮民總醫院",
         "hos2Ref": "NA",
@@ -160,23 +119,24 @@
         "hos3Ref": "NA",
         "hos3Name": "",
         "hos4Ref": "NA",
-        "hos4Name": "",
-        "lon": "120.297728",
-        "lat": "22.7091"
+        "hos4Name": ""
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [120.297728,22.7091]
+        "coordinates": [120.2977106,22.7091067]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "clinicName": "育明診所",
-        "clinicAddr": "高雄市三民區民族一路537號一樓.二樓",
+        "clinicRef": "3542060349",
+        "clinicName": "劉明海診所",
+        "clinicAddr": "高雄市大寮區永芳里鳳林三路458號",
+        "clinicTel": "07-7817358",
         "city": "高雄市",
-        "groupRef": "5020810372",
+        "groupRef": "5020810472",
         "groupName": "高榮平安社區醫療群",
+        "groupTel": "診所日間(07)7817358/PM9:00-AM7:00(07)-3468369",
         "hos1Ref": "602030026",
         "hos1Name": "高雄榮民總醫院",
         "hos2Ref": "NA",
@@ -184,23 +144,24 @@
         "hos3Ref": "NA",
         "hos3Name": "",
         "hos4Ref": "NA",
-        "hos4Name": "",
-        "lon": "120.316359",
-        "lat": "22.666025"
+        "hos4Name": ""
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [120.316359,22.666025]
+        "coordinates": [120.3957867,22.6043624]
       }
     },
     {
       "type": "Feature",
       "properties": {
+        "clinicRef": "3502051437",
         "clinicName": "靖康診所",
         "clinicAddr": "高雄市三民區陽明路6號",
+        "clinicTel": "07-3802806",
         "city": "高雄市",
-        "groupRef": "5020810372",
+        "groupRef": "5020810472",
         "groupName": "高榮平安社區醫療群",
+        "groupTel": "診所日間(07)3802806/PM9:00-AM7:00(07)-3468369",
         "hos1Ref": "602030026",
         "hos1Name": "高雄榮民總醫院",
         "hos2Ref": "NA",
@@ -208,9 +169,7 @@
         "hos3Ref": "NA",
         "hos3Name": "",
         "hos4Ref": "NA",
-        "hos4Name": "",
-        "lon": "120.341116",
-        "lat": "22.637151"
+        "hos4Name": ""
       },
       "geometry": {
         "type": "Point",
@@ -220,731 +179,14 @@
     {
       "type": "Feature",
       "properties": {
-        "clinicName": "高雄市阿蓮區衛生所",
-        "clinicAddr": "高雄市阿蓮區民生路94-1號",
-        "city": "高雄市",
-        "groupRef": "5070810378",
-        "groupName": "高榮親心社區醫療群",
-        "hos1Ref": "602030026",
-        "hos1Name": "高雄榮民總醫院",
-        "hos2Ref": "NA",
-        "hos2Name": "",
-        "hos3Ref": "NA",
-        "hos3Name": "",
-        "hos4Ref": "NA",
-        "hos4Name": "",
-        "lon": "120.3268586",
-        "lat": "22.883456"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [120.3268586,22.883456]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "clinicName": "日月光半導體製造股份有限公司附設員工醫務室",
-        "clinicAddr": "高雄市楠梓區楠梓加工出口區經五路123號6、7樓",
-        "city": "高雄市",
-        "groupRef": "5070810378",
-        "groupName": "高榮親心社區醫療群",
-        "hos1Ref": "602030026",
-        "hos1Name": "高雄榮民總醫院",
-        "hos2Ref": "NA",
-        "hos2Name": "",
-        "hos3Ref": "NA",
-        "hos3Name": "",
-        "hos4Ref": "NA",
-        "hos4Name": "",
-        "lon": "120.301623",
-        "lat": "22.721849"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [120.301623,22.721849]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "clinicName": "仁雄診所",
-        "clinicAddr": "高雄市仁武區仁雄路15-1號1樓",
-        "city": "高雄市",
-        "groupRef": "5070810378",
-        "groupName": "高榮親心社區醫療群",
-        "hos1Ref": "602030026",
-        "hos1Name": "高雄榮民總醫院",
-        "hos2Ref": "NA",
-        "hos2Name": "",
-        "hos3Ref": "NA",
-        "hos3Name": "",
-        "hos4Ref": "NA",
-        "hos4Name": "",
-        "lon": "120.3540854",
-        "lat": "22.680976"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [120.3540854,22.680976]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "clinicName": "吉星小兒科診所",
-        "clinicAddr": "高雄市三民區天祥一路135-1號1樓",
-        "city": "高雄市",
-        "groupRef": "5070810378",
-        "groupName": "高榮親心社區醫療群",
-        "hos1Ref": "602030026",
-        "hos1Name": "高雄榮民總醫院",
-        "hos2Ref": "NA",
-        "hos2Name": "",
-        "hos3Ref": "NA",
-        "hos3Name": "",
-        "hos4Ref": "NA",
-        "hos4Name": "",
-        "lon": "120.320051",
-        "lat": "22.667299"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [120.320051,22.667299]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "clinicName": "日月光半導體製造股份有限公司附設員工醫務室",
-        "clinicAddr": "高雄市楠梓區楠梓加工出口區經五路123號6、7樓",
-        "city": "高雄市",
-        "groupRef": "5070810378",
-        "groupName": "高榮親心社區醫療群",
-        "hos1Ref": "602030026",
-        "hos1Name": "高雄榮民總醫院",
-        "hos2Ref": "NA",
-        "hos2Name": "",
-        "hos3Ref": "NA",
-        "hos3Name": "",
-        "hos4Ref": "NA",
-        "hos4Name": "",
-        "lon": "120.301623",
-        "lat": "22.721849"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [120.301623,22.721849]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "clinicName": "鼎祥診所",
-        "clinicAddr": "高雄市三民區天祥一路135-1號1樓",
-        "city": "高雄市",
-        "groupRef": "5070810378",
-        "groupName": "高榮親心社區醫療群",
-        "hos1Ref": "602030026",
-        "hos1Name": "高雄榮民總醫院",
-        "hos2Ref": "NA",
-        "hos2Name": "",
-        "hos3Ref": "NA",
-        "hos3Name": "",
-        "hos4Ref": "NA",
-        "hos4Name": "",
-        "lon": "120.320051",
-        "lat": "22.667299"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [120.320051,22.667299]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "clinicName": "高雄市阿蓮區衛生所",
-        "clinicAddr": "高雄市阿蓮區民生路94-1號",
-        "city": "高雄市",
-        "groupRef": "5070810378",
-        "groupName": "高榮親心社區醫療群",
-        "hos1Ref": "602030026",
-        "hos1Name": "高雄榮民總醫院",
-        "hos2Ref": "NA",
-        "hos2Name": "",
-        "hos3Ref": "NA",
-        "hos3Name": "",
-        "hos4Ref": "NA",
-        "hos4Name": "",
-        "lon": "120.3268586",
-        "lat": "22.883456"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [120.3268586,22.883456]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "clinicName": "王漢卿小兒科診所",
-        "clinicAddr": "高雄市三民區寶國里陽明路132號1樓",
-        "city": "高雄市",
-        "groupRef": "5070810378",
-        "groupName": "高榮親心社區醫療群",
-        "hos1Ref": "602030026",
-        "hos1Name": "高雄榮民總醫院",
-        "hos2Ref": "NA",
-        "hos2Name": "",
-        "hos3Ref": "NA",
-        "hos3Name": "",
-        "hos4Ref": "NA",
-        "hos4Name": "",
-        "lon": "120.34178",
-        "lat": "22.640601"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [120.34178,22.640601]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "clinicName": "王俊仁耳鼻喉科診所",
-        "clinicAddr": "高雄市三民區本揚里陽明路416號1樓",
-        "city": "高雄市",
-        "groupRef": "5070810378",
-        "groupName": "高榮親心社區醫療群",
-        "hos1Ref": "602030026",
-        "hos1Name": "高雄榮民總醫院",
-        "hos2Ref": "NA",
-        "hos2Name": "",
-        "hos3Ref": "NA",
-        "hos3Name": "",
-        "hos4Ref": "NA",
-        "hos4Name": "",
-        "lon": "120.342914",
-        "lat": "22.646279"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [120.342914,22.646279]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "clinicName": "高雄市湖內區衛生所",
-        "clinicAddr": "高雄市湖內區湖中路203號",
-        "city": "高雄市",
-        "groupRef": "5073010377",
-        "groupName": "高榮樂活社區醫療群",
-        "hos1Ref": "602030026",
-        "hos1Name": "高雄榮民總醫院",
-        "hos2Ref": "NA",
-        "hos2Name": "",
-        "hos3Ref": "NA",
-        "hos3Name": "",
-        "hos4Ref": "NA",
-        "hos4Name": "",
-        "lon": "120.2228262",
-        "lat": "22.9054885"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [120.2228262,22.9054885]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "clinicName": "家福耳鼻喉科診所",
-        "clinicAddr": "高雄市楠梓區後昌新路15號",
-        "city": "高雄市",
-        "groupRef": "5073010377",
-        "groupName": "高榮樂活社區醫療群",
-        "hos1Ref": "602030026",
-        "hos1Name": "高雄榮民總醫院",
-        "hos2Ref": "NA",
-        "hos2Name": "",
-        "hos3Ref": "NA",
-        "hos3Name": "",
-        "hos4Ref": "NA",
-        "hos4Name": "",
-        "lon": "120.2916947",
-        "lat": "22.7192391"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [120.2916947,22.7192391]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "clinicName": "大承耳鼻喉科診所",
-        "clinicAddr": "高雄市大寮區鳳屏一路464號1樓",
-        "city": "高雄市",
-        "groupRef": "5073010377",
-        "groupName": "高榮樂活社區醫療群",
-        "hos1Ref": "602030026",
-        "hos1Name": "高雄榮民總醫院",
-        "hos2Ref": "NA",
-        "hos2Name": "",
-        "hos3Ref": "NA",
-        "hos3Name": "",
-        "hos4Ref": "NA",
-        "hos4Name": "",
-        "lon": "120.3921306",
-        "lat": "22.6360701"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [120.3921306,22.6360701]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "clinicName": "岡山家福耳鼻喉科診所",
-        "clinicAddr": "高雄市岡山區岡山路312-1號1樓",
-        "city": "高雄市",
-        "groupRef": "5073010377",
-        "groupName": "高榮樂活社區醫療群",
-        "hos1Ref": "602030026",
-        "hos1Name": "高雄榮民總醫院",
-        "hos2Ref": "NA",
-        "hos2Name": "",
-        "hos3Ref": "NA",
-        "hos3Name": "",
-        "hos4Ref": "NA",
-        "hos4Name": "",
-        "lon": "120.29598",
-        "lat": "22.793717"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [120.29598,22.793717]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "clinicName": "家祥診所",
-        "clinicAddr": "高雄市大社區中山路252號1樓",
-        "city": "高雄市",
-        "groupRef": "5073010377",
-        "groupName": "高榮樂活社區醫療群",
-        "hos1Ref": "602030026",
-        "hos1Name": "高雄榮民總醫院",
-        "hos2Ref": "NA",
-        "hos2Name": "",
-        "hos3Ref": "NA",
-        "hos3Name": "",
-        "hos4Ref": "NA",
-        "hos4Name": "",
-        "lon": "120.3490187",
-        "lat": "22.7317938"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [120.3490187,22.7317938]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "clinicName": "林俊谷診所",
-        "clinicAddr": "高雄市左營區福山里民族一路1028-19號1樓",
-        "city": "高雄市",
-        "groupRef": "5073010377",
-        "groupName": "高榮樂活社區醫療群",
-        "hos1Ref": "602030026",
-        "hos1Name": "高雄榮民總醫院",
-        "hos2Ref": "NA",
-        "hos2Name": "",
-        "hos3Ref": "NA",
-        "hos3Name": "",
-        "hos4Ref": "NA",
-        "hos4Name": "",
-        "lon": "120.320329",
-        "lat": "22.683873"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [120.320329,22.683873]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "clinicName": "宇田耳鼻喉科診所",
-        "clinicAddr": "高雄市三民區明誠二路20號1F",
-        "city": "高雄市",
-        "groupRef": "5073010377",
-        "groupName": "高榮樂活社區醫療群",
-        "hos1Ref": "602030026",
-        "hos1Name": "高雄榮民總醫院",
-        "hos2Ref": "NA",
-        "hos2Name": "",
-        "hos3Ref": "NA",
-        "hos3Name": "",
-        "hos4Ref": "NA",
-        "hos4Name": "",
-        "lon": "120.315077",
-        "lat": "22.659911"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [120.315077,22.659911]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "clinicName": "高雄市湖內區衛生所",
-        "clinicAddr": "高雄市湖內區湖中路203號",
-        "city": "高雄市",
-        "groupRef": "5073010377",
-        "groupName": "高榮樂活社區醫療群",
-        "hos1Ref": "602030026",
-        "hos1Name": "高雄榮民總醫院",
-        "hos2Ref": "NA",
-        "hos2Name": "",
-        "hos3Ref": "NA",
-        "hos3Name": "",
-        "hos4Ref": "NA",
-        "hos4Name": "",
-        "lon": "120.2228262",
-        "lat": "22.9054885"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [120.2228262,22.9054885]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "clinicName": "大承耳鼻喉科診所",
-        "clinicAddr": "高雄市大寮區鳳屏一路464號1樓",
-        "city": "高雄市",
-        "groupRef": "5073010377",
-        "groupName": "高榮樂活社區醫療群",
-        "hos1Ref": "602030026",
-        "hos1Name": "高雄榮民總醫院",
-        "hos2Ref": "NA",
-        "hos2Name": "",
-        "hos3Ref": "NA",
-        "hos3Name": "",
-        "hos4Ref": "NA",
-        "hos4Name": "",
-        "lon": "120.3921306",
-        "lat": "22.6360701"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [120.3921306,22.6360701]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "clinicName": "高雄市永安區衛生所",
-        "clinicAddr": "高雄市永安區永安路26號",
-        "city": "高雄市",
-        "groupRef": "5421510368",
-        "groupName": "高榮溫馨社區醫療群",
-        "hos1Ref": "602030026",
-        "hos1Name": "高雄榮民總醫院",
-        "hos2Ref": "NA",
-        "hos2Name": "",
-        "hos3Ref": "NA",
-        "hos3Name": "",
-        "hos4Ref": "NA",
-        "hos4Name": "",
-        "lon": "120.2225881",
-        "lat": "22.8173941"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [120.2225881,22.8173941]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "clinicName": "高雄市路竹區衛生所",
-        "clinicAddr": "高雄市路竹區竹南里國昌路86巷22號",
-        "city": "高雄市",
-        "groupRef": "5421510368",
-        "groupName": "高榮溫馨社區醫療群",
-        "hos1Ref": "602030026",
-        "hos1Name": "高雄榮民總醫院",
-        "hos2Ref": "NA",
-        "hos2Name": "",
-        "hos3Ref": "NA",
-        "hos3Name": "",
-        "hos4Ref": "NA",
-        "hos4Name": "",
-        "lon": "120.258486",
-        "lat": "22.855279"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [120.258486,22.855279]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "clinicName": "嘉祐耳鼻喉科診所",
-        "clinicAddr": "高雄市前鎮區一心一路388號1樓",
-        "city": "高雄市",
-        "groupRef": "5421510368",
-        "groupName": "高榮溫馨社區醫療群",
-        "hos1Ref": "602030026",
-        "hos1Name": "高雄榮民總醫院",
-        "hos2Ref": "NA",
-        "hos2Name": "",
-        "hos3Ref": "NA",
-        "hos3Name": "",
-        "hos4Ref": "NA",
-        "hos4Name": "",
-        "lon": "120.3161",
-        "lat": "22.60905"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [120.3161,22.60905]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "clinicName": "陳泰安診所",
-        "clinicAddr": "高雄市三民區建工路609號1樓",
-        "city": "高雄市",
-        "groupRef": "5421510368",
-        "groupName": "高榮溫馨社區醫療群",
-        "hos1Ref": "602030026",
-        "hos1Name": "高雄榮民總醫院",
-        "hos2Ref": "NA",
-        "hos2Name": "",
-        "hos3Ref": "NA",
-        "hos3Name": "",
-        "hos4Ref": "NA",
-        "hos4Name": "",
-        "lon": "120.318991",
-        "lat": "22.6483155"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [120.318991,22.6483155]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "clinicName": "福山診所",
-        "clinicAddr": "高雄市左營區重愛路218號1樓",
-        "city": "高雄市",
-        "groupRef": "5421510368",
-        "groupName": "高榮溫馨社區醫療群",
-        "hos1Ref": "602030026",
-        "hos1Name": "高雄榮民總醫院",
-        "hos2Ref": "NA",
-        "hos2Name": "",
-        "hos3Ref": "NA",
-        "hos3Name": "",
-        "hos4Ref": "NA",
-        "hos4Name": "",
-        "lon": "120.315641",
-        "lat": "22.6856371"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [120.315641,22.6856371]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "clinicName": "德安診所",
-        "clinicAddr": "高雄市左營區福山里民族一路901巷1號",
-        "city": "高雄市",
-        "groupRef": "5421510368",
-        "groupName": "高榮溫馨社區醫療群",
-        "hos1Ref": "602030026",
-        "hos1Name": "高雄榮民總醫院",
-        "hos2Ref": "NA",
-        "hos2Name": "",
-        "hos3Ref": "NA",
-        "hos3Name": "",
-        "hos4Ref": "NA",
-        "hos4Name": "",
-        "lon": "120.3182",
-        "lat": "22.681231"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [120.3182,22.681231]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "clinicName": "德安診所",
-        "clinicAddr": "高雄市左營區福山里民族一路901巷1號",
-        "city": "高雄市",
-        "groupRef": "5421510368",
-        "groupName": "高榮溫馨社區醫療群",
-        "hos1Ref": "602030026",
-        "hos1Name": "高雄榮民總醫院",
-        "hos2Ref": "NA",
-        "hos2Name": "",
-        "hos3Ref": "NA",
-        "hos3Name": "",
-        "hos4Ref": "NA",
-        "hos4Name": "",
-        "lon": "120.3182",
-        "lat": "22.681231"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [120.3182,22.681231]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "clinicName": "郭正強診所",
-        "clinicAddr": "高雄市左營區明華一路229號1樓",
-        "city": "高雄市",
-        "groupRef": "5421510368",
-        "groupName": "高榮溫馨社區醫療群",
-        "hos1Ref": "602030026",
-        "hos1Name": "高雄榮民總醫院",
-        "hos2Ref": "NA",
-        "hos2Name": "",
-        "hos3Ref": "NA",
-        "hos3Name": "",
-        "hos4Ref": "NA",
-        "hos4Name": "",
-        "lon": "120.3054921",
-        "lat": "22.662836"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [120.3054921,22.662836]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "clinicName": "晨田耳鼻喉科診所",
-        "clinicAddr": "高雄市左營區榮佑路41號1樓",
-        "city": "高雄市",
-        "groupRef": "5421510368",
-        "groupName": "高榮溫馨社區醫療群",
-        "hos1Ref": "602030026",
-        "hos1Name": "高雄榮民總醫院",
-        "hos2Ref": "NA",
-        "hos2Name": "",
-        "hos3Ref": "NA",
-        "hos3Name": "",
-        "hos4Ref": "NA",
-        "hos4Name": "",
-        "lon": "120.3202864",
-        "lat": "22.681947"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [120.3202864,22.681947]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "clinicName": "亮忠診所",
-        "clinicAddr": "高雄市三民區明誠二路28號一樓",
-        "city": "高雄市",
-        "groupRef": "5020810372",
-        "groupName": "高榮平安社區醫療群",
-        "hos1Ref": "602030026",
-        "hos1Name": "高雄榮民總醫院",
-        "hos2Ref": "NA",
-        "hos2Name": "",
-        "hos3Ref": "NA",
-        "hos3Name": "",
-        "hos4Ref": "NA",
-        "hos4Name": "NA",
-        "lon": "120.314912",
-        "lat": "22.659911"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [120.314912,22.659911]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "clinicName": "華夏診所",
-        "clinicAddr": "高雄市左營區華夏路708號1樓",
-        "city": "高雄市",
-        "groupRef": "5020810372",
-        "groupName": "高榮平安社區醫療群",
-        "hos1Ref": "602030026",
-        "hos1Name": "高雄榮民總醫院",
-        "hos2Ref": "NA",
-        "hos2Name": "",
-        "hos3Ref": "NA",
-        "hos3Name": "",
-        "hos4Ref": "NA",
-        "hos4Name": "NA",
-        "lon": "120.302205",
-        "lat": "22.677888"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [120.302205,22.677888]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "clinicName": "劉明海診所",
-        "clinicAddr": "高雄市大寮區永芳里鳳林三路458號",
-        "city": "高雄市",
-        "groupRef": "5020810372",
-        "groupName": "高榮平安社區醫療群",
-        "hos1Ref": "602030026",
-        "hos1Name": "高雄榮民總醫院",
-        "hos2Ref": "NA",
-        "hos2Name": "",
-        "hos3Ref": "NA",
-        "hos3Name": "",
-        "hos4Ref": "NA",
-        "hos4Name": "NA",
-        "lon": "120.3958275",
-        "lat": "22.6043655"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [120.3958275,22.6043655]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
+        "clinicRef": "3542100124",
         "clinicName": "藍偉宏診所",
         "clinicAddr": "高雄市鳥松區仁美里學堂路105之1號",
+        "clinicTel": "07-7338715",
         "city": "高雄市",
-        "groupRef": "5020810372",
+        "groupRef": "5020810472",
         "groupName": "高榮平安社區醫療群",
+        "groupTel": "診所日間(07)7338715/PM9:00-AM7:00(07)-3468369",
         "hos1Ref": "602030026",
         "hos1Name": "高雄榮民總醫院",
         "hos2Ref": "NA",
@@ -952,95 +194,24 @@
         "hos3Ref": "NA",
         "hos3Name": "",
         "hos4Ref": "NA",
-        "hos4Name": "NA",
-        "lon": "120.391172",
-        "lat": "22.659349"
+        "hos4Name": ""
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [120.391172,22.659349]
+        "coordinates": [120.3918334,22.6584249]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "clinicName": "廣佑安診所",
-        "clinicAddr": "高雄市楠梓區後昌路678號1樓",
-        "city": "高雄市",
-        "groupRef": "5020810372",
-        "groupName": "高榮平安社區醫療群",
-        "hos1Ref": "602030026",
-        "hos1Name": "高雄榮民總醫院",
-        "hos2Ref": "NA",
-        "hos2Name": "",
-        "hos3Ref": "NA",
-        "hos3Name": "",
-        "hos4Ref": "NA",
-        "hos4Name": "NA",
-        "lon": "120.297728",
-        "lat": "22.7091"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [120.297728,22.7091]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "clinicName": "林國坤診所",
-        "clinicAddr": "高雄市苓雅區建國一路115之4號",
-        "city": "高雄市",
-        "groupRef": "5020810372",
-        "groupName": "高榮平安社區醫療群",
-        "hos1Ref": "602030026",
-        "hos1Name": "高雄榮民總醫院",
-        "hos2Ref": "NA",
-        "hos2Name": "",
-        "hos3Ref": "NA",
-        "hos3Name": "",
-        "hos4Ref": "NA",
-        "hos4Name": "NA",
-        "lon": "120.332712",
-        "lat": "22.63152"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [120.332712,22.63152]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "clinicName": "廣佑安診所",
-        "clinicAddr": "高雄市楠梓區後昌路678號1樓",
-        "city": "高雄市",
-        "groupRef": "5020810372",
-        "groupName": "高榮平安社區醫療群",
-        "hos1Ref": "602030026",
-        "hos1Name": "高雄榮民總醫院",
-        "hos2Ref": "NA",
-        "hos2Name": "",
-        "hos3Ref": "NA",
-        "hos3Name": "",
-        "hos4Ref": "NA",
-        "hos4Name": "NA",
-        "lon": "120.297728",
-        "lat": "22.7091"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [120.297728,22.7091]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
+        "clinicRef": "3502052694",
         "clinicName": "育明診所",
         "clinicAddr": "高雄市三民區民族一路537號一樓.二樓",
+        "clinicTel": "07-3478461",
         "city": "高雄市",
-        "groupRef": "5020810372",
+        "groupRef": "5020810472",
         "groupName": "高榮平安社區醫療群",
+        "groupTel": "診所日間(07)3478461/PM9:00-AM7:00(07)-3468369",
         "hos1Ref": "602030026",
         "hos1Name": "高雄榮民總醫院",
         "hos2Ref": "NA",
@@ -1048,119 +219,24 @@
         "hos3Ref": "NA",
         "hos3Name": "",
         "hos4Ref": "NA",
-        "hos4Name": "NA",
-        "lon": "120.316359",
-        "lat": "22.666025"
+        "hos4Name": ""
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [120.316359,22.666025]
+        "coordinates": [120.3163601,22.6660212]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "clinicName": "靖康診所",
-        "clinicAddr": "高雄市三民區陽明路6號",
-        "city": "高雄市",
-        "groupRef": "5020810372",
-        "groupName": "高榮平安社區醫療群",
-        "hos1Ref": "602030026",
-        "hos1Name": "高雄榮民總醫院",
-        "hos2Ref": "NA",
-        "hos2Name": "",
-        "hos3Ref": "NA",
-        "hos3Name": "",
-        "hos4Ref": "NA",
-        "hos4Name": "NA",
-        "lon": "120.341116",
-        "lat": "22.637151"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [120.341116,22.637151]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "clinicName": "高雄市阿蓮區衛生所",
-        "clinicAddr": "高雄市阿蓮區民生路94-1號",
-        "city": "高雄市",
-        "groupRef": "5070810378",
-        "groupName": "高榮親心社區醫療群",
-        "hos1Ref": "602030026",
-        "hos1Name": "高雄榮民總醫院",
-        "hos2Ref": "NA",
-        "hos2Name": "",
-        "hos3Ref": "NA",
-        "hos3Name": "",
-        "hos4Ref": "NA",
-        "hos4Name": "NA",
-        "lon": "120.3268586",
-        "lat": "22.883456"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [120.3268586,22.883456]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "clinicName": "日月光半導體製造股份有限公司附設員工醫務室",
-        "clinicAddr": "高雄市楠梓區楠梓加工出口區經五路123號6、7樓",
-        "city": "高雄市",
-        "groupRef": "5070810378",
-        "groupName": "高榮親心社區醫療群",
-        "hos1Ref": "602030026",
-        "hos1Name": "高雄榮民總醫院",
-        "hos2Ref": "NA",
-        "hos2Name": "",
-        "hos3Ref": "NA",
-        "hos3Name": "",
-        "hos4Ref": "NA",
-        "hos4Name": "NA",
-        "lon": "120.301623",
-        "lat": "22.721849"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [120.301623,22.721849]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "clinicName": "仁雄診所",
-        "clinicAddr": "高雄市仁武區仁雄路15-1號1樓",
-        "city": "高雄市",
-        "groupRef": "5070810378",
-        "groupName": "高榮親心社區醫療群",
-        "hos1Ref": "602030026",
-        "hos1Name": "高雄榮民總醫院",
-        "hos2Ref": "NA",
-        "hos2Name": "",
-        "hos3Ref": "NA",
-        "hos3Name": "",
-        "hos4Ref": "NA",
-        "hos4Name": "NA",
-        "lon": "120.3540854",
-        "lat": "22.680976"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [120.3540854,22.680976]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
+        "clinicRef": "3502052523",
         "clinicName": "吉星小兒科診所",
         "clinicAddr": "高雄市三民區天祥一路135-1號1樓",
+        "clinicTel": "07-3487936",
         "city": "高雄市",
-        "groupRef": "5070810378",
+        "groupRef": "5070810478",
         "groupName": "高榮親心社區醫療群",
+        "groupTel": "診所日間(07)3477086/PM9:00-AM9:00(07)-3468369",
         "hos1Ref": "602030026",
         "hos1Name": "高雄榮民總醫院",
         "hos2Ref": "NA",
@@ -1168,23 +244,24 @@
         "hos3Ref": "NA",
         "hos3Name": "",
         "hos4Ref": "NA",
-        "hos4Name": "NA",
-        "lon": "120.320051",
-        "lat": "22.667299"
+        "hos4Name": ""
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [120.320051,22.667299]
+        "coordinates": [120.3200633,22.6672941]
       }
     },
     {
       "type": "Feature",
       "properties": {
+        "clinicRef": "3402040512",
         "clinicName": "日月光半導體製造股份有限公司附設員工醫務室",
         "clinicAddr": "高雄市楠梓區楠梓加工出口區經五路123號6、7樓",
+        "clinicTel": "07-3617131",
         "city": "高雄市",
-        "groupRef": "5070810378",
+        "groupRef": "5070810478",
         "groupName": "高榮親心社區醫療群",
+        "groupTel": "診所日間(07)3617131轉80000/PM9:00-AM9:00(07)-3468369",
         "hos1Ref": "602030026",
         "hos1Name": "高雄榮民總醫院",
         "hos2Ref": "NA",
@@ -1192,9 +269,7 @@
         "hos3Ref": "NA",
         "hos3Name": "",
         "hos4Ref": "NA",
-        "hos4Name": "NA",
-        "lon": "120.301623",
-        "lat": "22.721849"
+        "hos4Name": ""
       },
       "geometry": {
         "type": "Point",
@@ -1204,11 +279,14 @@
     {
       "type": "Feature",
       "properties": {
-        "clinicName": "鼎祥診所",
-        "clinicAddr": "高雄市三民區天祥一路135-1號1樓",
+        "clinicRef": "3507080090",
+        "clinicName": "仁雄診所",
+        "clinicAddr": "高雄市仁武區仁雄路15-1號1樓",
+        "clinicTel": "07-3741298",
         "city": "高雄市",
-        "groupRef": "5070810378",
+        "groupRef": "5070810478",
         "groupName": "高榮親心社區醫療群",
+        "groupTel": "診所日間(07)3741298/PM9:00-AM9:00(07)-3468369",
         "hos1Ref": "602030026",
         "hos1Name": "高雄榮民總醫院",
         "hos2Ref": "NA",
@@ -1216,23 +294,24 @@
         "hos3Ref": "NA",
         "hos3Name": "",
         "hos4Ref": "NA",
-        "hos4Name": "NA",
-        "lon": "120.320051",
-        "lat": "22.667299"
+        "hos4Name": ""
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [120.320051,22.667299]
+        "coordinates": [120.3540856,22.6809757]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "clinicName": "高雄市阿蓮區衛生所",
-        "clinicAddr": "高雄市阿蓮區民生路94-1號",
+        "clinicRef": "3502051839",
+        "clinicName": "余建興耳鼻喉科診所",
+        "clinicAddr": "高雄市三民區建興路183號1樓",
+        "clinicTel": "07-3892437",
         "city": "高雄市",
-        "groupRef": "5070810378",
+        "groupRef": "5070810478",
         "groupName": "高榮親心社區醫療群",
+        "groupTel": "診所日間(07)3952899/PM9:00-AM9:00(07)-3468369",
         "hos1Ref": "602030026",
         "hos1Name": "高雄榮民總醫院",
         "hos2Ref": "NA",
@@ -1240,23 +319,24 @@
         "hos3Ref": "NA",
         "hos3Name": "",
         "hos4Ref": "NA",
-        "hos4Name": "NA",
-        "lon": "120.3268586",
-        "lat": "22.883456"
+        "hos4Name": ""
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [120.3268586,22.883456]
+        "coordinates": [120.3259986,22.6435676]
       }
     },
     {
       "type": "Feature",
       "properties": {
+        "clinicRef": "3502052292",
         "clinicName": "王漢卿小兒科診所",
         "clinicAddr": "高雄市三民區寶國里陽明路132號1樓",
+        "clinicTel": "07-3877918",
         "city": "高雄市",
-        "groupRef": "5070810378",
+        "groupRef": "5070810478",
         "groupName": "高榮親心社區醫療群",
+        "groupTel": "診所日間(07)3877918/PM9:00-AM9:00(07)-3468369",
         "hos1Ref": "602030026",
         "hos1Name": "高雄榮民總醫院",
         "hos2Ref": "NA",
@@ -1264,23 +344,24 @@
         "hos3Ref": "NA",
         "hos3Name": "",
         "hos4Ref": "NA",
-        "hos4Name": "NA",
-        "lon": "120.34178",
-        "lat": "22.640601"
+        "hos4Name": ""
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [120.34178,22.640601]
+        "coordinates": [120.3416649,22.6406201]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "clinicName": "王俊仁耳鼻喉科診所",
-        "clinicAddr": "高雄市三民區本揚里陽明路416號1樓",
+        "clinicRef": "3502052176",
+        "clinicName": "鼎祥診所",
+        "clinicAddr": "高雄市三民區天祥一路135-1號1樓",
+        "clinicTel": "07-3477086",
         "city": "高雄市",
-        "groupRef": "5070810378",
+        "groupRef": "5070810478",
         "groupName": "高榮親心社區醫療群",
+        "groupTel": "診所日間(07)3477086/PM9:00-AM9:00(07)-3468369",
         "hos1Ref": "602030026",
         "hos1Name": "高雄榮民總醫院",
         "hos2Ref": "NA",
@@ -1288,23 +369,74 @@
         "hos3Ref": "NA",
         "hos3Name": "",
         "hos4Ref": "NA",
-        "hos4Name": "NA",
-        "lon": "120.342914",
-        "lat": "22.646279"
+        "hos4Name": ""
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [120.342914,22.646279]
+        "coordinates": [120.3200633,22.6672941]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "clinicName": "高雄市湖內區衛生所",
-        "clinicAddr": "高雄市湖內區湖中路203號",
+        "clinicRef": "3507080090",
+        "clinicName": "仁雄診所",
+        "clinicAddr": "高雄市仁武區仁雄路15-1號1樓",
+        "clinicTel": "07-3741298",
         "city": "高雄市",
-        "groupRef": "5073010377",
+        "groupRef": "5070810478",
+        "groupName": "高榮親心社區醫療群",
+        "groupTel": "診所日間(07)3741298/PM9:00-AM9:00(07)-3468369",
+        "hos1Ref": "602030026",
+        "hos1Name": "高雄榮民總醫院",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.3540856,22.6809757]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "clinicRef": "2342140016",
+        "clinicName": "高雄市阿蓮區衛生所",
+        "clinicAddr": "高雄市阿蓮區民生路94-1號",
+        "clinicTel": "07-6317141",
+        "city": "高雄市",
+        "groupRef": "5070810478",
+        "groupName": "高榮親心社區醫療群",
+        "groupTel": "診所日間(07)6317141/PM9:00-AM9:00(07)-3468369",
+        "hos1Ref": "602030026",
+        "hos1Name": "高雄榮民總醫院",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.3275358,22.8825664]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "clinicRef": "3507010301",
+        "clinicName": "正宏耳鼻喉科診所",
+        "clinicAddr": "高雄市鳳山區光遠路189號1樓",
+        "clinicTel": "07-7451196",
+        "city": "高雄市",
+        "groupRef": "5073010477",
         "groupName": "高榮樂活社區醫療群",
+        "groupTel": "診所日間(07)7451196/PM9:00-AM9:00(07)-3468369",
         "hos1Ref": "602030026",
         "hos1Name": "高雄榮民總醫院",
         "hos2Ref": "NA",
@@ -1312,23 +444,74 @@
         "hos3Ref": "NA",
         "hos3Name": "",
         "hos4Ref": "NA",
-        "hos4Name": "NA",
-        "lon": "120.2228262",
-        "lat": "22.9054885"
+        "hos4Name": ""
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [120.2228262,22.9054885]
+        "coordinates": [120.3612474,22.6255304]
       }
     },
     {
       "type": "Feature",
       "properties": {
+        "clinicRef": "3507300186",
+        "clinicName": "賴孟德診所",
+        "clinicAddr": "高雄市左營區孟子路608號",
+        "clinicTel": "07-3439801",
+        "city": "高雄市",
+        "groupRef": "5073010477",
+        "groupName": "高榮樂活社區醫療群",
+        "groupTel": "診所日間(07)3439801/PM9:00-AM9:00(07)-3468369",
+        "hos1Ref": "602030026",
+        "hos1Name": "高雄榮民總醫院",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.3040218,22.6777744]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "clinicRef": "3507020021",
+        "clinicName": "岡山家福耳鼻喉科診所",
+        "clinicAddr": "高雄市岡山區岡山路312-1號1樓、312號1樓",
+        "clinicTel": "07-6219595",
+        "city": "高雄市",
+        "groupRef": "5073010477",
+        "groupName": "高榮樂活社區醫療群",
+        "groupTel": "診所日間(07)6219595/PM9:00-AM9:00(07)-3468369",
+        "hos1Ref": "602030026",
+        "hos1Name": "高雄榮民總醫院",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.2959561,22.7936783]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "clinicRef": "3502042312",
         "clinicName": "家福耳鼻喉科診所",
         "clinicAddr": "高雄市楠梓區後昌新路15號",
+        "clinicTel": "07-3609988",
         "city": "高雄市",
-        "groupRef": "5073010377",
+        "groupRef": "5073010477",
         "groupName": "高榮樂活社區醫療群",
+        "groupTel": "診所日間(07)3609988/PM9:00-AM9:00(07)-3468369",
         "hos1Ref": "602030026",
         "hos1Name": "高雄榮民總醫院",
         "hos2Ref": "NA",
@@ -1336,95 +519,24 @@
         "hos3Ref": "NA",
         "hos3Name": "",
         "hos4Ref": "NA",
-        "hos4Name": "NA",
-        "lon": "120.2916947",
-        "lat": "22.7192391"
+        "hos4Name": ""
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [120.2916947,22.7192391]
+        "coordinates": [120.2919195,22.718541]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "clinicName": "大承耳鼻喉科診所",
-        "clinicAddr": "高雄市大寮區鳳屏一路464號1樓",
-        "city": "高雄市",
-        "groupRef": "5073010377",
-        "groupName": "高榮樂活社區醫療群",
-        "hos1Ref": "602030026",
-        "hos1Name": "高雄榮民總醫院",
-        "hos2Ref": "NA",
-        "hos2Name": "",
-        "hos3Ref": "NA",
-        "hos3Name": "",
-        "hos4Ref": "NA",
-        "hos4Name": "NA",
-        "lon": "120.3921306",
-        "lat": "22.6360701"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [120.3921306,22.6360701]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "clinicName": "岡山家福耳鼻喉科診所",
-        "clinicAddr": "高雄市岡山區岡山路312-1號1樓",
-        "city": "高雄市",
-        "groupRef": "5073010377",
-        "groupName": "高榮樂活社區醫療群",
-        "hos1Ref": "602030026",
-        "hos1Name": "高雄榮民總醫院",
-        "hos2Ref": "NA",
-        "hos2Name": "",
-        "hos3Ref": "NA",
-        "hos3Name": "",
-        "hos4Ref": "NA",
-        "hos4Name": "NA",
-        "lon": "120.29598",
-        "lat": "22.793717"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [120.29598,22.793717]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "clinicName": "家祥診所",
-        "clinicAddr": "高雄市大社區中山路252號1樓",
-        "city": "高雄市",
-        "groupRef": "5073010377",
-        "groupName": "高榮樂活社區醫療群",
-        "hos1Ref": "602030026",
-        "hos1Name": "高雄榮民總醫院",
-        "hos2Ref": "NA",
-        "hos2Name": "",
-        "hos3Ref": "NA",
-        "hos3Name": "",
-        "hos4Ref": "NA",
-        "hos4Name": "NA",
-        "lon": "120.3490187",
-        "lat": "22.7317938"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [120.3490187,22.7317938]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
+        "clinicRef": "3507300275",
         "clinicName": "林俊谷診所",
         "clinicAddr": "高雄市左營區福山里民族一路1028-19號1樓",
+        "clinicTel": "07-3100155",
         "city": "高雄市",
-        "groupRef": "5073010377",
+        "groupRef": "5073010477",
         "groupName": "高榮樂活社區醫療群",
+        "groupTel": "診所日間(07)3130015/PM9:00-AM9:00(07)-3468369",
         "hos1Ref": "602030026",
         "hos1Name": "高雄榮民總醫院",
         "hos2Ref": "NA",
@@ -1432,9 +544,7 @@
         "hos3Ref": "NA",
         "hos3Name": "",
         "hos4Ref": "NA",
-        "hos4Name": "NA",
-        "lon": "120.320329",
-        "lat": "22.683873"
+        "hos4Name": ""
       },
       "geometry": {
         "type": "Point",
@@ -1444,59 +554,14 @@
     {
       "type": "Feature",
       "properties": {
-        "clinicName": "宇田耳鼻喉科診所",
-        "clinicAddr": "高雄市三民區明誠二路20號1F",
-        "city": "高雄市",
-        "groupRef": "5073010377",
-        "groupName": "高榮樂活社區醫療群",
-        "hos1Ref": "602030026",
-        "hos1Name": "高雄榮民總醫院",
-        "hos2Ref": "NA",
-        "hos2Name": "",
-        "hos3Ref": "NA",
-        "hos3Name": "",
-        "hos4Ref": "NA",
-        "hos4Name": "NA",
-        "lon": "120.315077",
-        "lat": "22.659911"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [120.315077,22.659911]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "clinicName": "高雄市湖內區衛生所",
-        "clinicAddr": "高雄市湖內區湖中路203號",
-        "city": "高雄市",
-        "groupRef": "5073010377",
-        "groupName": "高榮樂活社區醫療群",
-        "hos1Ref": "602030026",
-        "hos1Name": "高雄榮民總醫院",
-        "hos2Ref": "NA",
-        "hos2Name": "",
-        "hos3Ref": "NA",
-        "hos3Name": "",
-        "hos4Ref": "NA",
-        "hos4Name": "NA",
-        "lon": "120.2228262",
-        "lat": "22.9054885"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [120.2228262,22.9054885]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
+        "clinicRef": "3542062307",
         "clinicName": "大承耳鼻喉科診所",
         "clinicAddr": "高雄市大寮區鳳屏一路464號1樓",
+        "clinicTel": "07-7013668",
         "city": "高雄市",
-        "groupRef": "5073010377",
+        "groupRef": "5073010477",
         "groupName": "高榮樂活社區醫療群",
+        "groupTel": "診所日間(07)7013668/PM9:00-AM9:00(07)-3468369",
         "hos1Ref": "602030026",
         "hos1Name": "高雄榮民總醫院",
         "hos2Ref": "NA",
@@ -1504,23 +569,199 @@
         "hos3Ref": "NA",
         "hos3Name": "",
         "hos4Ref": "NA",
-        "hos4Name": "NA",
-        "lon": "120.3921306",
-        "lat": "22.6360701"
+        "hos4Name": ""
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [120.3921306,22.6360701]
+        "coordinates": [120.395923,22.6381286]
       }
     },
     {
       "type": "Feature",
       "properties": {
+        "clinicRef": "3507320688",
+        "clinicName": "曾柏彰診所",
+        "clinicAddr": "高雄市三民區鼎力路339號1樓",
+        "clinicTel": "07-3103216",
+        "city": "高雄市",
+        "groupRef": "5073010484",
+        "groupName": "高榮康健社區醫療群",
+        "groupTel": "診所日間(07)3103216/PM9:00-AM9:00(07)-3468369",
+        "hos1Ref": "602030026",
+        "hos1Name": "高雄榮民總醫院",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.324531,22.669339]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "clinicRef": "3507300444",
+        "clinicName": "宜家診所",
+        "clinicAddr": "高雄市左營區新下里華夏路395號1樓",
+        "clinicTel": "07-3502766",
+        "city": "高雄市",
+        "groupRef": "5073010484",
+        "groupName": "高榮康健社區醫療群",
+        "groupTel": "診所日間(07)3502766/PM9:00-AM9:00(07)-3468369",
+        "hos1Ref": "602030026",
+        "hos1Name": "高雄榮民總醫院",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.2983962,22.6733991]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "clinicRef": "3507320688",
+        "clinicName": "曾柏彰診所",
+        "clinicAddr": "高雄市三民區鼎力路339號1樓",
+        "clinicTel": "07-3103216",
+        "city": "高雄市",
+        "groupRef": "5073010484",
+        "groupName": "高榮康健社區醫療群",
+        "groupTel": "診所日間(07)3103216/PM9:00-AM9:00(07)-3468369",
+        "hos1Ref": "602030026",
+        "hos1Name": "高雄榮民總醫院",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.324531,22.669339]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "clinicRef": "3502022203",
+        "clinicName": "吳展名診所",
+        "clinicAddr": "高雄市鼓山區明誠三路598號",
+        "clinicTel": "07-5535658",
+        "city": "高雄市",
+        "groupRef": "5073010484",
+        "groupName": "高榮康健社區醫療群",
+        "groupTel": "診所日間(07)5535658/PM9:00-AM9:00(07)-3468369",
+        "hos1Ref": "602030026",
+        "hos1Name": "高雄榮民總醫院",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.2973536,22.6613124]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "clinicRef": "3502098163",
+        "clinicName": "蕭基昌耳鼻喉科診所",
+        "clinicAddr": "高雄市前鎮區永豐路91.93號1樓",
+        "clinicTel": "07-7510098",
+        "city": "高雄市",
+        "groupRef": "5073010484",
+        "groupName": "高榮康健社區醫療群",
+        "groupTel": "診所日間(07)7510098/PM9:00-AM9:00(07)-3468369",
+        "hos1Ref": "602030026",
+        "hos1Name": "高雄榮民總醫院",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.3333494,22.6059361]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "clinicRef": "3502033573",
+        "clinicName": "楊東穎診所",
+        "clinicAddr": "高雄市左營區自由三路327號1樓",
+        "clinicTel": "07-3505726",
+        "city": "高雄市",
+        "groupRef": "5073010484",
+        "groupName": "高榮康健社區醫療群",
+        "groupTel": "診所日間(07)3505726/PM9:00-AM9:00(07)-3468369",
+        "hos1Ref": "602030026",
+        "hos1Name": "高雄榮民總醫院",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.3121378,22.6743315]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "clinicRef": "3542062147",
+        "clinicName": "嘉德耳鼻喉科診所",
+        "clinicAddr": "高雄市後庄村大寮鄉鳳屏一路441、443號",
+        "clinicTel": "07-7022626",
+        "city": "高雄市",
+        "groupRef": "5073010484",
+        "groupName": "高榮康健社區醫療群",
+        "groupTel": "診所日間(07)7022626/PM9:00-AM9:00(07)-3468369",
+        "hos1Ref": "602030026",
+        "hos1Name": "高雄榮民總醫院",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.395923,22.6381286]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "clinicRef": "2342180010",
         "clinicName": "高雄市永安區衛生所",
         "clinicAddr": "高雄市永安區永安路26號",
+        "clinicTel": "07-6912015",
         "city": "高雄市",
-        "groupRef": "5421510368",
+        "groupRef": "5421510468",
         "groupName": "高榮溫馨社區醫療群",
+        "groupTel": "診所日間(07)6912015/PM9:00-AM9:00(07)-3468369",
         "hos1Ref": "602030026",
         "hos1Name": "高雄榮民總醫院",
         "hos2Ref": "NA",
@@ -1528,23 +769,24 @@
         "hos3Ref": "NA",
         "hos3Name": "",
         "hos4Ref": "NA",
-        "hos4Name": "NA",
-        "lon": "120.2225881",
-        "lat": "22.8173941"
+        "hos4Name": ""
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [120.2225881,22.8173941]
+        "coordinates": [120.2254785,22.8185708]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "clinicName": "高雄市路竹區衛生所",
-        "clinicAddr": "高雄市路竹區竹南里國昌路86巷22號",
+        "clinicRef": "3502055426",
+        "clinicName": "陳泰安診所",
+        "clinicAddr": "高雄市三民區建工路609號1樓",
+        "clinicTel": "07-3924423",
         "city": "高雄市",
-        "groupRef": "5421510368",
+        "groupRef": "5421510468",
         "groupName": "高榮溫馨社區醫療群",
+        "groupTel": "診所日間(07)3924423/PM9:00-AM9:00(07)-3468369",
         "hos1Ref": "602030026",
         "hos1Name": "高雄榮民總醫院",
         "hos2Ref": "NA",
@@ -1552,23 +794,24 @@
         "hos3Ref": "NA",
         "hos3Name": "",
         "hos4Ref": "NA",
-        "hos4Name": "NA",
-        "lon": "120.258486",
-        "lat": "22.855279"
+        "hos4Name": ""
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [120.258486,22.855279]
+        "coordinates": [120.3189727,22.6483464]
       }
     },
     {
       "type": "Feature",
       "properties": {
+        "clinicRef": "3507360075",
         "clinicName": "嘉祐耳鼻喉科診所",
         "clinicAddr": "高雄市前鎮區一心一路388號1樓",
+        "clinicTel": "07-3318012",
         "city": "高雄市",
-        "groupRef": "5421510368",
+        "groupRef": "5421510468",
         "groupName": "高榮溫馨社區醫療群",
+        "groupTel": "診所日間(07)3318012/PM9:00-AM9:00(07)-3468369",
         "hos1Ref": "602030026",
         "hos1Name": "高雄榮民總醫院",
         "hos2Ref": "NA",
@@ -1576,9 +819,7 @@
         "hos3Ref": "NA",
         "hos3Name": "",
         "hos4Ref": "NA",
-        "hos4Name": "NA",
-        "lon": "120.3161",
-        "lat": "22.60905"
+        "hos4Name": ""
       },
       "geometry": {
         "type": "Point",
@@ -1588,11 +829,14 @@
     {
       "type": "Feature",
       "properties": {
+        "clinicRef": "3502055426",
         "clinicName": "陳泰安診所",
         "clinicAddr": "高雄市三民區建工路609號1樓",
+        "clinicTel": "07-3924423",
         "city": "高雄市",
-        "groupRef": "5421510368",
+        "groupRef": "5421510468",
         "groupName": "高榮溫馨社區醫療群",
+        "groupTel": "診所日間(07)3924423/PM9:00-AM9:00(07)-3468369",
         "hos1Ref": "602030026",
         "hos1Name": "高雄榮民總醫院",
         "hos2Ref": "NA",
@@ -1600,23 +844,24 @@
         "hos3Ref": "NA",
         "hos3Name": "",
         "hos4Ref": "NA",
-        "hos4Name": "NA",
-        "lon": "120.318991",
-        "lat": "22.6483155"
+        "hos4Name": ""
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [120.318991,22.6483155]
+        "coordinates": [120.3189727,22.6483464]
       }
     },
     {
       "type": "Feature",
       "properties": {
+        "clinicRef": "3502033297",
         "clinicName": "福山診所",
         "clinicAddr": "高雄市左營區重愛路218號1樓",
+        "clinicTel": "07-3482323",
         "city": "高雄市",
-        "groupRef": "5421510368",
+        "groupRef": "5421510468",
         "groupName": "高榮溫馨社區醫療群",
+        "groupTel": "診所日間(07)6962449/PM9:00-AM9:00(07)-3468369",
         "hos1Ref": "602030026",
         "hos1Name": "高雄榮民總醫院",
         "hos2Ref": "NA",
@@ -1624,9 +869,7 @@
         "hos3Ref": "NA",
         "hos3Name": "",
         "hos4Ref": "NA",
-        "hos4Name": "NA",
-        "lon": "120.315641",
-        "lat": "22.6856371"
+        "hos4Name": ""
       },
       "geometry": {
         "type": "Point",
@@ -1636,11 +879,14 @@
     {
       "type": "Feature",
       "properties": {
-        "clinicName": "德安診所",
-        "clinicAddr": "高雄市左營區福山里民族一路901巷1號",
+        "clinicRef": "3502032656",
+        "clinicName": "吉祥診所",
+        "clinicAddr": "高雄市左營區翠華路601巷75號1樓",
+        "clinicTel": "07-5810757",
         "city": "高雄市",
-        "groupRef": "5421510368",
+        "groupRef": "5421510468",
         "groupName": "高榮溫馨社區醫療群",
+        "groupTel": "診所日間(07)5810757/PM9:00-AM9:00(07)-3468369",
         "hos1Ref": "602030026",
         "hos1Name": "高雄榮民總醫院",
         "hos2Ref": "NA",
@@ -1648,9 +894,32 @@
         "hos3Ref": "NA",
         "hos3Name": "",
         "hos4Ref": "NA",
-        "hos4Name": "NA",
-        "lon": "120.3182",
-        "lat": "22.681231"
+        "hos4Name": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.2903465,22.6738894]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "clinicRef": "3502030821",
+        "clinicName": "德安診所",
+        "clinicAddr": "高雄市左營區福山里民族一路901巷1號",
+        "clinicTel": "07-3464695",
+        "city": "高雄市",
+        "groupRef": "5421510468",
+        "groupName": "高榮溫馨社區醫療群",
+        "groupTel": "診所日間(07)3464695/PM9:00-AM9:00(07)-3468369",
+        "hos1Ref": "602030026",
+        "hos1Name": "高雄榮民總醫院",
+        "hos2Ref": "NA",
+        "hos2Name": "",
+        "hos3Ref": "NA",
+        "hos3Name": "",
+        "hos4Ref": "NA",
+        "hos4Name": ""
       },
       "geometry": {
         "type": "Point",
@@ -1660,59 +929,14 @@
     {
       "type": "Feature",
       "properties": {
-        "clinicName": "德安診所",
-        "clinicAddr": "高雄市左營區福山里民族一路901巷1號",
-        "city": "高雄市",
-        "groupRef": "5421510368",
-        "groupName": "高榮溫馨社區醫療群",
-        "hos1Ref": "602030026",
-        "hos1Name": "高雄榮民總醫院",
-        "hos2Ref": "NA",
-        "hos2Name": "",
-        "hos3Ref": "NA",
-        "hos3Name": "",
-        "hos4Ref": "NA",
-        "hos4Name": "NA",
-        "lon": "120.3182",
-        "lat": "22.681231"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [120.3182,22.681231]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "clinicName": "郭正強診所",
-        "clinicAddr": "高雄市左營區明華一路229號1樓",
-        "city": "高雄市",
-        "groupRef": "5421510368",
-        "groupName": "高榮溫馨社區醫療群",
-        "hos1Ref": "602030026",
-        "hos1Name": "高雄榮民總醫院",
-        "hos2Ref": "NA",
-        "hos2Name": "",
-        "hos3Ref": "NA",
-        "hos3Name": "",
-        "hos4Ref": "NA",
-        "hos4Name": "NA",
-        "lon": "120.3054921",
-        "lat": "22.662836"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [120.3054921,22.662836]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
+        "clinicRef": "3502032781",
         "clinicName": "晨田耳鼻喉科診所",
         "clinicAddr": "高雄市左營區榮佑路41號1樓",
+        "clinicTel": "07-3508893",
         "city": "高雄市",
-        "groupRef": "5421510368",
+        "groupRef": "5421510468",
         "groupName": "高榮溫馨社區醫療群",
+        "groupTel": "診所日間(07)3508893/PM9:00-AM9:00(07)-3468369",
         "hos1Ref": "602030026",
         "hos1Name": "高雄榮民總醫院",
         "hos2Ref": "NA",
@@ -1720,13 +944,11 @@
         "hos3Ref": "NA",
         "hos3Name": "",
         "hos4Ref": "NA",
-        "hos4Name": "NA",
-        "lon": "120.3202864",
-        "lat": "22.681947"
+        "hos4Name": ""
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [120.3202864,22.681947]
+        "coordinates": [120.3205778,22.6818749]
       }
     }
   ]
